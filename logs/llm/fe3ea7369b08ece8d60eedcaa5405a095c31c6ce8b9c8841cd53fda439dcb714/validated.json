@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.1,
+      "confidence": 0.3,
+      "event": "product",
+      "reason": "AI infrastructure and autonomous-mobility progress is offset by China market-loss and valuation concerns, leaving a mixed near-term signal."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.25,
+      "confidence": 0.35,
+      "event": "capital",
+      "reason": "Google Cloud and AI-chip investment aims to ease infrastructure bottlenecks, though ETF selling and sector capital-raising challenges temper the positive read."
+    },
+    {
+      "ticker": "META",
+      "sentiment": -0.35,
+      "confidence": 0.55,
+      "event": "capital",
+      "reason": "AI spending concerns and capital-raising plans weigh on the stock despite strong revenue growth and rising analyst targets."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.1,
+      "confidence": 0.25,
+      "event": "other",
+      "reason": "A large AI opportunity and healthcare collaborations are balanced by ETF selling, electricity-price pressure, and competitor moves."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.2,
+      "event": "product",
+      "reason": "Blockchain token initiatives offer a positive theme, but ETF net selling, mixed equity revenue, and cautious sentiment leave the signal balanced."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": -0.3,
+      "confidence": 0.4,
+      "event": "other",
+      "reason": "Analyst concerns, AI infrastructure bottlenecks, supply-chain shortages, and competitive pressure point to a negative near-term tilt."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.1,
+      "confidence": 0.3,
+      "event": "product",
+      "reason": "Product-line and software expansion is offset by mixed ETF trading, insider sales, and ongoing AI/market volatility."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": -0.45,
+      "confidence": 0.55,
+      "event": "other",
+      "reason": "Supply-chain concerns and persistent AI/semiconductor challenges drove a sharp share decline amid volatile trading."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.25,
+      "confidence": 0.4,
+      "event": "other",
+      "reason": "ETF inclusion and share advances are tempered by valuation concerns and Kroger's price-cut competition."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": -0.2,
+      "confidence": 0.45,
+      "event": "earnings",
+      "reason": "Falling Q3 revenue, capex cuts, and a delayed Optimus ramp are only partly offset by SpaceX merger talks and Megapack demand."
+    }
+  ]
+}

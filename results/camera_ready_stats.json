@@ -1,0 +1,386 @@
+{
+  "generated_utc": "2026-11-17T08:25:58+00:00",
+  "seed": 20261119,
+  "bootstrap_replicates": 20000,
+  "block_lengths": [
+    3,
+    5
+  ],
+  "inputs": {
+    "schedule_files": [
+      "sources/live-state.json"
+    ],
+    "prices": "data/raw/**/price.parquet",
+    "decisions": "logs/decisions",
+    "common_intervals": [
+      "2026-10-14_09:30",
+      "2026-10-14_10:30",
+      "2026-10-14_11:30",
+      "2026-10-14_12:30",
+      "2026-10-14_14:30",
+      "2026-10-14_15:30",
+      "2026-10-15_09:30",
+      "2026-10-15_10:30",
+      "2026-10-15_11:30",
+      "2026-10-15_12:30",
+      "2026-10-19_09:30",
+      "2026-10-19_10:30",
+      "2026-10-19_11:30",
+      "2026-10-19_12:30",
+      "2026-10-19_14:30",
+      "2026-10-19_15:30",
+      "2026-10-20_09:30",
+      "2026-10-20_10:30",
+      "2026-10-20_11:30",
+      "2026-10-20_12:30",
+      "2026-10-20_14:30",
+      "2026-10-20_15:30",
+      "2026-10-21_09:30",
+      "2026-10-21_10:30",
+      "2026-10-21_11:30",
+      "2026-10-21_12:30",
+      "2026-10-21_14:30",
+      "2026-10-21_15:30",
+      "2026-10-22_09:30",
+      "2026-10-22_10:30",
+      "2026-10-22_11:30",
+      "2026-10-22_12:30",
+      "2026-10-22_14:30",
+      "2026-10-22_15:30",
+      "2026-10-23_09:30",
+      "2026-10-23_10:30",
+      "2026-10-23_11:30"
+    ]
+  },
+  "reproduction_check": {
+    "full": {
+      "cr_pct": 0.3,
+      "active": 18
+    },
+    "no_news": {
+      "cr_pct": 4.96,
+      "active": 36
+    },
+    "no_risk": {
+      "cr_pct": 0.32,
+      "active": 37
+    },
+    "agent_rounds_csv_mismatches": 0
+  },
+  "issues": [],
+  "sign_agreement": {
+    "news": {
+      "rate_pct": 46.9,
+      "records": 277,
+      "units": 37,
+      "cluster_iid": {
+        "ci95_pct": [
+          42.5,
+          51.4
+        ],
+        "p_vs_half": 0.1793
+      },
+      "block3": {
+        "ci95_pct": [
+          43.2,
+          50.2
+        ],
+        "p_vs_half": 0.0913
+      },
+      "block5": {
+        "ci95_pct": [
+          43.9,
+          49.6
+        ],
+        "p_vs_half": 0.0359
+      }
+    },
+    "momentum": {
+      "rate_pct": 50.9,
+      "records": 267,
+      "units": 37,
+      "cluster_iid": {
+        "ci95_pct": [
+          45.6,
+          56.6
+        ],
+        "p_vs_half": 0.7517
+      },
+      "block3": {
+        "ci95_pct": [
+          46.5,
+          55.6
+        ],
+        "p_vs_half": 0.7037
+      },
+      "block5": {
+        "ci95_pct": [
+          47.4,
+          54.4
+        ],
+        "p_vs_half": 0.6265
+      }
+    },
+    "definition": "full-variant records on the common intervals with nonzero (usable) sentiment; agreement = sign matches the sign of the stock's return minus the cross-sectional mean of the valid stocks; momentum on the subset with nonzero momentum; units = rounds"
+  },
+  "momentum_routed": {
+    "per_trade_t_test": {
+      "n": 36,
+      "mean_pct": 0.139,
+      "sd_pct": 0.894,
+      "t": 0.93,
+      "df": 35,
+      "p_two_sided": 0.3587
+    },
+    "per_trade_mean_bootstrap": {
+      "mean_pct": 0.139,
+      "n": 36,
+      "cluster_iid": {
+        "ci95_pct": [
+          -0.138,
+          0.443
+        ],
+        "p_vs_zero": 0.344
+      },
+      "block3": {
+        "ci95_pct": [
+          -0.155,
+          0.436
+        ],
+        "p_vs_zero": 0.3515
+      },
+      "block5": {
+        "ci95_pct": [
+          -0.138,
+          0.409
+        ],
+        "p_vs_zero": 0.318
+      }
+    },
+    "cr_bootstrap": {
+      "value_pct": 4.96,
+      "n": 37,
+      "cluster_iid": {
+        "ci95_pct": [
+          -4.92,
+          16.79
+        ],
+        "p_vs_zero": 0.3617
+      },
+      "block3": {
+        "ci95_pct": [
+          -5.55,
+          16.45
+        ],
+        "p_vs_zero": 0.3764
+      },
+      "block5": {
+        "ci95_pct": [
+          -5.05,
+          15.89
+        ],
+        "p_vs_zero": 0.3506
+      }
+    },
+    "cr_minus_news_led": {
+      "value_pct": 4.67,
+      "n": 37,
+      "cluster_iid": {
+        "ci95_pct": [
+          -7.27,
+          16.87
+        ],
+        "p_vs_zero": 0.4267
+      },
+      "block3": {
+        "ci95_pct": [
+          -6.92,
+          15.76
+        ],
+        "p_vs_zero": 0.4202
+      },
+      "block5": {
+        "ci95_pct": [
+          -5.96,
+          14.78
+        ],
+        "p_vs_zero": 0.3769
+      }
+    },
+    "cr_minus_ungated": {
+      "value_pct": 4.65,
+      "n": 37,
+      "cluster_iid": {
+        "ci95_pct": [
+          -6.48,
+          14.76
+        ],
+        "p_vs_zero": 0.3686
+      },
+      "block3": {
+        "ci95_pct": [
+          -6.22,
+          15.0
+        ],
+        "p_vs_zero": 0.3905
+      },
+      "block5": {
+        "ci95_pct": [
+          -5.71,
+          14.27
+        ],
+        "p_vs_zero": 0.3654
+      }
+    },
+    "note": "one trade per round, so the round (cluster) bootstrap equals the iid trade bootstrap; block schemes resample consecutive intervals"
+  },
+  "news_zero_diagnostic": {
+    "weight_0.3": {
+      "cr_pct": -1.86,
+      "active": 16,
+      "news_led_active_now_flat": 2,
+      "news_led_flat_now_active": 0
+    },
+    "weight_1": {
+      "cr_pct": -1.71,
+      "active": 23,
+      "news_led_active_now_flat": 0,
+      "news_led_flat_now_active": 5
+    },
+    "matches_paper": [
+      "weight_0.3"
+    ]
+  },
+  "fixed_pool_fixed_mask": {
+    "news_only": {
+      "cr_pct": -3.25,
+      "wins": 7,
+      "trades": 18,
+      "same_pair_as_news_led": 3
+    },
+    "momentum_only": {
+      "cr_pct": -3.61,
+      "wins": 8,
+      "trades": 18,
+      "same_pair_as_news_led": 6
+    },
+    "fused": {
+      "cr_pct": 0.3,
+      "wins": 10,
+      "trades": 18,
+      "same_pair_as_news_led": 18
+    },
+    "fused_minus_momentum_only": {
+      "cr": {
+        "value_pct": 3.91,
+        "n": 18,
+        "cluster_iid": {
+          "ci95_pct": [
+            -1.06,
+            11.67
+          ],
+          "p_vs_zero": 0.2661
+        },
+        "block3": {
+          "ci95_pct": [
+            -1.23,
+            11.79
+          ],
+          "p_vs_zero": 0.3142
+        },
+        "block5": {
+          "ci95_pct": [
+            -1.42,
+            11.89
+          ],
+          "p_vs_zero": 0.3487
+        }
+      },
+      "mean": {
+        "mean_pct": 0.219,
+        "n": 18,
+        "cluster_iid": {
+          "ci95_pct": [
+            -0.059,
+            0.661
+          ],
+          "p_vs_zero": 0.2692
+        },
+        "block3": {
+          "ci95_pct": [
+            -0.068,
+            0.674
+          ],
+          "p_vs_zero": 0.3231
+        },
+        "block5": {
+          "ci95_pct": [
+            -0.079,
+            0.682
+          ],
+          "p_vs_zero": 0.3614
+        }
+      }
+    },
+    "fused_minus_news_only": {
+      "cr": {
+        "value_pct": 3.55,
+        "n": 18,
+        "cluster_iid": {
+          "ci95_pct": [
+            -1.79,
+            9.82
+          ],
+          "p_vs_zero": 0.2259
+        },
+        "block3": {
+          "ci95_pct": [
+            -1.14,
+            9.34
+          ],
+          "p_vs_zero": 0.1825
+        },
+        "block5": {
+          "ci95_pct": [
+            -0.75,
+            8.46
+          ],
+          "p_vs_zero": 0.1343
+        }
+      },
+      "mean": {
+        "mean_pct": 0.2,
+        "n": 18,
+        "cluster_iid": {
+          "ci95_pct": [
+            -0.101,
+            0.55
+          ],
+          "p_vs_zero": 0.2227
+        },
+        "block3": {
+          "ci95_pct": [
+            -0.063,
+            0.526
+          ],
+          "p_vs_zero": 0.1836
+        },
+        "block5": {
+          "ci95_pct": [
+            -0.041,
+            0.481
+          ],
+          "p_vs_zero": 0.1374
+        }
+      }
+    },
+    "definition": "news-led traded intervals and news-led eligible stocks held fixed; long the top and short the bottom of each score, ties by universe order; no gate re-applied"
+  },
+  "live_initialisation_on_replay": {
+    "first_release_intervals": 7,
+    "momentum_routed_active_on_them": 6,
+    "cr_on_them_pct": -0.86,
+    "cr_flat_on_them_pct": 5.87,
+    "active_flat_on_them": 30
+  }
+}

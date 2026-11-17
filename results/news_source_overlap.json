@@ -1,0 +1,2762 @@
+[
+  {
+    "round": 2,
+    "ticker": "NVDA",
+    "current_links": 11,
+    "previous_links": 58,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 2,
+    "ticker": "GOOG",
+    "current_links": 1,
+    "previous_links": 44,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 2,
+    "ticker": "META",
+    "current_links": 1,
+    "previous_links": 20,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 2,
+    "ticker": "MSFT",
+    "current_links": 2,
+    "previous_links": 37,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 2,
+    "ticker": "JPM",
+    "current_links": 1,
+    "previous_links": 32,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 2,
+    "ticker": "AMZN",
+    "current_links": 2,
+    "previous_links": 20,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 2,
+    "ticker": "AMD",
+    "current_links": 2,
+    "previous_links": 8,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 2,
+    "ticker": "WMT",
+    "current_links": 2,
+    "previous_links": 9,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 2,
+    "ticker": "TSLA",
+    "current_links": 2,
+    "previous_links": 26,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 3,
+    "ticker": "NVDA",
+    "current_links": 12,
+    "previous_links": 11,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 3,
+    "ticker": "GOOG",
+    "current_links": 5,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 3,
+    "ticker": "META",
+    "current_links": 2,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 3,
+    "ticker": "MSFT",
+    "current_links": 1,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 3,
+    "ticker": "AMZN",
+    "current_links": 2,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 4,
+    "ticker": "NVDA",
+    "current_links": 10,
+    "previous_links": 12,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 4,
+    "ticker": "GOOG",
+    "current_links": 4,
+    "previous_links": 5,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 4,
+    "ticker": "META",
+    "current_links": 2,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 4,
+    "ticker": "MSFT",
+    "current_links": 2,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 4,
+    "ticker": "AMZN",
+    "current_links": 4,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 4,
+    "ticker": "AAPL",
+    "current_links": 2,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 5,
+    "ticker": "NVDA",
+    "current_links": 30,
+    "previous_links": 10,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 5,
+    "ticker": "GOOG",
+    "current_links": 13,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 5,
+    "ticker": "META",
+    "current_links": 8,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 5,
+    "ticker": "MSFT",
+    "current_links": 5,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 5,
+    "ticker": "JPM",
+    "current_links": 1,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 5,
+    "ticker": "AMZN",
+    "current_links": 8,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 5,
+    "ticker": "AAPL",
+    "current_links": 11,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 5,
+    "ticker": "AMD",
+    "current_links": 9,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 5,
+    "ticker": "TSLA",
+    "current_links": 1,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 6,
+    "ticker": "NVDA",
+    "current_links": 2,
+    "previous_links": 30,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 6,
+    "ticker": "GOOG",
+    "current_links": 3,
+    "previous_links": 13,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 6,
+    "ticker": "META",
+    "current_links": 3,
+    "previous_links": 8,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 6,
+    "ticker": "MSFT",
+    "current_links": 4,
+    "previous_links": 5,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 6,
+    "ticker": "JPM",
+    "current_links": 2,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 6,
+    "ticker": "AMZN",
+    "current_links": 4,
+    "previous_links": 8,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 6,
+    "ticker": "AAPL",
+    "current_links": 4,
+    "previous_links": 11,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 6,
+    "ticker": "TSLA",
+    "current_links": 1,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 7,
+    "ticker": "NVDA",
+    "current_links": 83,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 7,
+    "ticker": "GOOG",
+    "current_links": 48,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 7,
+    "ticker": "META",
+    "current_links": 26,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 7,
+    "ticker": "MSFT",
+    "current_links": 43,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 7,
+    "ticker": "JPM",
+    "current_links": 23,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 7,
+    "ticker": "AMZN",
+    "current_links": 24,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 7,
+    "ticker": "AAPL",
+    "current_links": 38,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 7,
+    "ticker": "TSLA",
+    "current_links": 37,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 8,
+    "ticker": "NVDA",
+    "current_links": 12,
+    "previous_links": 83,
+    "shared_links": 2,
+    "fraction_current_seen_in_previous": 0.16666666666666666
+  },
+  {
+    "round": 8,
+    "ticker": "GOOG",
+    "current_links": 4,
+    "previous_links": 48,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 8,
+    "ticker": "META",
+    "current_links": 5,
+    "previous_links": 26,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 8,
+    "ticker": "MSFT",
+    "current_links": 5,
+    "previous_links": 43,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 8,
+    "ticker": "AMZN",
+    "current_links": 4,
+    "previous_links": 24,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 8,
+    "ticker": "AAPL",
+    "current_links": 5,
+    "previous_links": 38,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 8,
+    "ticker": "AMD",
+    "current_links": 9,
+    "previous_links": 24,
+    "shared_links": 2,
+    "fraction_current_seen_in_previous": 0.2222222222222222
+  },
+  {
+    "round": 8,
+    "ticker": "WMT",
+    "current_links": 2,
+    "previous_links": 21,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 8,
+    "ticker": "TSLA",
+    "current_links": 5,
+    "previous_links": 37,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 9,
+    "ticker": "NVDA",
+    "current_links": 23,
+    "previous_links": 12,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.043478260869565216
+  },
+  {
+    "round": 9,
+    "ticker": "GOOG",
+    "current_links": 6,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 9,
+    "ticker": "META",
+    "current_links": 5,
+    "previous_links": 5,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 9,
+    "ticker": "MSFT",
+    "current_links": 5,
+    "previous_links": 5,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 9,
+    "ticker": "AMZN",
+    "current_links": 6,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 9,
+    "ticker": "AAPL",
+    "current_links": 4,
+    "previous_links": 5,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 9,
+    "ticker": "AMD",
+    "current_links": 5,
+    "previous_links": 9,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.2
+  },
+  {
+    "round": 9,
+    "ticker": "WMT",
+    "current_links": 1,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 9,
+    "ticker": "TSLA",
+    "current_links": 2,
+    "previous_links": 5,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 10,
+    "ticker": "NVDA",
+    "current_links": 14,
+    "previous_links": 23,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.07142857142857142
+  },
+  {
+    "round": 10,
+    "ticker": "GOOG",
+    "current_links": 7,
+    "previous_links": 6,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 10,
+    "ticker": "META",
+    "current_links": 4,
+    "previous_links": 5,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 10,
+    "ticker": "AMZN",
+    "current_links": 3,
+    "previous_links": 6,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 10,
+    "ticker": "AAPL",
+    "current_links": 1,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 10,
+    "ticker": "AMD",
+    "current_links": 4,
+    "previous_links": 5,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.25
+  },
+  {
+    "round": 10,
+    "ticker": "WMT",
+    "current_links": 2,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 10,
+    "ticker": "TSLA",
+    "current_links": 2,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 11,
+    "ticker": "NVDA",
+    "current_links": 42,
+    "previous_links": 14,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.023809523809523808
+  },
+  {
+    "round": 11,
+    "ticker": "GOOG",
+    "current_links": 5,
+    "previous_links": 7,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 11,
+    "ticker": "META",
+    "current_links": 7,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 11,
+    "ticker": "JPM",
+    "current_links": 4,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 11,
+    "ticker": "AMZN",
+    "current_links": 6,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 11,
+    "ticker": "AAPL",
+    "current_links": 10,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 11,
+    "ticker": "AMD",
+    "current_links": 7,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 11,
+    "ticker": "WMT",
+    "current_links": 5,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 11,
+    "ticker": "TSLA",
+    "current_links": 1,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 12,
+    "ticker": "NVDA",
+    "current_links": 14,
+    "previous_links": 42,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.07142857142857142
+  },
+  {
+    "round": 12,
+    "ticker": "META",
+    "current_links": 1,
+    "previous_links": 7,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 12,
+    "ticker": "MSFT",
+    "current_links": 4,
+    "previous_links": 7,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 12,
+    "ticker": "AMD",
+    "current_links": 1,
+    "previous_links": 7,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 12,
+    "ticker": "WMT",
+    "current_links": 2,
+    "previous_links": 5,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 12,
+    "ticker": "TSLA",
+    "current_links": 2,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 13,
+    "ticker": "NVDA",
+    "current_links": 108,
+    "previous_links": 14,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 13,
+    "ticker": "META",
+    "current_links": 51,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 13,
+    "ticker": "MSFT",
+    "current_links": 53,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 13,
+    "ticker": "AMD",
+    "current_links": 42,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 13,
+    "ticker": "WMT",
+    "current_links": 4,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 13,
+    "ticker": "TSLA",
+    "current_links": 55,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 14,
+    "ticker": "NVDA",
+    "current_links": 9,
+    "previous_links": 108,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.1111111111111111
+  },
+  {
+    "round": 14,
+    "ticker": "GOOG",
+    "current_links": 9,
+    "previous_links": 57,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 14,
+    "ticker": "META",
+    "current_links": 9,
+    "previous_links": 51,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 14,
+    "ticker": "MSFT",
+    "current_links": 6,
+    "previous_links": 53,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 14,
+    "ticker": "JPM",
+    "current_links": 1,
+    "previous_links": 31,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 14,
+    "ticker": "AMZN",
+    "current_links": 8,
+    "previous_links": 50,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 14,
+    "ticker": "AAPL",
+    "current_links": 2,
+    "previous_links": 50,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 14,
+    "ticker": "AMD",
+    "current_links": 6,
+    "previous_links": 42,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.16666666666666666
+  },
+  {
+    "round": 14,
+    "ticker": "WMT",
+    "current_links": 2,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 14,
+    "ticker": "TSLA",
+    "current_links": 4,
+    "previous_links": 55,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 15,
+    "ticker": "NVDA",
+    "current_links": 17,
+    "previous_links": 9,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 15,
+    "ticker": "GOOG",
+    "current_links": 7,
+    "previous_links": 9,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 15,
+    "ticker": "META",
+    "current_links": 6,
+    "previous_links": 9,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 15,
+    "ticker": "MSFT",
+    "current_links": 3,
+    "previous_links": 6,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 15,
+    "ticker": "JPM",
+    "current_links": 2,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 15,
+    "ticker": "AMZN",
+    "current_links": 3,
+    "previous_links": 8,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 15,
+    "ticker": "AAPL",
+    "current_links": 1,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 15,
+    "ticker": "AMD",
+    "current_links": 4,
+    "previous_links": 6,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 15,
+    "ticker": "WMT",
+    "current_links": 2,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 15,
+    "ticker": "TSLA",
+    "current_links": 4,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 16,
+    "ticker": "NVDA",
+    "current_links": 19,
+    "previous_links": 17,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 16,
+    "ticker": "GOOG",
+    "current_links": 9,
+    "previous_links": 7,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 16,
+    "ticker": "META",
+    "current_links": 4,
+    "previous_links": 6,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 16,
+    "ticker": "MSFT",
+    "current_links": 2,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 16,
+    "ticker": "JPM",
+    "current_links": 1,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 16,
+    "ticker": "AMZN",
+    "current_links": 7,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 16,
+    "ticker": "AAPL",
+    "current_links": 1,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 16,
+    "ticker": "AMD",
+    "current_links": 4,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 16,
+    "ticker": "TSLA",
+    "current_links": 7,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 17,
+    "ticker": "NVDA",
+    "current_links": 35,
+    "previous_links": 19,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.02857142857142857
+  },
+  {
+    "round": 17,
+    "ticker": "GOOG",
+    "current_links": 5,
+    "previous_links": 9,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 17,
+    "ticker": "META",
+    "current_links": 11,
+    "previous_links": 4,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.09090909090909091
+  },
+  {
+    "round": 17,
+    "ticker": "MSFT",
+    "current_links": 11,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 17,
+    "ticker": "JPM",
+    "current_links": 4,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 17,
+    "ticker": "AMZN",
+    "current_links": 17,
+    "previous_links": 7,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 17,
+    "ticker": "AAPL",
+    "current_links": 8,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 17,
+    "ticker": "AMD",
+    "current_links": 6,
+    "previous_links": 4,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.16666666666666666
+  },
+  {
+    "round": 17,
+    "ticker": "TSLA",
+    "current_links": 12,
+    "previous_links": 7,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.08333333333333333
+  },
+  {
+    "round": 18,
+    "ticker": "NVDA",
+    "current_links": 19,
+    "previous_links": 35,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.05263157894736842
+  },
+  {
+    "round": 18,
+    "ticker": "GOOG",
+    "current_links": 2,
+    "previous_links": 5,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 18,
+    "ticker": "META",
+    "current_links": 3,
+    "previous_links": 11,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.3333333333333333
+  },
+  {
+    "round": 18,
+    "ticker": "MSFT",
+    "current_links": 3,
+    "previous_links": 11,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 18,
+    "ticker": "JPM",
+    "current_links": 1,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 18,
+    "ticker": "AMZN",
+    "current_links": 3,
+    "previous_links": 17,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 18,
+    "ticker": "AAPL",
+    "current_links": 3,
+    "previous_links": 8,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 18,
+    "ticker": "AMD",
+    "current_links": 5,
+    "previous_links": 6,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.2
+  },
+  {
+    "round": 18,
+    "ticker": "WMT",
+    "current_links": 2,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 18,
+    "ticker": "TSLA",
+    "current_links": 2,
+    "previous_links": 12,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.5
+  },
+  {
+    "round": 19,
+    "ticker": "NVDA",
+    "current_links": 76,
+    "previous_links": 19,
+    "shared_links": 2,
+    "fraction_current_seen_in_previous": 0.02631578947368421
+  },
+  {
+    "round": 19,
+    "ticker": "GOOG",
+    "current_links": 50,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 19,
+    "ticker": "META",
+    "current_links": 43,
+    "previous_links": 3,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.023255813953488372
+  },
+  {
+    "round": 19,
+    "ticker": "MSFT",
+    "current_links": 49,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 19,
+    "ticker": "JPM",
+    "current_links": 22,
+    "previous_links": 1,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.045454545454545456
+  },
+  {
+    "round": 19,
+    "ticker": "AMZN",
+    "current_links": 56,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 19,
+    "ticker": "AAPL",
+    "current_links": 39,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 19,
+    "ticker": "AMD",
+    "current_links": 26,
+    "previous_links": 5,
+    "shared_links": 3,
+    "fraction_current_seen_in_previous": 0.11538461538461539
+  },
+  {
+    "round": 19,
+    "ticker": "WMT",
+    "current_links": 5,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 19,
+    "ticker": "TSLA",
+    "current_links": 49,
+    "previous_links": 2,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.02040816326530612
+  },
+  {
+    "round": 20,
+    "ticker": "NVDA",
+    "current_links": 16,
+    "previous_links": 76,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.0625
+  },
+  {
+    "round": 20,
+    "ticker": "GOOG",
+    "current_links": 8,
+    "previous_links": 50,
+    "shared_links": 2,
+    "fraction_current_seen_in_previous": 0.25
+  },
+  {
+    "round": 20,
+    "ticker": "META",
+    "current_links": 3,
+    "previous_links": 43,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.3333333333333333
+  },
+  {
+    "round": 20,
+    "ticker": "MSFT",
+    "current_links": 5,
+    "previous_links": 49,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 20,
+    "ticker": "JPM",
+    "current_links": 2,
+    "previous_links": 22,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 20,
+    "ticker": "AMZN",
+    "current_links": 8,
+    "previous_links": 56,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 20,
+    "ticker": "AAPL",
+    "current_links": 3,
+    "previous_links": 39,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 20,
+    "ticker": "AMD",
+    "current_links": 4,
+    "previous_links": 26,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.25
+  },
+  {
+    "round": 20,
+    "ticker": "WMT",
+    "current_links": 3,
+    "previous_links": 5,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 20,
+    "ticker": "TSLA",
+    "current_links": 2,
+    "previous_links": 49,
+    "shared_links": 2,
+    "fraction_current_seen_in_previous": 1.0
+  },
+  {
+    "round": 21,
+    "ticker": "NVDA",
+    "current_links": 25,
+    "previous_links": 16,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 21,
+    "ticker": "GOOG",
+    "current_links": 4,
+    "previous_links": 8,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 21,
+    "ticker": "META",
+    "current_links": 6,
+    "previous_links": 3,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.16666666666666666
+  },
+  {
+    "round": 21,
+    "ticker": "MSFT",
+    "current_links": 10,
+    "previous_links": 5,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 21,
+    "ticker": "AMZN",
+    "current_links": 6,
+    "previous_links": 8,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 21,
+    "ticker": "AAPL",
+    "current_links": 3,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 21,
+    "ticker": "AMD",
+    "current_links": 2,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 21,
+    "ticker": "WMT",
+    "current_links": 3,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 21,
+    "ticker": "TSLA",
+    "current_links": 4,
+    "previous_links": 2,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.25
+  },
+  {
+    "round": 22,
+    "ticker": "NVDA",
+    "current_links": 2,
+    "previous_links": 25,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 22,
+    "ticker": "GOOG",
+    "current_links": 1,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 22,
+    "ticker": "META",
+    "current_links": 4,
+    "previous_links": 6,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.25
+  },
+  {
+    "round": 22,
+    "ticker": "MSFT",
+    "current_links": 3,
+    "previous_links": 10,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 22,
+    "ticker": "AMZN",
+    "current_links": 6,
+    "previous_links": 6,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 22,
+    "ticker": "AAPL",
+    "current_links": 2,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 22,
+    "ticker": "AMD",
+    "current_links": 1,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 22,
+    "ticker": "TSLA",
+    "current_links": 3,
+    "previous_links": 4,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.3333333333333333
+  },
+  {
+    "round": 23,
+    "ticker": "NVDA",
+    "current_links": 35,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 23,
+    "ticker": "GOOG",
+    "current_links": 13,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 23,
+    "ticker": "META",
+    "current_links": 17,
+    "previous_links": 4,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.058823529411764705
+  },
+  {
+    "round": 23,
+    "ticker": "MSFT",
+    "current_links": 7,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 23,
+    "ticker": "JPM",
+    "current_links": 4,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 23,
+    "ticker": "AMZN",
+    "current_links": 10,
+    "previous_links": 6,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 23,
+    "ticker": "AAPL",
+    "current_links": 3,
+    "previous_links": 2,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.3333333333333333
+  },
+  {
+    "round": 23,
+    "ticker": "AMD",
+    "current_links": 2,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 23,
+    "ticker": "TSLA",
+    "current_links": 5,
+    "previous_links": 3,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.2
+  },
+  {
+    "round": 24,
+    "ticker": "NVDA",
+    "current_links": 6,
+    "previous_links": 35,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.16666666666666666
+  },
+  {
+    "round": 24,
+    "ticker": "GOOG",
+    "current_links": 4,
+    "previous_links": 13,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.25
+  },
+  {
+    "round": 24,
+    "ticker": "META",
+    "current_links": 4,
+    "previous_links": 17,
+    "shared_links": 2,
+    "fraction_current_seen_in_previous": 0.5
+  },
+  {
+    "round": 24,
+    "ticker": "MSFT",
+    "current_links": 1,
+    "previous_links": 7,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 24,
+    "ticker": "JPM",
+    "current_links": 1,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 24,
+    "ticker": "AMZN",
+    "current_links": 5,
+    "previous_links": 10,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 24,
+    "ticker": "AAPL",
+    "current_links": 5,
+    "previous_links": 3,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.2
+  },
+  {
+    "round": 24,
+    "ticker": "AMD",
+    "current_links": 1,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 24,
+    "ticker": "TSLA",
+    "current_links": 4,
+    "previous_links": 5,
+    "shared_links": 2,
+    "fraction_current_seen_in_previous": 0.5
+  },
+  {
+    "round": 25,
+    "ticker": "NVDA",
+    "current_links": 81,
+    "previous_links": 6,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 25,
+    "ticker": "GOOG",
+    "current_links": 49,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 25,
+    "ticker": "META",
+    "current_links": 44,
+    "previous_links": 4,
+    "shared_links": 2,
+    "fraction_current_seen_in_previous": 0.045454545454545456
+  },
+  {
+    "round": 25,
+    "ticker": "MSFT",
+    "current_links": 46,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 25,
+    "ticker": "JPM",
+    "current_links": 10,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 25,
+    "ticker": "AMZN",
+    "current_links": 47,
+    "previous_links": 5,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 25,
+    "ticker": "AAPL",
+    "current_links": 36,
+    "previous_links": 5,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 25,
+    "ticker": "AMD",
+    "current_links": 5,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 25,
+    "ticker": "TSLA",
+    "current_links": 54,
+    "previous_links": 4,
+    "shared_links": 2,
+    "fraction_current_seen_in_previous": 0.037037037037037035
+  },
+  {
+    "round": 26,
+    "ticker": "NVDA",
+    "current_links": 21,
+    "previous_links": 81,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 26,
+    "ticker": "GOOG",
+    "current_links": 4,
+    "previous_links": 49,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 26,
+    "ticker": "META",
+    "current_links": 8,
+    "previous_links": 44,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 26,
+    "ticker": "MSFT",
+    "current_links": 4,
+    "previous_links": 46,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 26,
+    "ticker": "AMZN",
+    "current_links": 3,
+    "previous_links": 47,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 26,
+    "ticker": "AMD",
+    "current_links": 3,
+    "previous_links": 5,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 26,
+    "ticker": "WMT",
+    "current_links": 1,
+    "previous_links": 14,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 26,
+    "ticker": "TSLA",
+    "current_links": 18,
+    "previous_links": 54,
+    "shared_links": 5,
+    "fraction_current_seen_in_previous": 0.2777777777777778
+  },
+  {
+    "round": 27,
+    "ticker": "NVDA",
+    "current_links": 14,
+    "previous_links": 21,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 27,
+    "ticker": "GOOG",
+    "current_links": 6,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 27,
+    "ticker": "META",
+    "current_links": 4,
+    "previous_links": 8,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 27,
+    "ticker": "MSFT",
+    "current_links": 6,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 27,
+    "ticker": "AMZN",
+    "current_links": 8,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 27,
+    "ticker": "AMD",
+    "current_links": 4,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 27,
+    "ticker": "WMT",
+    "current_links": 1,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 27,
+    "ticker": "TSLA",
+    "current_links": 7,
+    "previous_links": 18,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 28,
+    "ticker": "NVDA",
+    "current_links": 16,
+    "previous_links": 14,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 28,
+    "ticker": "GOOG",
+    "current_links": 8,
+    "previous_links": 6,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 28,
+    "ticker": "META",
+    "current_links": 7,
+    "previous_links": 4,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.14285714285714285
+  },
+  {
+    "round": 28,
+    "ticker": "MSFT",
+    "current_links": 4,
+    "previous_links": 6,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 28,
+    "ticker": "JPM",
+    "current_links": 1,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 28,
+    "ticker": "AMZN",
+    "current_links": 6,
+    "previous_links": 8,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 28,
+    "ticker": "AAPL",
+    "current_links": 3,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 28,
+    "ticker": "AMD",
+    "current_links": 1,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 28,
+    "ticker": "WMT",
+    "current_links": 1,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 28,
+    "ticker": "TSLA",
+    "current_links": 13,
+    "previous_links": 7,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.07692307692307693
+  },
+  {
+    "round": 29,
+    "ticker": "NVDA",
+    "current_links": 35,
+    "previous_links": 16,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 29,
+    "ticker": "GOOG",
+    "current_links": 6,
+    "previous_links": 8,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 29,
+    "ticker": "META",
+    "current_links": 10,
+    "previous_links": 7,
+    "shared_links": 2,
+    "fraction_current_seen_in_previous": 0.2
+  },
+  {
+    "round": 29,
+    "ticker": "MSFT",
+    "current_links": 2,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 29,
+    "ticker": "AMZN",
+    "current_links": 7,
+    "previous_links": 6,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 29,
+    "ticker": "AMD",
+    "current_links": 3,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 29,
+    "ticker": "WMT",
+    "current_links": 2,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 29,
+    "ticker": "TSLA",
+    "current_links": 7,
+    "previous_links": 13,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.14285714285714285
+  },
+  {
+    "round": 30,
+    "ticker": "NVDA",
+    "current_links": 15,
+    "previous_links": 35,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.06666666666666667
+  },
+  {
+    "round": 30,
+    "ticker": "GOOG",
+    "current_links": 3,
+    "previous_links": 6,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 30,
+    "ticker": "META",
+    "current_links": 9,
+    "previous_links": 10,
+    "shared_links": 3,
+    "fraction_current_seen_in_previous": 0.3333333333333333
+  },
+  {
+    "round": 30,
+    "ticker": "MSFT",
+    "current_links": 2,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 30,
+    "ticker": "AMZN",
+    "current_links": 3,
+    "previous_links": 7,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 30,
+    "ticker": "TSLA",
+    "current_links": 8,
+    "previous_links": 7,
+    "shared_links": 3,
+    "fraction_current_seen_in_previous": 0.375
+  },
+  {
+    "round": 31,
+    "ticker": "NVDA",
+    "current_links": 75,
+    "previous_links": 15,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 31,
+    "ticker": "GOOG",
+    "current_links": 48,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 31,
+    "ticker": "META",
+    "current_links": 59,
+    "previous_links": 9,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 31,
+    "ticker": "MSFT",
+    "current_links": 36,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 31,
+    "ticker": "JPM",
+    "current_links": 9,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 31,
+    "ticker": "AMZN",
+    "current_links": 44,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 31,
+    "ticker": "AAPL",
+    "current_links": 29,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 31,
+    "ticker": "TSLA",
+    "current_links": 54,
+    "previous_links": 8,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 32,
+    "ticker": "NVDA",
+    "current_links": 11,
+    "previous_links": 75,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.09090909090909091
+  },
+  {
+    "round": 32,
+    "ticker": "GOOG",
+    "current_links": 4,
+    "previous_links": 48,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 32,
+    "ticker": "META",
+    "current_links": 17,
+    "previous_links": 59,
+    "shared_links": 5,
+    "fraction_current_seen_in_previous": 0.29411764705882354
+  },
+  {
+    "round": 32,
+    "ticker": "MSFT",
+    "current_links": 6,
+    "previous_links": 36,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 32,
+    "ticker": "JPM",
+    "current_links": 1,
+    "previous_links": 9,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 32,
+    "ticker": "AMZN",
+    "current_links": 5,
+    "previous_links": 44,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 32,
+    "ticker": "AAPL",
+    "current_links": 5,
+    "previous_links": 29,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 32,
+    "ticker": "AMD",
+    "current_links": 4,
+    "previous_links": 7,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 32,
+    "ticker": "WMT",
+    "current_links": 1,
+    "previous_links": 6,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 32,
+    "ticker": "TSLA",
+    "current_links": 24,
+    "previous_links": 54,
+    "shared_links": 6,
+    "fraction_current_seen_in_previous": 0.25
+  },
+  {
+    "round": 33,
+    "ticker": "NVDA",
+    "current_links": 16,
+    "previous_links": 11,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.0625
+  },
+  {
+    "round": 33,
+    "ticker": "GOOG",
+    "current_links": 6,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 33,
+    "ticker": "META",
+    "current_links": 11,
+    "previous_links": 17,
+    "shared_links": 4,
+    "fraction_current_seen_in_previous": 0.36363636363636365
+  },
+  {
+    "round": 33,
+    "ticker": "MSFT",
+    "current_links": 1,
+    "previous_links": 6,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 33,
+    "ticker": "JPM",
+    "current_links": 2,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 33,
+    "ticker": "AMZN",
+    "current_links": 3,
+    "previous_links": 5,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 33,
+    "ticker": "AAPL",
+    "current_links": 2,
+    "previous_links": 5,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 33,
+    "ticker": "AMD",
+    "current_links": 3,
+    "previous_links": 4,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.3333333333333333
+  },
+  {
+    "round": 33,
+    "ticker": "WMT",
+    "current_links": 2,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 33,
+    "ticker": "TSLA",
+    "current_links": 8,
+    "previous_links": 24,
+    "shared_links": 4,
+    "fraction_current_seen_in_previous": 0.5
+  },
+  {
+    "round": 34,
+    "ticker": "NVDA",
+    "current_links": 5,
+    "previous_links": 16,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.2
+  },
+  {
+    "round": 34,
+    "ticker": "GOOG",
+    "current_links": 6,
+    "previous_links": 6,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 34,
+    "ticker": "META",
+    "current_links": 14,
+    "previous_links": 11,
+    "shared_links": 2,
+    "fraction_current_seen_in_previous": 0.14285714285714285
+  },
+  {
+    "round": 34,
+    "ticker": "MSFT",
+    "current_links": 5,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 34,
+    "ticker": "JPM",
+    "current_links": 2,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 34,
+    "ticker": "AMZN",
+    "current_links": 5,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 34,
+    "ticker": "AAPL",
+    "current_links": 1,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 34,
+    "ticker": "AMD",
+    "current_links": 5,
+    "previous_links": 3,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.2
+  },
+  {
+    "round": 34,
+    "ticker": "WMT",
+    "current_links": 1,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 34,
+    "ticker": "TSLA",
+    "current_links": 18,
+    "previous_links": 8,
+    "shared_links": 2,
+    "fraction_current_seen_in_previous": 0.1111111111111111
+  },
+  {
+    "round": 35,
+    "ticker": "NVDA",
+    "current_links": 50,
+    "previous_links": 5,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 35,
+    "ticker": "GOOG",
+    "current_links": 7,
+    "previous_links": 6,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 35,
+    "ticker": "META",
+    "current_links": 29,
+    "previous_links": 14,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.034482758620689655
+  },
+  {
+    "round": 35,
+    "ticker": "MSFT",
+    "current_links": 6,
+    "previous_links": 5,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 35,
+    "ticker": "JPM",
+    "current_links": 1,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 35,
+    "ticker": "AMZN",
+    "current_links": 7,
+    "previous_links": 5,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 35,
+    "ticker": "AAPL",
+    "current_links": 5,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 35,
+    "ticker": "AMD",
+    "current_links": 2,
+    "previous_links": 5,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 35,
+    "ticker": "WMT",
+    "current_links": 2,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 35,
+    "ticker": "TSLA",
+    "current_links": 17,
+    "previous_links": 18,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.058823529411764705
+  },
+  {
+    "round": 36,
+    "ticker": "NVDA",
+    "current_links": 20,
+    "previous_links": 50,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 36,
+    "ticker": "GOOG",
+    "current_links": 4,
+    "previous_links": 7,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 36,
+    "ticker": "META",
+    "current_links": 10,
+    "previous_links": 29,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.1
+  },
+  {
+    "round": 36,
+    "ticker": "MSFT",
+    "current_links": 1,
+    "previous_links": 6,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 36,
+    "ticker": "JPM",
+    "current_links": 1,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 36,
+    "ticker": "AMZN",
+    "current_links": 1,
+    "previous_links": 7,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 36,
+    "ticker": "AAPL",
+    "current_links": 3,
+    "previous_links": 5,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 36,
+    "ticker": "AMD",
+    "current_links": 1,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 36,
+    "ticker": "TSLA",
+    "current_links": 7,
+    "previous_links": 17,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.14285714285714285
+  },
+  {
+    "round": 37,
+    "ticker": "NVDA",
+    "current_links": 78,
+    "previous_links": 20,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.01282051282051282
+  },
+  {
+    "round": 37,
+    "ticker": "GOOG",
+    "current_links": 44,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 37,
+    "ticker": "META",
+    "current_links": 66,
+    "previous_links": 10,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 37,
+    "ticker": "MSFT",
+    "current_links": 43,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 37,
+    "ticker": "JPM",
+    "current_links": 10,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 37,
+    "ticker": "AMZN",
+    "current_links": 43,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 37,
+    "ticker": "AAPL",
+    "current_links": 36,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 37,
+    "ticker": "AMD",
+    "current_links": 18,
+    "previous_links": 1,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.05555555555555555
+  },
+  {
+    "round": 37,
+    "ticker": "TSLA",
+    "current_links": 51,
+    "previous_links": 7,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 38,
+    "ticker": "NVDA",
+    "current_links": 15,
+    "previous_links": 78,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.06666666666666667
+  },
+  {
+    "round": 38,
+    "ticker": "GOOG",
+    "current_links": 1,
+    "previous_links": 44,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 38,
+    "ticker": "META",
+    "current_links": 8,
+    "previous_links": 66,
+    "shared_links": 2,
+    "fraction_current_seen_in_previous": 0.25
+  },
+  {
+    "round": 38,
+    "ticker": "MSFT",
+    "current_links": 3,
+    "previous_links": 43,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 38,
+    "ticker": "AMZN",
+    "current_links": 3,
+    "previous_links": 43,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 38,
+    "ticker": "AAPL",
+    "current_links": 4,
+    "previous_links": 36,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 38,
+    "ticker": "AMD",
+    "current_links": 2,
+    "previous_links": 18,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.5
+  },
+  {
+    "round": 38,
+    "ticker": "WMT",
+    "current_links": 1,
+    "previous_links": 10,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 38,
+    "ticker": "TSLA",
+    "current_links": 1,
+    "previous_links": 51,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 1.0
+  },
+  {
+    "round": 39,
+    "ticker": "NVDA",
+    "current_links": 14,
+    "previous_links": 15,
+    "shared_links": 2,
+    "fraction_current_seen_in_previous": 0.14285714285714285
+  },
+  {
+    "round": 39,
+    "ticker": "GOOG",
+    "current_links": 3,
+    "previous_links": 1,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.3333333333333333
+  },
+  {
+    "round": 39,
+    "ticker": "META",
+    "current_links": 8,
+    "previous_links": 8,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.125
+  },
+  {
+    "round": 39,
+    "ticker": "MSFT",
+    "current_links": 5,
+    "previous_links": 3,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.2
+  },
+  {
+    "round": 39,
+    "ticker": "AMZN",
+    "current_links": 3,
+    "previous_links": 3,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.3333333333333333
+  },
+  {
+    "round": 39,
+    "ticker": "AAPL",
+    "current_links": 1,
+    "previous_links": 4,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 1.0
+  },
+  {
+    "round": 39,
+    "ticker": "AMD",
+    "current_links": 4,
+    "previous_links": 2,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.25
+  },
+  {
+    "round": 39,
+    "ticker": "TSLA",
+    "current_links": 3,
+    "previous_links": 1,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.3333333333333333
+  },
+  {
+    "round": 40,
+    "ticker": "NVDA",
+    "current_links": 15,
+    "previous_links": 14,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 40,
+    "ticker": "GOOG",
+    "current_links": 3,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 40,
+    "ticker": "META",
+    "current_links": 9,
+    "previous_links": 8,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 40,
+    "ticker": "MSFT",
+    "current_links": 3,
+    "previous_links": 5,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 40,
+    "ticker": "JPM",
+    "current_links": 1,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 40,
+    "ticker": "AMZN",
+    "current_links": 3,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 40,
+    "ticker": "AAPL",
+    "current_links": 2,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 40,
+    "ticker": "AMD",
+    "current_links": 1,
+    "previous_links": 4,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 40,
+    "ticker": "TSLA",
+    "current_links": 5,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 41,
+    "ticker": "NVDA",
+    "current_links": 29,
+    "previous_links": 15,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.034482758620689655
+  },
+  {
+    "round": 41,
+    "ticker": "GOOG",
+    "current_links": 5,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 41,
+    "ticker": "META",
+    "current_links": 17,
+    "previous_links": 9,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.058823529411764705
+  },
+  {
+    "round": 41,
+    "ticker": "MSFT",
+    "current_links": 7,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 41,
+    "ticker": "JPM",
+    "current_links": 2,
+    "previous_links": 1,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 41,
+    "ticker": "AMZN",
+    "current_links": 6,
+    "previous_links": 3,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 41,
+    "ticker": "AAPL",
+    "current_links": 3,
+    "previous_links": 2,
+    "shared_links": 0,
+    "fraction_current_seen_in_previous": 0.0
+  },
+  {
+    "round": 41,
+    "ticker": "AMD",
+    "current_links": 3,
+    "previous_links": 1,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.3333333333333333
+  },
+  {
+    "round": 41,
+    "ticker": "TSLA",
+    "current_links": 9,
+    "previous_links": 5,
+    "shared_links": 1,
+    "fraction_current_seen_in_previous": 0.1111111111111111
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.35,
+      "confidence": 0.55,
+      "event": "capital",
+      "reason": "Buyback expansion and UK AI safety commitment support its AI infrastructure role, though cautious market conditions temper the signal."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.45,
+      "confidence": 0.55,
+      "event": "product",
+      "reason": "Gemini 4 Argon, European cloud initiatives, and the Bloom fuel-cell project are positive expansions, with stable analyst ratings."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.25,
+      "confidence": 0.5,
+      "event": "product",
+      "reason": "AI advancements and ad-strategy adaptation are positive, but competition and macro volatility limit the company-specific lift."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.55,
+      "confidence": 0.6,
+      "event": "capital",
+      "reason": "Robust AI adoption, Azure cost-cutting, and data-center investment support the outlook despite tech-concentration and inflation concerns."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.1,
+      "confidence": 0.5,
+      "event": "earnings",
+      "reason": "Q3 profit miss and margin pressure are offset by consumer and investment strength plus a raised net interest income outlook."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.25,
+      "confidence": 0.45,
+      "event": "other",
+      "reason": "Upward analyst target adjustment and AI investment interest offset inflation and ad-strategy shifts."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.4,
+      "confidence": 0.55,
+      "event": "product",
+      "reason": "Smart-home HomeView hub and gadget push plus Siri subscription potential support the outlook amid market-cap fluctuations."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": 0.1,
+      "confidence": 0.35,
+      "event": "capital",
+      "reason": "Credit support for Project Matador draws attention, but chip-sector pressure and cooling demand temper the implication."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": -0.1,
+      "confidence": 0.4,
+      "event": "regulation",
+      "reason": "Valuation skepticism and FDA marketplace concerns offset employee-benefit and store updates."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.05,
+      "confidence": 0.45,
+      "event": "product",
+      "reason": "Robotaxi fleet expansion, Megacharger openings, and Roadster preparation offset spending and automotive-margin concerns."
+    }
+  ]
+}

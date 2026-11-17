@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.1,
+      "confidence": 0.5,
+      "event": "other",
+      "reason": "Short-term share decline and supply-chain bottlenecks offset persistent bullish analyst sentiment."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": -0.2,
+      "confidence": 0.5,
+      "event": "product",
+      "reason": "A share slip on Vera Rubin Cloud scale concerns is partly offset by broader AI-driven market optimism."
+    },
+    {
+      "ticker": "META",
+      "sentiment": -0.35,
+      "confidence": 0.6,
+      "event": "capital",
+      "reason": "Investor concerns over higher AI spending, cash-flow strain, and non-voting stock financing weigh on near-term sentiment."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "event": "macro",
+      "reason": "Only a broad S&P 500 forecast was retrieved, with no Microsoft-specific near-term catalyst evident."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "event": "other",
+      "reason": "The only item is a JPMorgan Bitcoin portfolio projection, with little direct near-term implication for JPM."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": -0.1,
+      "confidence": 0.4,
+      "event": "product",
+      "reason": "A share decline amid market pressures contrasts with a new Trainium adoption test signaling a product push."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.1,
+      "confidence": 0.2,
+      "event": "other",
+      "reason": "Positive portfolio-comparison attention is mild, and the Skydance item is unrelated to Apple."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": -0.3,
+      "confidence": 0.5,
+      "event": "macro",
+      "reason": "AMD declined with other chip stocks after Lam Research warned of supply-chain constraints affecting equipment availability."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No Walmart news was retrieved; coverage is incomplete and no company-specific catalyst can be inferred."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.1,
+      "confidence": 0.4,
+      "event": "product",
+      "reason": "Cybercab and Optimus innovation is positive, but mixed sentiment and tech sell-offs keep the near-term signal ambiguous."
+    }
+  ]
+}

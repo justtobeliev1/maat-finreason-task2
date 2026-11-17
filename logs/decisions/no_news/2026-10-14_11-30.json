@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "WMT",
+  "stock2": "NVDA",
+  "action": "LS",
+  "variant": "no_news",
+  "reason": "Long WMT, short NVDA: scores 0.438 vs -0.482; eligible=10.",
+  "details": {
+    "NVDA": {
+      "score": -0.4820507965675236,
+      "momentum": -0.4820507965675236,
+      "sentiment": 0.2,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Summary highlights Nvidia's key AI chip role and enterprise adoption, tempered by competitive pressure."
+    },
+    "GOOG": {
+      "score": -0.23088036644407506,
+      "momentum": -0.23088036644407506,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "Summary lacks a clear Google-specific catalyst, mentioning other AI and cybersecurity developments."
+    },
+    "META": {
+      "score": -0.2806346902274215,
+      "momentum": -0.2806346902274215,
+      "sentiment": 0.3,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Summary cites Meta's consumer-scale agentic AI execution as highlighting growing demand for personal AI agents."
+    },
+    "MSFT": {
+      "score": -0.3326691413145344,
+      "momentum": -0.3326691413145344,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "Summary concerns Othello's funding and AI sales coaching, not a Microsoft-specific catalyst."
+    },
+    "JPM": {
+      "score": 0.15161669964307567,
+      "momentum": 0.15161669964307567,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "No JPM news was retrieved, so no company-specific catalyst can be inferred."
+    },
+    "AMZN": {
+      "score": -0.10335178011063872,
+      "momentum": -0.10335178011063872,
+      "sentiment": -0.2,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Summary says Amazon plans to close grocery partner storefronts, a mildly negative company-specific development."
+    },
+    "AAPL": {
+      "score": -0.018822651111316535,
+      "momentum": -0.018822651111316535,
+      "sentiment": -0.2,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Summary notes Apple faces skepticism about agentic AI amid broader industry doubts."
+    },
+    "AMD": {
+      "score": -0.43752578170334067,
+      "momentum": -0.43752578170334067,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "No AMD news was retrieved, so no company-specific catalyst can be inferred."
+    },
+    "WMT": {
+      "score": 0.43775170255326845,
+      "momentum": 0.43775170255326845,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "No WMT news was retrieved, so no company-specific catalyst can be inferred."
+    },
+    "TSLA": {
+      "score": -0.1536480881170199,
+      "momentum": -0.1536480881170199,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "No TSLA news was retrieved, so no company-specific catalyst can be inferred."
+    }
+  },
+  "score_gap": 0.919802499120792,
+  "round": 3,
+  "round_id": "2026-10-14_11:30",
+  "request_sha256": "b778e0ffad7169b0321b99bd9caf0a0cfa6da620b125bac49ab1e4c02e687bdd",
+  "input_file_hashes": {
+    "data/raw/2026-10-14_11-30/news.parquet": "d48d399f416cf675f9e0503ae70c5f4cf54ed21c9ddc0d6a0616a2ab0119a3ac",
+    "data/raw/2026-10-14_11-30/price.parquet": "361df03ac162930c0e64c6422ce9978e7b6de57a1c5b62ce7f07b2dbe29b2a16"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

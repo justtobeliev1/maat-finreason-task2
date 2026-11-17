@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.25,
+      "confidence": 0.55,
+      "event": "other",
+      "reason": "Nvidia is described as leading a rebounding AI chip sector, but valuation and supply bottlenecks temper the positive signal."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.1,
+      "confidence": 0.4,
+      "event": "capital",
+      "reason": "Alphabet is expanding AI acquisitions and partnerships, while ETF selling and earnings uncertainty offset the positive signal."
+    },
+    {
+      "ticker": "META",
+      "sentiment": -0.35,
+      "confidence": 0.55,
+      "event": "earnings",
+      "reason": "Meta faces upcoming earnings scrutiny as rising AI investment costs and sector skepticism weigh on sentiment."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.25,
+      "confidence": 0.55,
+      "event": "other",
+      "reason": "Microsoft got a Bernstein price-target hike on AI revenue, though a UK data-center exit highlights infrastructure challenges."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.15,
+      "confidence": 0.4,
+      "event": "earnings",
+      "reason": "JPMorgan reports mixed earnings while highlighting a strong economy, security-tech investment, and JPM Coin expansion."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.1,
+      "confidence": 0.4,
+      "event": "product",
+      "reason": "Amazon is expanding nuclear-energy partnerships and Luna gaming, but AI spending and ETF sales keep sentiment mixed."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": -0.25,
+      "confidence": 0.55,
+      "event": "product",
+      "reason": "Apple has strong iPhone Duo preorders and new AI products, but analysts warn of demand weakness and a potential stock plunge."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": 0.35,
+      "confidence": 0.6,
+      "event": "guidance",
+      "reason": "AMD shares rebounded on AI chip sector recovery and strong revenue guidance, though ETF selling and competition remain concerns."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.1,
+      "confidence": 0.2,
+      "event": "none",
+      "reason": "Walmart is described as remaining competitive against Amazon, but the small headline sample offers little company-specific near-term evidence."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.0,
+      "confidence": 0.35,
+      "event": "earnings",
+      "reason": "Tesla faces Q3 earnings focus amid AI-sector pressure and SpaceX merger speculation, with product and equity-plan headlines adding mixed signals."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.45,
+      "confidence": 0.55,
+      "event": "other",
+      "reason": "The summary cites strong AI partnerships, sustainable margins, and growth despite market doubts and AI bubble debate."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": -0.25,
+      "confidence": 0.45,
+      "event": "capital",
+      "reason": "The summary says Alphabet's cloud arm is sacrificing revenue amid AI-race investments, a mixed-to-negative near-term signal."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.25,
+      "confidence": 0.5,
+      "event": "earnings",
+      "reason": "The summary says Meta's stock rises ahead of earnings amid a tech-driven market rally."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.3,
+      "confidence": 0.45,
+      "event": "other",
+      "reason": "The summary says analysts view Microsoft's value as underestimated despite AI-sector concerns."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "The retrieved summary discusses Bank of America, not JPMorgan, so no JPM-specific evidence is available."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.2,
+      "confidence": 0.45,
+      "event": "product",
+      "reason": "The summary says Amazon is investing heavily in custom AI silicon amid cloud competition and capital commitments."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.1,
+      "confidence": 0.35,
+      "event": "other",
+      "reason": "The summary says Apple is expanding its US supplier network ahead of a deadline with potential holiday-season and liability effects."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": 0.45,
+      "confidence": 0.55,
+      "event": "earnings",
+      "reason": "The summary cites profitable data-center momentum, rising analyst targets, and modest chip-earnings upside."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "The retrieved summary discusses SpaceX, not Walmart, so no WMT-specific evidence is available."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.25,
+      "confidence": 0.4,
+      "event": "other",
+      "reason": "The summary says Musk is considering a Tesla-SpaceX merger while noting SpaceX revenue growth and Bitcoin-holding effects."
+    }
+  ]
+}

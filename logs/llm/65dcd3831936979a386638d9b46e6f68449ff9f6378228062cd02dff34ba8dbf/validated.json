@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.5,
+      "confidence": 0.65,
+      "event": "capital",
+      "reason": "A $10 billion German AI partnership and startup investments point to company-specific expansion despite mixed chip-stock moves."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.2,
+      "confidence": 0.5,
+      "event": "product",
+      "reason": "AI leadership and cloud growth are positive, but GPU delays and London outages temper the near-term signal."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.2,
+      "confidence": 0.5,
+      "event": "capital",
+      "reason": "A $42 billion AI and ad investment plus AI-agent focus may support revenue, though mixed performance and analyst caution limit conviction."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.1,
+      "confidence": 0.45,
+      "event": "product",
+      "reason": "AI capability expansion is offset by intense competition, physical limits, and analyst debate over market impact."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.25,
+      "confidence": 0.5,
+      "event": "product",
+      "reason": "JPM Coin expansion on Ethereum and digital-asset initiatives are company-specific positives, while other items are broader."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.6,
+      "confidence": 0.7,
+      "event": "capital",
+      "reason": "A bullish analyst outlook, AWS margin gains, and expanded Germany investment support a positive company-specific tone."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": -0.35,
+      "confidence": 0.6,
+      "event": "regulation",
+      "reason": "Analyst downgrades, slowing iPhone shipment growth, and UK regulatory pressure outweigh strong preorder demand signals."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": 0.4,
+      "confidence": 0.55,
+      "event": "product",
+      "reason": "AMD led an AI-chip rebound with institutional buying and sector growth tied to semiconductor IP and AI infrastructure."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.25,
+      "confidence": 0.4,
+      "event": "product",
+      "reason": "Agentic AI shopping and subscription bundles may help Walmart outperform, though the evidence base is thin with only five items."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.1,
+      "confidence": 0.4,
+      "event": "earnings",
+      "reason": "Upcoming earnings carry mixed analyst sentiment, with robotaxi and Optimus optimism offset by merger speculation."
+    }
+  ]
+}

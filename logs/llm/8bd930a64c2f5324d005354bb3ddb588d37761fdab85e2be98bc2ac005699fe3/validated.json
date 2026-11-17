@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": -0.1,
+      "confidence": 0.35,
+      "event": "macro",
+      "reason": "Chip-sector selling pressure tied to inflation and AI spending fears is a mild negative, though no NVDA-specific event is cited."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.55,
+      "confidence": 0.65,
+      "event": "capital",
+      "reason": "Berkshire’s $37.4B stake and Gemini benchmark lead are positive, tempered by the noted premium to intrinsic value."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.5,
+      "confidence": 0.6,
+      "event": "product",
+      "reason": "Analyst bullishness on new AI models and Cathie Wood’s purchase support a positive company-specific read."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.15,
+      "confidence": 0.45,
+      "event": "product",
+      "reason": "Maia 300’s energy-efficiency target is a product positive, but the cited stock decline and limited scope temper confidence."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.1,
+      "confidence": 0.3,
+      "event": "other",
+      "reason": "Hiring a senior M&A banker is a small positive for advisory capabilities, with limited near-term impact."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": -0.05,
+      "confidence": 0.4,
+      "event": "product",
+      "reason": "A new $550 tablet is a product positive, but a $309.5M customer lawsuit and cost/valuation concerns offset it."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": -0.35,
+      "confidence": 0.55,
+      "event": "regulation",
+      "reason": "Apple contesting a $5.7B legal verdict is a clear company-specific negative."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": 0.05,
+      "confidence": 0.4,
+      "event": "other",
+      "reason": "Chip-sector weakness weighs, but the cited 1.9 GW AI demand reservation is a modest positive company-specific offset."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.35,
+      "confidence": 0.45,
+      "event": "macro",
+      "reason": "Inflation-driven defensive rotation lifted shares, with warehouse expansion and digital growth cited as possible further drivers."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.2,
+      "confidence": 0.3,
+      "event": "product",
+      "reason": "The rescheduled Roadster event renews product anticipation, though only one headline is available."
+    }
+  ]
+}

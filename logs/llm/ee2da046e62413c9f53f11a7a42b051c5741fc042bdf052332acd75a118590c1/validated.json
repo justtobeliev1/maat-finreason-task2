@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.45,
+      "confidence": 0.55,
+      "event": "product",
+      "reason": "A new AI video initiative and U.S. chip reshoring support Nvidia's product narrative, though the summary is partial."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No Alphabet-specific news appears in the supplied summary, which concerns Berkshire, Reddit and Trade Desk."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.15,
+      "confidence": 0.4,
+      "event": "capital",
+      "reason": "Meta's planned 2-for-1 stock split is a capital-structure signal, but broad tech volatility cuts against it."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.4,
+      "confidence": 0.5,
+      "event": "other",
+      "reason": "The summary cites Microsoft's durable growth alongside AI ecosystem investments, though the details are indirect."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.25,
+      "event": "other",
+      "reason": "Asset-management teams overseeing $18B moving toward independent operations marks a strategy shift with no clear direction."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.2,
+      "confidence": 0.3,
+      "event": "earnings",
+      "reason": "The summary offers a bullish long-term scenario and analyst earnings scrutiny, but little concrete near-term catalyst."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.25,
+      "confidence": 0.5,
+      "event": "product",
+      "reason": "A high-priced foldable iPhone launch is a product catalyst, while supply constraints cut both ways for near-term sales."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": 0.0,
+      "confidence": 0.15,
+      "event": "macro",
+      "reason": "Only broad market decline and tech sell-off context is supplied, with no AMD-specific catalyst."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No WMT news was retrieved and coverage is incomplete, so no company-specific catalyst can be inferred."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": -0.2,
+      "confidence": 0.35,
+      "event": "other",
+      "reason": "Rivian competition intensifies and a tech sell-off weighs on sentiment, though the summary lacks Tesla-specific financial detail."
+    }
+  ]
+}

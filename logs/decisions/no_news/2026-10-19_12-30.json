@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "AMZN",
+  "stock2": "AMD",
+  "action": "LS",
+  "variant": "no_news",
+  "reason": "Long AMZN, short AMD: scores 0.204 vs -0.982; eligible=10.",
+  "details": {
+    "NVDA": {
+      "score": -0.10067093006449479,
+      "momentum": -0.10067093006449479,
+      "sentiment": 0.35,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "CEO confidence and Samsung's unusual move for Nvidia chips suggest positive AI-demand signals."
+    },
+    "GOOG": {
+      "score": -0.05855122137329305,
+      "momentum": -0.05855122137329305,
+      "sentiment": 0.45,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Quantum and cloud alliance progress plus Waymo/cloud interest support a moderately positive near-term view."
+    },
+    "META": {
+      "score": -0.18038512849102295,
+      "momentum": -0.18038512849102295,
+      "sentiment": -0.35,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Shares are declining ahead of earnings amid concerns about daily active user growth despite a price-target increase."
+    },
+    "MSFT": {
+      "score": -0.28327296103553,
+      "momentum": -0.28327296103553,
+      "sentiment": 0.1,
+      "confidence": 0.2,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Only a modest share gain is noted, with no Microsoft-specific catalyst in the summary."
+    },
+    "JPM": {
+      "score": -0.18981956370645037,
+      "momentum": -0.18981956370645037,
+      "sentiment": 0.2,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "A $5 billion defense-startup investment signals strategic expansion, though this is a single-headline sample."
+    },
+    "AMZN": {
+      "score": 0.20379540015960096,
+      "momentum": 0.20379540015960096,
+      "sentiment": 0.65,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Morgan Stanley's bullish AWS-margin and retail outlook plus a nuclear project collaboration drove a surge."
+    },
+    "AAPL": {
+      "score": -0.26083080713898976,
+      "momentum": -0.26083080713898976,
+      "sentiment": 0.45,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "The new iPhone duo sold out quickly, a positive product-demand signal."
+    },
+    "AMD": {
+      "score": -0.9824264472743649,
+      "momentum": -0.9824264472743649,
+      "sentiment": 0.2,
+      "confidence": 0.25,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "AMD is a focal point in the rebounding AI trade, but the summary offers only broad market sentiment."
+    },
+    "WMT": {
+      "score": -0.12225814118865808,
+      "momentum": -0.12225814118865808,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "No WMT news was retrieved; coverage is incomplete and no company-specific catalyst can be inferred."
+    },
+    "TSLA": {
+      "score": -0.020317156533122827,
+      "momentum": -0.020317156533122827,
+      "sentiment": 0.2,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Musk's SpaceX-Tesla merger speculation and new Roadster developments are notable but speculative."
+    }
+  },
+  "score_gap": 1.1862218474339659,
+  "round": 16,
+  "round_id": "2026-10-19_12:30",
+  "request_sha256": "9c4fc1b00f877838aafad452bb95697c2dd9368b7631a3ad91737b415d7a61f7",
+  "input_file_hashes": {
+    "data/raw/2026-10-19_12-30/news.parquet": "81fa530ce31f36dd54a0f05bd6a6a28df88ddcc138e2cf6f1392630e55aef603",
+    "data/raw/2026-10-19_12-30/price.parquet": "3667b818f6488b98752a662371e9d4791a39843b11db00a8a7bfa61f1146347b"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

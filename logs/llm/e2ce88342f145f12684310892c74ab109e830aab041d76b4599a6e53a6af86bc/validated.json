@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.25,
+      "confidence": 0.55,
+      "event": "product",
+      "reason": "Nvidia is portrayed as leading AI-chip innovation, offset by rivals seeking market share."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.2,
+      "confidence": 0.35,
+      "event": "capital",
+      "reason": "Google's Anthropic investment is described as remaining valuable, though the summary is mixed with unrelated commentary."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.15,
+      "confidence": 0.35,
+      "event": "earnings",
+      "reason": "Meta's Q2 earnings are said to highlight its competitive social-networking position."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": -0.2,
+      "confidence": 0.4,
+      "event": "capital",
+      "reason": "Microsoft reportedly withdrew from an AI data-center deal."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.05,
+      "confidence": 0.15,
+      "event": "other",
+      "reason": "Only research-leaderboard recognition is cited, with no clear near-term financial implication."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.2,
+      "confidence": 0.4,
+      "event": "product",
+      "reason": "Amazon is cited for AI-chip usability improvements that could affect Nvidia."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "Summary contains no Apple-specific news, only general dividend and ETF commentary."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": -0.3,
+      "confidence": 0.5,
+      "event": "other",
+      "reason": "AMD is described as facing competitive pressure from Nvidia and TSMC on research spending and cash flow."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.0,
+      "confidence": 0.4,
+      "event": "capital",
+      "reason": "Walmart plans at least $6B in bond sales with no stated use of proceeds."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.05,
+      "confidence": 0.2,
+      "event": "macro",
+      "reason": "Summary ties Tesla only to AI-driven market rebounds and broad index moves."
+    }
+  ]
+}

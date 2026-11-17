@@ -1,0 +1,10 @@
+{
+  "python": "3.9.0 (default, Nov 15 2020, 14:28:56) \n[GCC 7.3.0]",
+  "platform": "Linux-5.15.0-186-generic-x86_64-with-glibc2.35",
+  "packages": {
+    "pandas": "2.0.3",
+    "pyarrow": "15.0.1",
+    "numpy": "1.24.4",
+    "matplotlib": "3.7.5"
+  }
+}

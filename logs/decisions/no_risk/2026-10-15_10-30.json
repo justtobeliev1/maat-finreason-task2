@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "WMT",
+  "stock2": "TSLA",
+  "action": "LS",
+  "variant": "no_risk",
+  "reason": "Long WMT, short TSLA: scores 0.268 vs -0.281; eligible=9.",
+  "details": {
+    "NVDA": {
+      "score": 0.003665198183570681,
+      "momentum": 0.3622173272785689,
+      "sentiment": -0.3,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "Investor concerns over AI financing and inflation are weighing on Nvidia despite robust demand."
+    },
+    "GOOG": {
+      "score": 0.244,
+      "momentum": 1.0,
+      "sentiment": -0.2,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Analysts question Alphabet\u2019s ability to manage rising expenses."
+    },
+    "META": {
+      "score": 0.2671042256234693,
+      "momentum": 0.6803474187448977,
+      "sentiment": 0.2,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Muse agent traction and AI compute potential are positives, though the AI tax credit raises investor considerations."
+    },
+    "MSFT": {
+      "score": 0.1046803931283515,
+      "momentum": 0.20893464376117166,
+      "sentiment": 0.15,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Expanding AI-driven security bundles support the outlook, while green-card policy concerns remain a drag."
+    },
+    "JPM": {
+      "score": -0.2806522264756306,
+      "momentum": -0.9355074215854353,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "No JPM news was retrieved; coverage is incomplete and no company-specific catalyst can be inferred."
+    },
+    "AMZN": {
+      "score": 0.2604282899045656,
+      "momentum": 0.7864276330152187,
+      "sentiment": 0.1,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Amazon is exploring custom AI chips for cost savings amid broader AI-related market concerns."
+    },
+    "AAPL": {
+      "score": -0.11469330921364346,
+      "momentum": -0.5923110307121449,
+      "sentiment": 0.2,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Planned new AI features in China are a positive, though profitability debate and AI market concerns temper the view."
+    },
+    "AMD": {
+      "score": 0.1389634322927366,
+      "momentum": -0.1667885590242113,
+      "sentiment": 0.45,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Robust AI chip demand supports a positive company-specific view despite sector-wide sell-offs and financing concerns."
+    },
+    "WMT": {
+      "score": 0.2676841423031099,
+      "momentum": 0.3789471410103662,
+      "sentiment": 0.4,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "A Deutsche Bank upgrade and higher price target support Walmart\u2019s near-term tone."
+    },
+    "TSLA": {
+      "score": -0.2811113896297945,
+      "momentum": -0.9720379654326483,
+      "sentiment": 0.05,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "The planned Roadster unveiling is a potential positive, but merger speculation and stock declines make the signal mixed."
+    }
+  },
+  "score_gap": 0.5487955319329043,
+  "round": 8,
+  "round_id": "2026-10-15_10:30",
+  "request_sha256": "f4fa343a8fb76944bbb3f20f46b9c9e855da159db6ca073be47e901847484d5d",
+  "input_file_hashes": {
+    "data/raw/2026-10-15_10-30/news.parquet": "7458afc098a24fee24f70a158189a1788b684faa38a8b1e15fbb842dca5f800f",
+    "data/raw/2026-10-15_10-30/price.parquet": "9dfd91b12a8cd063360df8bc6258fdb35ab5bfdc1c67d471034f59efc8172e73"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

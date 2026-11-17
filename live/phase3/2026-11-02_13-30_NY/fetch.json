@@ -1,0 +1,7 @@
+{
+  "price_url": "https://hf-mirror.com/datasets/CarolynJiang/Market-Neutral-Hedging-live-trading/resolve/main/data/2026-11-02_13-30_NY/price.parquet",
+  "price_sha256": "6666bdb1104154c3613636dc567f57d2114ad31c2d357acafe52def81623e252",
+  "news_url": "https://hf-mirror.com/datasets/CarolynJiang/Market-Neutral-Hedging-live-trading/resolve/main/data/2026-11-02_13-30_NY/news.parquet",
+  "news_sha256": "922fb59bf9f6fb99f1c14300bdb1aedabab1974a9d167a50a0de74ec0eac1531",
+  "fetched_utc": "2026-11-02T18:31:52.122248+00:00"
+}

@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "AMZN",
+  "stock2": "META",
+  "action": "LS",
+  "variant": "no_risk",
+  "reason": "Long AMZN, short META: scores 0.473 vs -0.279; eligible=10.",
+  "details": {
+    "NVDA": {
+      "score": 0.028359584386439103,
+      "momentum": -0.0688013853785363,
+      "sentiment": 0.2,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "NVIDIA was cited in a semiconductor rally tied to rebounding AI trade, though the item is sector-wide and includes bubble warnings."
+    },
+    "GOOG": {
+      "score": 0.1387255774131895,
+      "momentum": 0.3807519247106317,
+      "sentiment": 0.1,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Google reported Gemini federal-agency work with Accenture but also a next AI-chip delay amid cloud/AI valuation questions."
+    },
+    "META": {
+      "score": -0.27899999999999997,
+      "momentum": -1.0,
+      "sentiment": 0.1,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Meta is noted for Q3 earnings attention, AI competition, and Broadcom CPO testing without a reported result."
+    },
+    "MSFT": {
+      "score": 0.21827606847887615,
+      "momentum": 0.9900868949295871,
+      "sentiment": -0.25,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "Microsoft faces stock uncertainty after withdrawing from a UK Nscale data-center project amid cloud/AI valuation debate."
+    },
+    "JPM": {
+      "score": -0.16750362645651995,
+      "momentum": -0.5583454215217332,
+      "sentiment": 0.0,
+      "confidence": 0.15,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "The only item concerns JPMorgan analysts' bullish Ethereum projection, not a direct JPMorgan business development."
+    },
+    "AMZN": {
+      "score": 0.47325,
+      "momentum": 1.0,
+      "sentiment": 0.45,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Amazon rose on an analyst target upgrade and AI-growth optimism tied to its open-source TorchNeuron release."
+    },
+    "AAPL": {
+      "score": 0.349,
+      "momentum": 1.0,
+      "sentiment": 0.2,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Apple's stock surge to a $5 trillion valuation is offset by analyst questions over whether its multiple exceeds growth potential."
+    },
+    "AMD": {
+      "score": -0.10224956841815971,
+      "momentum": -0.655831894727199,
+      "sentiment": 0.3,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "AMD was included in a semiconductor rally driven by renewed AI data-center investor interest and JPMorgan upgrades, though the item is sector-wide."
+    },
+    "WMT": {
+      "score": 0.16178827043232719,
+      "momentum": 0.13096090144109063,
+      "sentiment": 0.35,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Walmart expanded premium wellness offerings across more than 2,300 stores and added parcel carriers for seller-fulfilled shipping."
+    },
+    "TSLA": {
+      "score": 0.3,
+      "momentum": 1.0,
+      "sentiment": 0.0,
+      "confidence": 0.2,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Tesla is mentioned only as a Q3 earnings focus amid broader tech/AI optimism, with no company-specific result reported."
+    }
+  },
+  "score_gap": 0.75225,
+  "round": 14,
+  "round_id": "2026-10-19_10:30",
+  "request_sha256": "9e4b7b3fceef5ff4da1b43110bdef7ead69cb67fd30f935bd4e967dc2fa0a770",
+  "input_file_hashes": {
+    "data/raw/2026-10-19_10-30/news.parquet": "beb2fccb5ef673a334dd7b973d7e1ba16aba87bc63adb1a28af3af48ff549b94",
+    "data/raw/2026-10-19_10-30/price.parquet": "2408692af52baedee6c63e240496acf149bdc7bd8b8bc4a40cb5df3e7a73a7d1"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

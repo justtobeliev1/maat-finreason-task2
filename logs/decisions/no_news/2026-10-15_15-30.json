@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "AMD",
+  "stock2": "META",
+  "action": "LS",
+  "variant": "no_news",
+  "reason": "Long AMD, short META: scores 1.000 vs -0.440; eligible=10.",
+  "details": {
+    "NVDA": {
+      "score": 0.278671446582357,
+      "momentum": 0.278671446582357,
+      "sentiment": -0.25,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Summary cites stock declines and cash-conversion concerns, partly offset by CEO demand comments and partnerships."
+    },
+    "GOOG": {
+      "score": -0.14929258967883996,
+      "momentum": -0.14929258967883996,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "No GOOG-specific news was retrieved; coverage is incomplete so no catalyst can be inferred."
+    },
+    "META": {
+      "score": -0.44005853560474817,
+      "momentum": -0.44005853560474817,
+      "sentiment": -0.1,
+      "confidence": 0.2,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "regulation",
+      "reason": "Teen-safety limits reportedly contain a loophole, creating modest scrutiny risk."
+    },
+    "MSFT": {
+      "score": 0.33019241240186403,
+      "momentum": 0.33019241240186403,
+      "sentiment": 0.4,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Target upgrade and AI partnership momentum are framed positively in the summary."
+    },
+    "JPM": {
+      "score": 0.28911113293235147,
+      "momentum": 0.28911113293235147,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "No JPM-specific news was retrieved; coverage is incomplete so no catalyst can be inferred."
+    },
+    "AMZN": {
+      "score": 0.6641657317907113,
+      "momentum": 0.6641657317907113,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "No AMZN-specific news was retrieved; coverage is incomplete so no catalyst can be inferred."
+    },
+    "AAPL": {
+      "score": 0.2865780573821919,
+      "momentum": 0.2865780573821919,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "No AAPL-specific news was retrieved; coverage is incomplete so no catalyst can be inferred."
+    },
+    "AMD": {
+      "score": 1.0,
+      "momentum": 1.0,
+      "sentiment": 0.05,
+      "confidence": 0.1,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "Resilience is tied to a broad market rally rather than a specific AMD catalyst."
+    },
+    "WMT": {
+      "score": -0.19415476052389025,
+      "momentum": -0.19415476052389025,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "Summary contains no WMT-specific news, only broad market and another company."
+    },
+    "TSLA": {
+      "score": 0.7749002381432613,
+      "momentum": 0.7749002381432613,
+      "sentiment": -0.3,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Roadster revenue skepticism weighs on shares, with merger speculation adding uncertainty."
+    }
+  },
+  "score_gap": 1.4400585356047482,
+  "round": 12,
+  "round_id": "2026-10-15_15:30",
+  "request_sha256": "d2020ba84fd7f1b1bd18252bb20ea1381c205e500c8f206dde1b460abfc881e3",
+  "input_file_hashes": {
+    "data/raw/2026-10-15_15-30/news.parquet": "6d1b0c333144c90d58ff576b0fcdf274f8b46f29cc4d2e571196e5b93bd2a66a",
+    "data/raw/2026-10-15_15-30/price.parquet": "de15900d0c49ee30f105ee516943721c693f15810bfe8d97a9e86700e2b6434b"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

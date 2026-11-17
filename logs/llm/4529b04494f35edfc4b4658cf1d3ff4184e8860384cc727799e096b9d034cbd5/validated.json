@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.25,
+      "confidence": 0.55,
+      "event": "product",
+      "reason": "Nvidia launched new AI models and collaborations amid robust AI chip demand, though sector volatility tempers the near-term read."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.25,
+      "confidence": 0.5,
+      "event": "other",
+      "reason": "Alphabet is poised for efficiency gains despite search disruptions, with evolving AI investments and ad spending as context."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.2,
+      "confidence": 0.45,
+      "event": "capital",
+      "reason": "Meta is investing heavily in AI with expected substantial returns, set against broader market pullbacks."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.55,
+      "confidence": 0.65,
+      "event": "earnings",
+      "reason": "Multiple price target increases and expectations for above-average Azure performance ahead of earnings point positive."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No JPM news was retrieved, so company-specific evidence is unavailable."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.0,
+      "confidence": 0.15,
+      "event": "none",
+      "reason": "The retrieved items discuss AI-sector concerns and market-structure changes without a direct Amazon-specific catalyst."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.3,
+      "confidence": 0.4,
+      "event": "other",
+      "reason": "Apple shares are described as remaining strong despite a broader AI stock decline, though no discrete company catalyst is given."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": -0.15,
+      "confidence": 0.3,
+      "event": "macro",
+      "reason": "AI-related stocks are described as plunging, but the summary provides no AMD-specific catalyst."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.3,
+      "confidence": 0.4,
+      "event": "macro",
+      "reason": "NRF forecasts accelerating holiday sales and resilient shoppers, a modest positive for Walmart's consumer backdrop."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.0,
+      "confidence": 0.15,
+      "event": "none",
+      "reason": "The retrieved items cover TSMC and market-structure news without a direct Tesla-specific catalyst."
+    }
+  ]
+}

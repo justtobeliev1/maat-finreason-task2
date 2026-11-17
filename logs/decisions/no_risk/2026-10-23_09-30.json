@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "WMT",
+  "stock2": "TSLA",
+  "action": "LS",
+  "variant": "no_risk",
+  "reason": "Long WMT, short TSLA: scores 0.321 vs -0.363; eligible=10.",
+  "details": {
+    "NVDA": {
+      "score": -0.2244377883622816,
+      "momentum": -0.8181259612076053,
+      "sentiment": 0.1,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "AI infrastructure and autonomous-mobility progress is offset by China market-loss and valuation concerns, leaving a mixed near-term signal."
+    },
+    "GOOG": {
+      "score": -0.09504235800581731,
+      "momentum": -0.5209745266860577,
+      "sentiment": 0.25,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "Google Cloud and AI-chip investment aims to ease infrastructure bottlenecks, though ETF selling and sector capital-raising challenges temper the positive read."
+    },
+    "META": {
+      "score": -0.351084827286333,
+      "momentum": -0.7211160909544434,
+      "sentiment": -0.35,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "AI spending concerns and capital-raising plans weigh on the stock despite strong revenue growth and rising analyst targets."
+    },
+    "MSFT": {
+      "score": -0.18012945784725373,
+      "momentum": -0.6587648594908457,
+      "sentiment": 0.1,
+      "confidence": 0.25,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "A large AI opportunity and healthcare collaborations are balanced by ETF selling, electricity-price pressure, and competitor moves."
+    },
+    "JPM": {
+      "score": 0.015270177182704625,
+      "momentum": 0.05090059060901542,
+      "sentiment": 0.0,
+      "confidence": 0.2,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Blockchain token initiatives offer a positive theme, but ETF net selling, mixed equity revenue, and cautious sentiment leave the signal balanced."
+    },
+    "AMZN": {
+      "score": -0.18396899047980736,
+      "momentum": -0.33322996826602447,
+      "sentiment": -0.3,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Analyst concerns, AI infrastructure bottlenecks, supply-chain shortages, and competitive pressure point to a negative near-term tilt."
+    },
+    "AAPL": {
+      "score": 0.19907211909391717,
+      "momentum": 0.5935737303130573,
+      "sentiment": 0.1,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Product-line and software expansion is offset by mixed ETF trading, insider sales, and ongoing AI/market volatility."
+    },
+    "AMD": {
+      "score": -0.04806083072171863,
+      "momentum": 0.4172972309276046,
+      "sentiment": -0.45,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Supply-chain concerns and persistent AI/semiconductor challenges drove a sharp share decline amid volatile trading."
+    },
+    "WMT": {
+      "score": 0.32134661499816913,
+      "momentum": 0.8378220499938971,
+      "sentiment": 0.25,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "ETF inclusion and share advances are tempered by valuation concerns and Kroger's price-cut competition."
+    },
+    "TSLA": {
+      "score": -0.363,
+      "momentum": -1.0,
+      "sentiment": -0.2,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Falling Q3 revenue, capex cuts, and a delayed Optimus ramp are only partly offset by SpaceX merger talks and Megapack demand."
+    }
+  },
+  "score_gap": 0.6843466149981692,
+  "round": 37,
+  "round_id": "2026-10-23_09:30",
+  "request_sha256": "fe3ea7369b08ece8d60eedcaa5405a095c31c6ce8b9c8841cd53fda439dcb714",
+  "input_file_hashes": {
+    "data/raw/2026-10-23_09-30/news.parquet": "6f5308f4fab304910f5ad63e20f733da10520edc853f0374c97fddd1651217d8",
+    "data/raw/2026-10-23_09-30/price.parquet": "9bce02341b44c584554a7327d1b1f4fd745ae8b90d60559d68a771faa2a10b4e"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

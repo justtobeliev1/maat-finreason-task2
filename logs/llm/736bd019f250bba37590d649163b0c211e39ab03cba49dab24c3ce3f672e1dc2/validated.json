@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.2,
+      "confidence": 0.35,
+      "event": "other",
+      "reason": "Summary cites positive AI stock-pick endorsement and partner platform launches, offset by macro AI-debt and yield concerns."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.0,
+      "confidence": 0.05,
+      "event": "none",
+      "reason": "Summary discusses GoDaddy's AI-agent framework and does not identify an Alphabet-specific catalyst."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.1,
+      "confidence": 0.25,
+      "event": "capital",
+      "reason": "Reported $1.3 billion Bumble acquisition is a capital action, though its strategic implications are framed as debated."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": -0.35,
+      "confidence": 0.45,
+      "event": "other",
+      "reason": "Michael Burry publicly questions Microsoft's AI spending and valuation, a negative company-specific signal."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": -0.35,
+      "confidence": 0.45,
+      "event": "regulation",
+      "reason": "Probe over account closures raises bipartisan political-bias concerns and regulatory/reputational risk."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.65,
+      "confidence": 0.65,
+      "event": "earnings",
+      "reason": "AWS backlog and cloud margins are described as strong, supporting positive growth sentiment."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No Apple-specific news was retrieved; coverage is incomplete and no catalyst can be inferred."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": 0.25,
+      "confidence": 0.4,
+      "event": "capital",
+      "reason": "$8.2 billion AI acquisition is framed as strategic growth, with macro yield and inflation concerns as an offset."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.0,
+      "confidence": 0.05,
+      "event": "none",
+      "reason": "Summary references EZ Bombs expansion, not a Walmart-specific catalyst."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "event": "none",
+      "reason": "Only an indirect Elon Musk cautious remark is cited; no clear Tesla-specific catalyst is provided."
+    }
+  ]
+}

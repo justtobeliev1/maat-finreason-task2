@@ -1,0 +1,15 @@
+{
+  "request": {
+    "team_name": "FinProbeBench",
+    "stock1": "WMT",
+    "stock2": "AMD",
+    "action": "LS",
+    "round_id": "2026-11-02_11:30"
+  },
+  "response": {
+    "accepted": true,
+    "receipt_id": "52dc1829490e85c4caa067f6c283c34618c48f306582c247648ecbbff17455af",
+    "round_id": "2026-11-02_11:30",
+    "accepted_at": "2026-11-02T16:31:15.511Z"
+  }
+}

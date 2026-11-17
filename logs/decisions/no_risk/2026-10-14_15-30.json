@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "AAPL",
+  "stock2": "META",
+  "action": "LS",
+  "variant": "no_risk",
+  "reason": "Long AAPL, short META: scores 0.181 vs -0.106; eligible=8.",
+  "details": {
+    "NVDA": {
+      "score": 0.05578871531354723,
+      "momentum": 0.18596238437849077,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "Summary contains no NVDA-specific catalyst, only unrelated nuclear-deal and S&P 500 commentary."
+    },
+    "GOOG": {
+      "score": 0.15521173876512023,
+      "momentum": 0.1323724625504008,
+      "sentiment": 0.3,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Google's 20-year nuclear deal is a company-specific positive, though the summary gives no financial details."
+    },
+    "META": {
+      "score": -0.10633507688737681,
+      "momentum": 0.2055497437087439,
+      "sentiment": -0.4,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "guidance",
+      "reason": "Meta fell on concerns about a $225 billion spending forecast, a company-specific negative despite mixed investor signals."
+    },
+    "MSFT": {
+      "score": -0.08301453953955615,
+      "momentum": 0.014951534868146155,
+      "sentiment": -0.25,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "Microsoft faces spending-management challenges and AI/cloud competition, a modest company-specific negative."
+    },
+    "JPM": {
+      "score": 0.08489869238576642,
+      "momentum": 0.28299564128588806,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "Summary has no JPM-specific news; it discusses Citi's S&P 500 projection and Givaudan analyst views."
+    },
+    "AMZN": {
+      "score": -0.10132142111774652,
+      "momentum": 0.04726192960751163,
+      "sentiment": -0.3,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "Amazon's chip business continues cash burn, a company-specific negative amid broader market volatility."
+    },
+    "AAPL": {
+      "score": 0.18068318487796847,
+      "momentum": 0.04227728292656163,
+      "sentiment": 0.4,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Apple rose on a new $299 HomeView device with paid AI features, though the summary also notes a secret-files allegation."
+    },
+    "AMD": {
+      "score": -0.05028869852520046,
+      "momentum": -0.16762899508400153,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "No AMD news was retrieved; incomplete coverage prevents any company-specific catalyst inference."
+    },
+    "WMT": {
+      "score": 0.04543368699477135,
+      "momentum": 0.1514456233159045,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "No WMT news was retrieved; incomplete coverage prevents any company-specific catalyst inference."
+    },
+    "TSLA": {
+      "score": 0.10207920986926577,
+      "momentum": 0.3402640328975526,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "Summary only mentions Elon Musk praising Micron; no direct TSLA-specific catalyst is described."
+    }
+  },
+  "score_gap": 0.2870182617653453,
+  "round": 6,
+  "round_id": "2026-10-14_15:30",
+  "request_sha256": "2d1829deb946ea1b5001035f3b00c0d08dd0ec435c705bbc1947c9c4173161af",
+  "input_file_hashes": {
+    "data/raw/2026-10-14_15-30/news.parquet": "171dc2c7be2c4435d6983d69b22fc28b669723476d06502621957638c78d80f0",
+    "data/raw/2026-10-14_15-30/price.parquet": "a687ef83ffe83677163d0bbbcfb902d29c12076cfe85e76eb0429f5b284d04a8"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

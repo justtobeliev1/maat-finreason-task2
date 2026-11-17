@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "AAPL",
+  "stock2": "TSLA",
+  "action": "LS",
+  "variant": "full",
+  "reason": "Long AAPL, short TSLA: scores 0.131 vs -0.489; eligible=9.",
+  "details": {
+    "NVDA": {
+      "score": -0.146,
+      "momentum": -1.0,
+      "sentiment": 0.4,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Nvidia's AI collaborations in automotive software, industrial AI agents, and quantum decoding support a positive company-specific tilt."
+    },
+    "GOOG": {
+      "score": -0.25275,
+      "momentum": -1.0,
+      "sentiment": 0.15,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Google Cloud's expanded virtual power plant agreements and OpenAI model integration are positive, though AI spending concerns offset them."
+    },
+    "META": {
+      "score": -0.39625,
+      "momentum": -1.0,
+      "sentiment": -0.25,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Meta's strong Q3 results were tempered by high AI spending, credit-risk concerns, and legal challenges."
+    },
+    "MSFT": {
+      "score": 0.03908237518499712,
+      "momentum": 0.08360791728332373,
+      "sentiment": 0.05,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Microsoft's steady AI cloud position and Blazor partnership news are balanced by competition and ETF net selling."
+    },
+    "JPM": {
+      "score": -0.13766106103114323,
+      "momentum": -0.6688702034371441,
+      "sentiment": 0.2,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "J.P. Morgan's JPM Coin expansion on Ethereum supports its institutional blockchain payments push."
+    },
+    "AMZN": {
+      "score": -0.132,
+      "momentum": -1.0,
+      "sentiment": 0.4,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Amazon is highlighted as a top pick on logistics automation, margin gains, and AI integration despite ETF selling."
+    },
+    "AAPL": {
+      "score": 0.13055525525086403,
+      "momentum": 0.22518418416954677,
+      "sentiment": 0.2,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Apple is favored for robust cash flow and AI positioning, with product launches and supply deals influencing sentiment."
+    },
+    "AMD": {
+      "score": -0.22125,
+      "momentum": -1.0,
+      "sentiment": 0.25,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Analysts see AMD's AI-focused CPU potential as underestimated, though Nvidia still leads sector momentum."
+    },
+    "WMT": {
+      "score": 0.3,
+      "momentum": 1.0,
+      "sentiment": 0.0,
+      "confidence": 0.15,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "macro",
+      "reason": "The summary covers retail-sector attention and Fed/inflation concerns without direct Walmart-specific evidence."
+    },
+    "TSLA": {
+      "score": -0.489,
+      "momentum": -1.0,
+      "sentiment": -0.45,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Tesla's Q3 earnings showed a 43% profit drop, outweighing longer-term robotaxi and merger plans."
+    }
+  },
+  "score_gap": 0.6195552552508641,
+  "round": 31,
+  "round_id": "2026-10-22_09:30",
+  "request_sha256": "e2b2f02773c58eaab795865c4f6775e70cc9cd54c8b805022a2c961dc286c016",
+  "input_file_hashes": {
+    "data/raw/2026-10-22_09-30/news.parquet": "84bcaecaca27dc4f20a0401ceb2689580e419a03f7f45fe16dd835627a24c9a7",
+    "data/raw/2026-10-22_09-30/price.parquet": "d13791287e6e3cd135a4d547d034124944296c03fe152f27e8da417b2751c545"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

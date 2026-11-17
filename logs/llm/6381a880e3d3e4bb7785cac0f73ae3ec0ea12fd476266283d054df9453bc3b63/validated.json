@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.1,
+      "confidence": 0.35,
+      "event": "other",
+      "reason": "Nvidia secures a significant AI deal in Germany, though Amazon competition targeting its AI edge is a partial offset."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.15,
+      "confidence": 0.25,
+      "event": "other",
+      "reason": "Alphabet is described as undervalued, but the summary centers on broad tech competition rather than a specific catalyst."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.0,
+      "confidence": 0.2,
+      "event": "earnings",
+      "reason": "Meta's Q3 earnings is drawing investor attention, but the summary provides no directional result."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.1,
+      "confidence": 0.2,
+      "event": "other",
+      "reason": "Microsoft-backed OpenAI acquired Orchestra Bio to expand healthcare AI capabilities, an indirect positive for Microsoft."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "event": "other",
+      "reason": "The summary notes a bank-agent payment access shift but does not name JPMorgan or quantify a company-specific impact."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.25,
+      "confidence": 0.4,
+      "event": "other",
+      "reason": "Amazon plans 300,000 seasonal U.S. hires and is advancing AI technology to challenge Nvidia."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": -0.2,
+      "confidence": 0.4,
+      "event": "capital",
+      "reason": "Apple is investing $100 million in U.S. titanium and suppliers, but analysts warn of slowing demand and margin pressure."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": 0.0,
+      "confidence": 0.2,
+      "event": "macro",
+      "reason": "The summary only links AMD to memory-cycle and sector volatility, with no clear company-specific direction."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No WMT news was retrieved, so no company-specific catalyst can be inferred from this incomplete sample."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "The summary discusses SpaceX rather than Tesla, so no direct Tesla-specific catalyst is provided."
+    }
+  ]
+}

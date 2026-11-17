@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "WMT",
+  "stock2": "META",
+  "action": "LS",
+  "variant": "full",
+  "reason": "Long WMT, short META: scores 0.166 vs -0.360; eligible=6.",
+  "details": {
+    "NVDA": {
+      "score": -0.017388323310524152,
+      "momentum": 0.10537225563158614,
+      "sentiment": -0.2,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "Chip-sector pressure and AI-bubble skepticism give a mildly negative near-term read-through for NVDA."
+    },
+    "GOOG": {
+      "score": -0.01530667851870171,
+      "momentum": -0.0510222617290057,
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "Summary references Google alumni and broad AI/data-center concerns, not a clear GOOG-specific catalyst."
+    },
+    "META": {
+      "score": -0.360330164382523,
+      "momentum": -0.8802672146084101,
+      "sentiment": -0.25,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "Rising AI spending and credit-risk concerns weighed on Meta shares despite Threads growth and a BofA target raise."
+    },
+    "MSFT": {
+      "score": 0.09599751541703826,
+      "momentum": 0.2733250513901275,
+      "sentiment": 0.1,
+      "confidence": 0.2,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "other",
+      "reason": "Summary cites mixed AI-growth views and possible near-term MSFT breakout potential without a clear company event."
+    },
+    "JPM": {
+      "score": 0.15843684800180835,
+      "momentum": 0.5281228266726945,
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "Summary mentions major-bank dividends and balance-sheet differences without a JPM-specific catalyst."
+    },
+    "AMZN": {
+      "score": 0.09957810222638094,
+      "momentum": 0.26192700742126984,
+      "sentiment": 0.1,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "other",
+      "reason": "Amazon's expanded 3M partnership is a modest positive, offset by broad AI-trade and competition concerns."
+    },
+    "AAPL": {
+      "score": 0.029507304015608735,
+      "momentum": 0.3608576800520291,
+      "sentiment": -0.25,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "A valuation analysis flags about 25% overvaluation, partly offset by planned new device launches."
+    },
+    "AMD": {
+      "score": 0.02586278282551141,
+      "momentum": 0.5762092760850379,
+      "sentiment": -0.35,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "AMD is named in a chip selloff with supply concerns, though Susquehanna remains bullish."
+    },
+    "WMT": {
+      "score": 0.1662690011363645,
+      "momentum": 0.14589667045454835,
+      "sentiment": 0.35,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Oppenheimer sees Walmart's combined membership improving loyalty and engagement across services and products."
+    },
+    "TSLA": {
+      "score": -0.2943035166990829,
+      "momentum": -0.7885117223302762,
+      "sentiment": -0.15,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Q3 revenue missed and margins were pressured by AI investments, partly offset by positive robotaxi and self-driving outlook."
+    }
+  },
+  "score_gap": 0.5265991655188875,
+  "round": 34,
+  "round_id": "2026-10-22_12:30",
+  "request_sha256": "64799923d93b9af6ab60d1f0640513e7bb4f6fb3f595996f8bfad3ba45b0b424",
+  "input_file_hashes": {
+    "data/raw/2026-10-22_12-30/news.parquet": "6a2eddecc5aa358749111aa8a79af41019a8941a92b191e28970bc9ccd69c442",
+    "data/raw/2026-10-22_12-30/price.parquet": "a54faf7113ba46c7b6a2d3d43da150d44aecdb99f4c72d86b5961d63dde3c07f"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

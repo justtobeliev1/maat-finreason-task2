@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "Summary contains no NVDA-specific catalyst, only unrelated nuclear-deal and S&P 500 commentary."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.3,
+      "confidence": 0.55,
+      "event": "other",
+      "reason": "Google's 20-year nuclear deal is a company-specific positive, though the summary gives no financial details."
+    },
+    {
+      "ticker": "META",
+      "sentiment": -0.4,
+      "confidence": 0.6,
+      "event": "guidance",
+      "reason": "Meta fell on concerns about a $225 billion spending forecast, a company-specific negative despite mixed investor signals."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": -0.25,
+      "confidence": 0.5,
+      "event": "capital",
+      "reason": "Microsoft faces spending-management challenges and AI/cloud competition, a modest company-specific negative."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "Summary has no JPM-specific news; it discusses Citi's S&P 500 projection and Givaudan analyst views."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": -0.3,
+      "confidence": 0.55,
+      "event": "capital",
+      "reason": "Amazon's chip business continues cash burn, a company-specific negative amid broader market volatility."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.4,
+      "confidence": 0.6,
+      "event": "product",
+      "reason": "Apple rose on a new $299 HomeView device with paid AI features, though the summary also notes a secret-files allegation."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No AMD news was retrieved; incomplete coverage prevents any company-specific catalyst inference."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No WMT news was retrieved; incomplete coverage prevents any company-specific catalyst inference."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "Summary only mentions Elon Musk praising Micron; no direct TSLA-specific catalyst is described."
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+method,round,round_id,stock1,stock2,action,return,common_interval,reason
+full,1,2026-10-14_09:30,MSFT,WMT,F,0.0,True,Score gap 0.259 below frozen threshold 0.35.
+full,2,2026-10-14_10:30,NVDA,GOOG,F,0.0,True,Insufficient eligible evidence.
+full,3,2026-10-14_11:30,NVDA,GOOG,F,0.0,True,Insufficient eligible evidence.
+full,4,2026-10-14_12:30,NVDA,GOOG,F,0.0,True,Insufficient eligible evidence.
+full,5,2026-10-14_14:30,WMT,AAPL,LS,0.01325811364474827,True,"Long WMT, short AAPL: scores 0.306 vs -0.315; eligible=8."
+full,6,2026-10-14_15:30,NVDA,GOOG,F,0.0,True,Insufficient eligible evidence.
+full,7,2026-10-15_09:30,AAPL,AMD,LS,-0.00855543240418044,True,"Long AAPL, short AMD: scores 0.531 vs -0.394; eligible=9."
+full,8,2026-10-15_10:30,WMT,AAPL,LS,-0.0013148315451448345,True,"Long WMT, short AAPL: scores 0.268 vs -0.115; eligible=8."
+full,9,2026-10-15_11:30,MSFT,WMT,LS,0.0014177409296387,True,"Long MSFT, short WMT: scores 0.394 vs -0.216; eligible=6."
+full,10,2026-10-15_12:30,AAPL,NVDA,F,0.0,True,Score gap 0.201 below frozen threshold 0.35.
+full,11,2026-10-15_14:30,META,JPM,LS,,False,"Long META, short JPM: scores 0.371 vs -0.074; eligible=8."
+full,12,2026-10-15_15:30,NVDA,GOOG,F,0.0,False,Insufficient eligible evidence.
+full,13,2026-10-19_09:30,JPM,META,LS,-0.006419944044572634,True,"Long JPM, short META: scores 0.342 vs -0.435; eligible=9."
+full,14,2026-10-19_10:30,AMZN,AMD,LS,0.005931109237169829,True,"Long AMZN, short AMD: scores 0.473 vs -0.102; eligible=7."
+full,15,2026-10-19_11:30,NVDA,AAPL,LS,-0.004699134750499434,True,"Long NVDA, short AAPL: scores 0.324 vs -0.214; eligible=9."
+full,16,2026-10-19_12:30,NVDA,GOOG,F,0.0,True,Insufficient eligible evidence.
+full,17,2026-10-19_14:30,AAPL,AMD,LS,0.005259525321140823,True,"Long AAPL, short AMD: scores 0.269 vs -0.251; eligible=8."
+full,18,2026-10-19_15:30,AMZN,WMT,F,0.0,True,Score gap 0.305 below frozen threshold 0.35.
+full,19,2026-10-20_09:30,WMT,AAPL,LS,0.0012946491608359367,True,"Long WMT, short AAPL: scores 0.370 vs -0.446; eligible=10."
+full,20,2026-10-20_10:30,NVDA,WMT,LS,0.0028332141715957104,True,"Long NVDA, short WMT: scores 0.335 vs -0.361; eligible=7."
+full,21,2026-10-20_11:30,AMZN,AMD,F,0.0,True,Score gap 0.215 below frozen threshold 0.35.
+full,22,2026-10-20_12:30,NVDA,GOOG,F,0.0,True,Insufficient eligible evidence.
+full,23,2026-10-20_14:30,AMZN,AMD,LS,-0.010734791869557503,True,"Long AMZN, short AMD: scores 0.148 vs -0.210; eligible=8."
+full,24,2026-10-20_15:30,NVDA,GOOG,F,0.0,True,Insufficient eligible evidence.
+full,25,2026-10-21_09:30,NVDA,AAPL,LS,-0.0029897172762514135,True,"Long NVDA, short AAPL: scores 0.573 vs -0.110; eligible=9."
+full,26,2026-10-21_10:30,NVDA,GOOG,F,0.0,True,Insufficient eligible evidence.
+full,27,2026-10-21_11:30,NVDA,GOOG,F,0.0,True,Score gap 0.296 below frozen threshold 0.35.
+full,28,2026-10-21_12:30,META,GOOG,LS,-0.0018615053351945798,True,"Long META, short GOOG: scores 0.268 vs -0.285; eligible=7."
+full,29,2026-10-21_14:30,NVDA,GOOG,F,0.0,True,Insufficient eligible evidence.
+full,30,2026-10-21_15:30,NVDA,GOOG,F,0.0,True,Insufficient eligible evidence.
+full,31,2026-10-22_09:30,AAPL,TSLA,LS,0.007242235929888818,True,"Long AAPL, short TSLA: scores 0.131 vs -0.489; eligible=9."
+full,32,2026-10-22_10:30,NVDA,GOOG,F,0.0,True,Insufficient eligible evidence.
+full,33,2026-10-22_11:30,NVDA,GOOG,F,0.0,True,Insufficient eligible evidence.
+full,34,2026-10-22_12:30,WMT,META,LS,0.0006095350820027878,True,"Long WMT, short META: scores 0.166 vs -0.360; eligible=6."
+full,35,2026-10-22_14:30,NVDA,GOOG,F,0.0,True,Insufficient eligible evidence.
+full,36,2026-10-22_15:30,TSLA,META,F,0.0,True,Score gap 0.259 below frozen threshold 0.35.
+full,37,2026-10-23_09:30,WMT,TSLA,LS,-0.007363956653701265,True,"Long WMT, short TSLA: scores 0.321 vs -0.363; eligible=6."
+full,38,2026-10-23_10:30,AMD,TSLA,LS,0.007656837431296637,True,"Long AMD, short TSLA: scores 0.239 vs -0.278; eligible=6."
+full,39,2026-10-23_11:30,TSLA,NVDA,LS,0.0017422220072370598,True,"Long TSLA, short NVDA: scores 0.422 vs 0.059; eligible=6."
+full,40,2026-10-23_12:30,NVDA,GOOG,F,0.0,False,Insufficient eligible evidence.
+full,41,2026-10-23_14:30,MSFT,NVDA,F,0.0,False,Score gap 0.269 below frozen threshold 0.35.
+no_news,1,2026-10-14_09:30,NVDA,TSLA,F,0.0,True,Score gap 0.000 below frozen threshold 0.35.
+no_news,2,2026-10-14_10:30,JPM,AMD,LS,0.011945716437715748,True,"Long JPM, short AMD: scores 1.000 vs -1.000; eligible=10."
+no_news,3,2026-10-14_11:30,WMT,NVDA,LS,0.005184919286778333,True,"Long WMT, short NVDA: scores 0.438 vs -0.482; eligible=10."
+no_news,4,2026-10-14_12:30,JPM,AMD,LS,0.002253123181849448,True,"Long JPM, short AMD: scores 0.364 vs -1.000; eligible=10."
+no_news,5,2026-10-14_14:30,AMD,GOOG,LS,-0.022598571767731168,True,"Long AMD, short GOOG: scores 0.730 vs -0.931; eligible=10."
+no_news,6,2026-10-14_15:30,TSLA,AMD,LS,-0.004026247032042185,True,"Long TSLA, short AMD: scores 0.340 vs -0.168; eligible=10."
+no_news,7,2026-10-15_09:30,AAPL,TSLA,LS,-0.009783217209536788,True,"Long AAPL, short TSLA: scores 1.000 vs -1.000; eligible=10."
+no_news,8,2026-10-15_10:30,GOOG,TSLA,LS,0.001475120926439366,True,"Long GOOG, short TSLA: scores 1.000 vs -0.972; eligible=10."
+no_news,9,2026-10-15_11:30,AMD,WMT,LS,0.007172938232520687,True,"Long AMD, short WMT: scores 1.000 vs -1.000; eligible=10."
+no_news,10,2026-10-15_12:30,MSFT,TSLA,LS,-0.002223539128706986,True,"Long MSFT, short TSLA: scores 0.351 vs -0.897; eligible=10."
+no_news,11,2026-10-15_14:30,AMD,AAPL,LS,,False,"Long AMD, short AAPL: scores 1.000 vs -0.526; eligible=10."
+no_news,12,2026-10-15_15:30,AMD,META,LS,,False,"Long AMD, short META: scores 1.000 vs -0.440; eligible=10."
+no_news,13,2026-10-19_09:30,JPM,TSLA,LS,-0.0042153334087470795,True,"Long JPM, short TSLA: scores 1.000 vs -1.000; eligible=10."
+no_news,14,2026-10-19_10:30,AMZN,META,LS,0.0019209026432531195,True,"Long AMZN, short META: scores 1.000 vs -1.000; eligible=10."
+no_news,15,2026-10-19_11:30,META,AAPL,LS,-0.001927778074674369,True,"Long META, short AAPL: scores 1.000 vs -0.610; eligible=10."
+no_news,16,2026-10-19_12:30,AMZN,AMD,LS,-0.0005775425185108318,True,"Long AMZN, short AMD: scores 0.204 vs -0.982; eligible=10."
+no_news,17,2026-10-19_14:30,WMT,AMD,LS,0.0171048268875158,True,"Long WMT, short AMD: scores 0.578 vs -1.000; eligible=10."
+no_news,18,2026-10-19_15:30,AMD,JPM,LS,0.00730808287464646,True,"Long AMD, short JPM: scores 0.698 vs -0.354; eligible=10."
+no_news,19,2026-10-20_09:30,WMT,AMD,LS,0.004077046778872162,True,"Long WMT, short AMD: scores 1.000 vs -1.000; eligible=10."
+no_news,20,2026-10-20_10:30,JPM,WMT,LS,0.0014880498387178087,True,"Long JPM, short WMT: scores 1.000 vs -1.000; eligible=10."
+no_news,21,2026-10-20_11:30,MSFT,AMD,LS,0.0019791152476470453,True,"Long MSFT, short AMD: scores -0.108 vs -1.000; eligible=10."
+no_news,22,2026-10-20_12:30,AMD,WMT,LS,-0.0007110226280356291,True,"Long AMD, short WMT: scores 0.257 vs -0.455; eligible=10."
+no_news,23,2026-10-20_14:30,TSLA,AMD,LS,0.0022301566144840024,True,"Long TSLA, short AMD: scores 0.266 vs -0.385; eligible=10."
+no_news,24,2026-10-20_15:30,TSLA,AMD,LS,0.003675200050722305,True,"Long TSLA, short AMD: scores 0.043 vs -0.438; eligible=10."
+no_news,25,2026-10-21_09:30,NVDA,WMT,LS,-5.1511624026057135e-05,True,"Long NVDA, short WMT: scores 1.000 vs -0.844; eligible=10."
+no_news,26,2026-10-21_10:30,META,AMZN,LS,0.0013025704774243252,True,"Long META, short AMZN: scores 1.000 vs -1.000; eligible=10."
+no_news,27,2026-10-21_11:30,AAPL,JPM,LS,0.0011323152355949828,True,"Long AAPL, short JPM: scores 1.000 vs 0.024; eligible=10."
+no_news,28,2026-10-21_12:30,AMD,AAPL,LS,0.0008233346896417415,True,"Long AMD, short AAPL: scores 0.622 vs -0.355; eligible=10."
+no_news,29,2026-10-21_14:30,AMD,META,LS,-0.008426697737762279,True,"Long AMD, short META: scores 1.000 vs -0.543; eligible=10."
+no_news,30,2026-10-21_15:30,TSLA,META,LS,0.034991085040890546,True,"Long TSLA, short META: scores 0.010 vs -0.556; eligible=10."
+no_news,31,2026-10-22_09:30,WMT,TSLA,LS,0.008876137970306508,True,"Long WMT, short TSLA: scores 1.000 vs -1.000; eligible=10."
+no_news,32,2026-10-22_10:30,TSLA,AMD,LS,-0.006823604992076571,True,"Long TSLA, short AMD: scores 1.000 vs -1.000; eligible=10."
+no_news,33,2026-10-22_11:30,WMT,AMD,LS,0.0066733141914011584,True,"Long WMT, short AMD: scores 0.832 vs -1.000; eligible=10."
+no_news,34,2026-10-22_12:30,AMD,META,LS,-0.0003365090299519147,True,"Long AMD, short META: scores 0.576 vs -0.880; eligible=10."
+no_news,35,2026-10-22_14:30,WMT,AMD,LS,0.0021026240953314623,True,"Long WMT, short AMD: scores 0.271 vs -1.000; eligible=10."
+no_news,36,2026-10-22_15:30,TSLA,MSFT,LS,-0.007930819458282612,True,"Long TSLA, short MSFT: scores 0.243 vs -0.302; eligible=10."
+no_news,37,2026-10-23_09:30,WMT,TSLA,LS,-0.007363956653701265,True,"Long WMT, short TSLA: scores 0.838 vs -1.000; eligible=10."
+no_news,38,2026-10-23_10:30,AMD,WMT,LS,0.001409782925544667,True,"Long AMD, short WMT: scores 1.000 vs -1.000; eligible=10."
+no_news,39,2026-10-23_11:30,TSLA,NVDA,LS,0.0017422220072370598,True,"Long TSLA, short NVDA: scores 1.000 vs -0.254; eligible=10."
+no_news,40,2026-10-23_12:30,AMZN,TSLA,LS,,False,"Long AMZN, short TSLA: scores 0.040 vs -1.000; eligible=10."
+no_news,41,2026-10-23_14:30,TSLA,WMT,LS,,False,"Long TSLA, short WMT: scores 0.452 vs -0.417; eligible=10."
+no_risk,1,2026-10-14_09:30,MSFT,WMT,LS,-0.0038521042193390143,True,"Long MSFT, short WMT: scores 0.231 vs -0.028; eligible=10."
+no_risk,2,2026-10-14_10:30,JPM,MSFT,LS,0.0031507218080349397,True,"Long JPM, short MSFT: scores 0.190 vs -0.410; eligible=9."
+no_risk,3,2026-10-14_11:30,META,NVDA,LS,0.0025739191338531864,True,"Long META, short NVDA: scores -0.011 vs -0.103; eligible=6."
+no_risk,4,2026-10-14_12:30,JPM,AMD,LS,0.002253123181849448,True,"Long JPM, short AMD: scores 0.109 vs -0.293; eligible=9."
+no_risk,5,2026-10-14_14:30,WMT,AAPL,LS,0.01325811364474827,True,"Long WMT, short AAPL: scores 0.306 vs -0.315; eligible=10."
+no_risk,6,2026-10-14_15:30,AAPL,META,LS,-0.006363292247285213,True,"Long AAPL, short META: scores 0.181 vs -0.106; eligible=8."
+no_risk,7,2026-10-15_09:30,AAPL,AMD,LS,-0.00855543240418044,True,"Long AAPL, short AMD: scores 0.531 vs -0.394; eligible=10."
+no_risk,8,2026-10-15_10:30,WMT,TSLA,LS,0.0028501083509429592,True,"Long WMT, short TSLA: scores 0.268 vs -0.281; eligible=9."
+no_risk,9,2026-10-15_11:30,MSFT,WMT,LS,0.0014177409296387,True,"Long MSFT, short WMT: scores 0.394 vs -0.216; eligible=9."
+no_risk,10,2026-10-15_12:30,AAPL,TSLA,LS,-0.002441610903805347,True,"Long AAPL, short TSLA: scores 0.086 vs -0.269; eligible=9."
+no_risk,11,2026-10-15_14:30,META,JPM,LS,,False,"Long META, short JPM: scores 0.371 vs -0.074; eligible=10."
+no_risk,12,2026-10-15_15:30,AMD,META,LS,,False,"Long AMD, short META: scores 0.303 vs -0.146; eligible=6."
+no_risk,13,2026-10-19_09:30,JPM,META,LS,-0.006419944044572634,True,"Long JPM, short META: scores 0.342 vs -0.435; eligible=10."
+no_risk,14,2026-10-19_10:30,AMZN,META,LS,0.0019209026432531195,True,"Long AMZN, short META: scores 0.473 vs -0.279; eligible=10."
+no_risk,15,2026-10-19_11:30,AMZN,AAPL,LS,-0.004283328337726489,True,"Long AMZN, short AAPL: scores 0.332 vs -0.214; eligible=10."
+no_risk,16,2026-10-19_12:30,AMZN,AMD,LS,-0.0005775425185108318,True,"Long AMZN, short AMD: scores 0.334 vs -0.260; eligible=9."
+no_risk,17,2026-10-19_14:30,AAPL,AMD,LS,0.005259525321140823,True,"Long AAPL, short AMD: scores 0.269 vs -0.251; eligible=10."
+no_risk,18,2026-10-19_15:30,AMZN,JPM,LS,-0.007764700158026661,True,"Long AMZN, short JPM: scores 0.231 vs -0.101; eligible=10."
+no_risk,19,2026-10-20_09:30,WMT,AAPL,LS,0.0012946491608359367,True,"Long WMT, short AAPL: scores 0.370 vs -0.446; eligible=10."
+no_risk,20,2026-10-20_10:30,NVDA,WMT,LS,0.0028332141715957104,True,"Long NVDA, short WMT: scores 0.335 vs -0.361; eligible=10."
+no_risk,21,2026-10-20_11:30,AMZN,AAPL,LS,0.00035184105758417905,True,"Long AMZN, short AAPL: scores 0.104 vs -0.151; eligible=9."
+no_risk,22,2026-10-20_12:30,MSFT,AMZN,LS,-0.0013506880969224588,True,"Long MSFT, short AMZN: scores 0.154 vs -0.109; eligible=9."
+no_risk,23,2026-10-20_14:30,AMZN,AMD,LS,-0.010734791869557503,True,"Long AMZN, short AMD: scores 0.148 vs -0.210; eligible=10."
+no_risk,24,2026-10-20_15:30,AMZN,AMD,LS,-0.0006920912008893665,True,"Long AMZN, short AMD: scores 0.060 vs -0.131; eligible=9."
+no_risk,25,2026-10-21_09:30,NVDA,AAPL,LS,-0.0029897172762514135,True,"Long NVDA, short AAPL: scores 0.573 vs -0.110; eligible=10."
+no_risk,26,2026-10-21_10:30,META,AMZN,LS,0.0013025704774243252,True,"Long META, short AMZN: scores 0.492 vs -0.318; eligible=8."
+no_risk,27,2026-10-21_11:30,NVDA,JPM,LS,0.002887990010755681,True,"Long NVDA, short JPM: scores 0.370 vs 0.007; eligible=10."
+no_risk,28,2026-10-21_12:30,META,GOOG,LS,-0.0018615053351945798,True,"Long META, short GOOG: scores 0.268 vs -0.285; eligible=10."
+no_risk,29,2026-10-21_14:30,AMD,META,LS,-0.008426697737762279,True,"Long AMD, short META: scores 0.473 vs -0.251; eligible=8."
+no_risk,30,2026-10-21_15:30,NVDA,META,LS,0.012665254450193064,True,"Long NVDA, short META: scores 0.130 vs -0.293; eligible=8."
+no_risk,31,2026-10-22_09:30,WMT,TSLA,LS,0.008876137970306508,True,"Long WMT, short TSLA: scores 0.300 vs -0.489; eligible=10."
+no_risk,32,2026-10-22_10:30,TSLA,META,LS,0.0004587774613906692,True,"Long TSLA, short META: scores 0.337 vs -0.473; eligible=10."
+no_risk,33,2026-10-22_11:30,AAPL,TSLA,LS,0.004603553150795248,True,"Long AAPL, short TSLA: scores 0.383 vs -0.360; eligible=10."
+no_risk,34,2026-10-22_12:30,WMT,META,LS,0.0006095350820027878,True,"Long WMT, short META: scores 0.166 vs -0.360; eligible=10."
+no_risk,35,2026-10-22_14:30,AAPL,META,LS,0.006573449106337503,True,"Long AAPL, short META: scores 0.110 vs -0.531; eligible=10."
+no_risk,36,2026-10-22_15:30,TSLA,META,LS,-0.0080775574121012,True,"Long TSLA, short META: scores 0.101 vs -0.159; eligible=9."
+no_risk,37,2026-10-23_09:30,WMT,TSLA,LS,-0.007363956653701265,True,"Long WMT, short TSLA: scores 0.321 vs -0.363; eligible=10."
+no_risk,38,2026-10-23_10:30,MSFT,TSLA,LS,0.0070757662539795985,True,"Long MSFT, short TSLA: scores 0.280 vs -0.278; eligible=9."
+no_risk,39,2026-10-23_11:30,TSLA,GOOG,LS,0.003317281576392772,True,"Long TSLA, short GOOG: scores 0.422 vs 0.051; eligible=9."
+no_risk,40,2026-10-23_12:30,NVDA,TSLA,LS,,False,"Long NVDA, short TSLA: scores 0.101 vs -0.349; eligible=9."
+no_risk,41,2026-10-23_14:30,MSFT,NVDA,LS,,False,"Long MSFT, short NVDA: scores 0.146 vs -0.123; eligible=10."

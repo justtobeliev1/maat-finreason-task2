@@ -1,0 +1,119 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "NVDA",
+  "stock2": "GOOG",
+  "action": "F",
+  "variant": "full",
+  "reason": "Insufficient eligible evidence.",
+  "details": {
+    "NVDA": {
+      "score": 0.13013832953684495,
+      "momentum": -0.19620556821051682,
+      "sentiment": 0.45,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Summary cites expanding AI integrations, infrastructure investment, and major compute contracts as supportive company-specific developments."
+    },
+    "GOOG": {
+      "score": -0.054968246963796874,
+      "momentum": -0.1832274898793229,
+      "sentiment": 0.0,
+      "confidence": 0.15,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "macro",
+      "reason": "Summary discusses broad AI demand and market gains without a direct Alphabet-specific catalyst."
+    },
+    "META": {
+      "score": -0.29265856707547167,
+      "momentum": -0.5555285569182389,
+      "sentiment": -0.3,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "regulation",
+      "reason": "A $25 billion privacy penalty is a company-specific regulatory negative, though the summary also notes Meta shares rising in a tech rally."
+    },
+    "MSFT": {
+      "score": -0.024216526338379785,
+      "momentum": -0.08072175446126595,
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "macro",
+      "reason": "No direct Microsoft-specific catalyst is described; the summary only mentions broad AI demand and Ballmer's net worth."
+    },
+    "JPM": {
+      "score": -0.023075856522757343,
+      "momentum": -0.07691952174252448,
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "other",
+      "reason": "JPM is only noted as hosting an investor conference, with no material company-specific financial catalyst described."
+    },
+    "AMZN": {
+      "score": -0.14488567005504271,
+      "momentum": -0.48295223351680905,
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "macro",
+      "reason": "Summary is broad AI and tech-wealth news without an Amazon-specific catalyst."
+    },
+    "AAPL": {
+      "score": -0.06263058546532085,
+      "momentum": -0.20876861821773618,
+      "sentiment": 0.0,
+      "confidence": 0.05,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "No Apple-specific news is present; the summary covers Ballmer's net worth and XRP commentary."
+    },
+    "AMD": {
+      "score": -0.013230504086816364,
+      "momentum": -0.04410168028938788,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "No AMD news was retrieved; coverage is incomplete and no company-specific catalyst can be inferred."
+    },
+    "WMT": {
+      "score": -0.06500251784924194,
+      "momentum": -0.21667505949747312,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "No WMT news was retrieved; coverage is incomplete and no company-specific catalyst can be inferred."
+    },
+    "TSLA": {
+      "score": 0.003102720398659997,
+      "momentum": 0.010342401328866657,
+      "sentiment": 0.0,
+      "confidence": 0.2,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "earnings",
+      "reason": "Tesla earnings are noted as closely watched, but the summary provides no directional result or guidance."
+    }
+  },
+  "round": 30,
+  "round_id": "2026-10-21_15:30",
+  "request_sha256": "8f1912b78efc372e4a420543cba4c06290a3b58cf3f4596bb00bb4830a28b086",
+  "input_file_hashes": {
+    "data/raw/2026-10-21_15-30/news.parquet": "673967f5136d0283d7f8593024c493d0e548ae529d2efd6a5cffecdc486fd53d",
+    "data/raw/2026-10-21_15-30/price.parquet": "e00434dfcf37539e973761e0097aaff0403415092469d64c31fc538d9c12c048"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

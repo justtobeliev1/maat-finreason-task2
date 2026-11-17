@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "META",
+  "stock2": "JPM",
+  "action": "LS",
+  "variant": "full",
+  "reason": "Long META, short JPM: scores 0.371 vs -0.074; eligible=8.",
+  "details": {
+    "NVDA": {
+      "score": 0.013328906335643376,
+      "momentum": 0.36526302111881126,
+      "sentiment": -0.25,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Nvidia is pressured by a chip stock sell-off and shrinking AI enthusiasm, partly offset by Adobe and Volvo collaborations."
+    },
+    "GOOG": {
+      "score": 0.2648877244716262,
+      "momentum": 0.43379241490542064,
+      "sentiment": 0.35,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Alphabet's outlook is depicted as strong on multiyear AI content deals and semiconductor investment benefits, despite AI-driven job fears."
+    },
+    "META": {
+      "score": 0.3710738622306717,
+      "momentum": 0.6069128741022389,
+      "sentiment": 0.45,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Meta released a new open-weight AI model and partnered with Apple to run it on Macs."
+    },
+    "MSFT": {
+      "score": 0.20379002676541014,
+      "momentum": -0.09069991078196615,
+      "sentiment": 0.55,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Microsoft unveiled a large AI model with efficiency gains that the summary says boosts Azure and M365 growth expectations."
+    },
+    "JPM": {
+      "score": -0.07411323257996034,
+      "momentum": 0.1379558914001322,
+      "sentiment": -0.3,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "JPMorgan is described as facing a capital markets slowdown after a strong 2026 start, a sector-level negative."
+    },
+    "AMZN": {
+      "score": 0.09081009451060273,
+      "momentum": 0.30270031503534245,
+      "sentiment": 0.0,
+      "confidence": 0.2,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "other",
+      "reason": "The summary mainly cites broad tech-sector declines and vague competitive dynamics involving Amazon, giving no clear company-specific direction."
+    },
+    "AAPL": {
+      "score": 0.052050360839426074,
+      "momentum": -0.5264987972019131,
+      "sentiment": 0.5,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Apple is supported by a $5 trillion market-cap milestone, iPhone preorder momentum, and a Meta AI collaboration."
+    },
+    "AMD": {
+      "score": 0.2475,
+      "momentum": 1.0,
+      "sentiment": -0.15,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "AMD is hit by chip-sector declines and AI concerns, though its AI infrastructure cooling expansion offers a potential catalyst."
+    },
+    "WMT": {
+      "score": 0.07672557098708815,
+      "momentum": -0.37424809670970616,
+      "sentiment": 0.45,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Walmart rose after a Deutsche Bank upgrade and announced new employee benefits including free prescriptions and paid NICU leave."
+    },
+    "TSLA": {
+      "score": 0.008545274862408192,
+      "momentum": 0.02848424954136064,
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "other",
+      "reason": "The sole retrieved item concerns a crypto platform's Tesla-share offering without ownership rights, not a clear Tesla company event."
+    }
+  },
+  "score_gap": 0.445187094810632,
+  "round": 11,
+  "round_id": "2026-10-15_14:30",
+  "request_sha256": "eafdeae683b9e8fe139fe13141fa0828f3f9247040a0af0b8612d6cdbdc336d8",
+  "input_file_hashes": {
+    "data/raw/2026-10-15_14-30/news.parquet": "275520e9ee6b8eebb962b4953c62b8a0d03bf943fe9b2632b13934ecbf333ab5",
+    "data/raw/2026-10-15_14-30/price.parquet": "aeaf573f588797bfa94aaf6091ec7ac98f1b1ef05384c979409232ac6a01b37c"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

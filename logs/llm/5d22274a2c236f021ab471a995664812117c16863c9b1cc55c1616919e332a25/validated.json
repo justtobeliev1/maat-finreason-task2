@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.55,
+      "confidence": 0.65,
+      "event": "product",
+      "reason": "Summary cites new CPU business from Modal and Siemens AI adoption, supporting Nvidia's AI semiconductor position."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.35,
+      "confidence": 0.55,
+      "event": "other",
+      "reason": "Search resilience, cloud expansion, and AI partnerships are positive despite a patent setback."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.05,
+      "confidence": 0.5,
+      "event": "other",
+      "reason": "Ad business strength is offset by concerns over ballooning off-balance-sheet AI financing."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": -0.25,
+      "confidence": 0.4,
+      "event": "other",
+      "reason": "Summary notes Microsoft dropped Nscale's AI data center over interconnection delays, a negative operational signal."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.2,
+      "confidence": 0.35,
+      "event": "other",
+      "reason": "Summary focuses on JPMorgan's forecast of large Europe ETF inflows, a modest positive for its franchise."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.15,
+      "confidence": 0.3,
+      "event": "other",
+      "reason": "Summary is vague but points to a crucial upcoming chapter and momentum in B2B creator marketing."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": -0.1,
+      "confidence": 0.45,
+      "event": "product",
+      "reason": "Analyst concerns about slowing demand for the new iPhone temper positive sentiment."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": -0.25,
+      "confidence": 0.5,
+      "event": "product",
+      "reason": "Nvidia's new CPU business from Modal challenges AMD's exclusivity, a competitive negative."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.05,
+      "confidence": 0.35,
+      "event": "regulation",
+      "reason": "A positive analyst projection is tempered by FTC refund news."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.05,
+      "confidence": 0.45,
+      "event": "earnings",
+      "reason": "Upcoming earnings are a key test, while Roadster regulatory support is offset by waning EV policy momentum."
+    }
+  ]
+}

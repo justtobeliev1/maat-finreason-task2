@@ -1,0 +1,24 @@
+{"bj": "11-02 13:45:23", "msg": "schedule", "rounds": [["2026-11-02_09:30", "11-02 23:25"], ["2026-11-02_10:30", "11-03 00:25"], ["2026-11-02_11:30", "11-03 01:25"], ["2026-11-02_12:30", "11-03 02:25"], ["2026-11-02_13:30", "11-03 03:25"], ["2026-11-02_14:30", "11-03 04:25"]]}
+{"bj": "11-02 13:45:23", "msg": "waiting for release", "round": "2026-11-02_09:30", "release_bj": "22:30"}
+{"bj": "11-02 22:32:52", "msg": "decision", "round": "2026-11-02_09:30", "stock1": "NVDA", "stock2": "TSLA", "action": "F", "reason": "Score gap 0.000 below frozen threshold 0.35."}
+{"bj": "11-02 22:32:55", "msg": "ACCEPTED", "round": "2026-11-02_09:30", "receipt": "17622fc5e6d8e92608229ad6a8afb8f0e67d58ec76c5ff8f8545c44e67c1a93f", "at": "2026-11-02T14:32:54.812Z", "body": {"team_name": "FinProbeBench", "stock1": "NVDA", "stock2": "TSLA", "action": "F", "round_id": "2026-11-02_09:30"}}
+{"bj": "11-02 22:32:55", "msg": "waiting for release", "round": "2026-11-02_10:30", "release_bj": "23:30"}
+{"bj": "11-02 23:31:16", "msg": "data fetch error", "url": "https://hf-mirror.com/datasets/CarolynJiang/Market-Neutral-Hedging-live-trading/resolve/main/data/2026-11-02_10-30_NY/price.parquet", "error": "Remote end closed connection without response"}
+{"bj": "11-02 23:31:29", "msg": "data fetch error", "url": "https://hf-mirror.com/datasets/CarolynJiang/Market-Neutral-Hedging-live-trading/resolve/main/data/2026-11-02_10-30_NY/news.parquet", "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"}
+{"bj": "11-02 23:31:37", "msg": "decision", "round": "2026-11-02_10:30", "stock1": "NVDA", "stock2": "AAPL", "action": "LS", "reason": "Long NVDA, short AAPL: scores 1.000 vs -0.752; eligible=10."}
+{"bj": "11-02 23:31:42", "msg": "portal status error", "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"}
+{"bj": "11-02 23:32:20", "msg": "ACCEPTED", "round": "2026-11-02_10:30", "receipt": "c8f79c48906ddb0cf1280cbd37fc0ec88a229a99790297e0e97e185e9e81fcc4", "at": "2026-11-02T15:32:19.805Z", "body": {"team_name": "FinProbeBench", "stock1": "NVDA", "stock2": "AAPL", "action": "LS", "round_id": "2026-11-02_10:30"}}
+{"bj": "11-02 23:32:20", "msg": "waiting for release", "round": "2026-11-02_11:30", "release_bj": "00:30"}
+{"bj": "11-03 00:31:08", "msg": "decision", "round": "2026-11-02_11:30", "stock1": "WMT", "stock2": "AMD", "action": "LS", "reason": "Long WMT, short AMD: scores 0.487 vs -1.000; eligible=10."}
+{"bj": "11-03 00:31:16", "msg": "ACCEPTED", "round": "2026-11-02_11:30", "receipt": "52dc1829490e85c4caa067f6c283c34618c48f306582c247648ecbbff17455af", "at": "2026-11-02T16:31:15.511Z", "body": {"team_name": "FinProbeBench", "stock1": "WMT", "stock2": "AMD", "action": "LS", "round_id": "2026-11-02_11:30"}}
+{"bj": "11-03 00:31:16", "msg": "waiting for release", "round": "2026-11-02_12:30", "release_bj": "01:30"}
+{"bj": "11-03 01:30:57", "msg": "decision", "round": "2026-11-02_12:30", "stock1": "WMT", "stock2": "AAPL", "action": "LS", "reason": "Long WMT, short AAPL: scores 0.524 vs -1.000; eligible=10."}
+{"bj": "11-03 01:31:00", "msg": "portal not yet open for this round", "want": "2026-11-02_12:30", "status": {"round_id": null, "deadline": null, "mode": "live", "session_id": "live"}}
+{"bj": "11-03 01:31:35", "msg": "ACCEPTED", "round": "2026-11-02_12:30", "receipt": "d211f212ffa78138531f94be77e8def301e1148ba32e4b905368b14b5262e072", "at": "2026-11-02T17:31:35.176Z", "body": {"team_name": "FinProbeBench", "stock1": "WMT", "stock2": "AAPL", "action": "LS", "round_id": "2026-11-02_12:30"}}
+{"bj": "11-03 01:31:35", "msg": "waiting for release", "round": "2026-11-02_13:30", "release_bj": "02:30"}
+{"bj": "11-03 02:31:52", "msg": "decision", "round": "2026-11-02_13:30", "stock1": "GOOG", "stock2": "AMD", "action": "LS", "reason": "Long GOOG, short AMD: scores 0.452 vs -1.000; eligible=10."}
+{"bj": "11-03 02:31:55", "msg": "ACCEPTED", "round": "2026-11-02_13:30", "receipt": "9e4f8acd8a90b6e478c3b1a3cfbf881efb1bdb36a7d35052804f8aadc5acee75", "at": "2026-11-02T18:31:55.032Z", "body": {"team_name": "FinProbeBench", "stock1": "GOOG", "stock2": "AMD", "action": "LS", "round_id": "2026-11-02_13:30"}}
+{"bj": "11-03 02:31:55", "msg": "waiting for release", "round": "2026-11-02_14:30", "release_bj": "03:30"}
+{"bj": "11-03 03:31:17", "msg": "decision", "round": "2026-11-02_14:30", "stock1": "WMT", "stock2": "AMD", "action": "LS", "reason": "Long WMT, short AMD: scores 0.244 vs -1.000; eligible=10."}
+{"bj": "11-03 03:31:21", "msg": "ACCEPTED", "round": "2026-11-02_14:30", "receipt": "28f987ee22aa4a2d9ee2bd560806c71d9ba34bd77b2d35b562060b181eade542", "at": "2026-11-02T19:31:20.717Z", "body": {"team_name": "FinProbeBench", "stock1": "WMT", "stock2": "AMD", "action": "LS", "round_id": "2026-11-02_14:30"}}
+{"bj": "11-03 03:31:21", "msg": "session finished"}

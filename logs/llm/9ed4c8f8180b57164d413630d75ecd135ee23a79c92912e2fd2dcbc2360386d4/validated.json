@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.5,
+      "confidence": 0.65,
+      "event": "capital",
+      "reason": "Major Chinese chip orders and potential multibillion-dollar Anthropic deals support a positive company-specific view."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.4,
+      "confidence": 0.6,
+      "event": "earnings",
+      "reason": "Strong cloud growth and TPU sales may boost Q3 performance, though tokenized-share restrictions add some offset."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.0,
+      "confidence": 0.15,
+      "event": "macro",
+      "reason": "The summary is broad AI-chip and market commentary with no clear Meta-specific catalyst."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.15,
+      "confidence": 0.4,
+      "event": "product",
+      "reason": "Intune app-packaging automation is a modest product positive amid broader tech and tokenized-share moves."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No JPM news was retrieved, and incomplete coverage provides no company-specific evidence."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.45,
+      "confidence": 0.6,
+      "event": "earnings",
+      "reason": "Upbeat Q3 trends, expanded data-center deals, and holiday hiring support a rebound."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.0,
+      "confidence": 0.2,
+      "event": "other",
+      "reason": "Outlook is debated with mixed investor fortunes and only vague commentary on new leadership."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": 0.45,
+      "confidence": 0.6,
+      "event": "product",
+      "reason": "Easing AI concerns and analyst views of a larger AI-chip opportunity support gains."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.3,
+      "confidence": 0.5,
+      "event": "product",
+      "reason": "New membership bundles and a Sam’s Club discount ahead of holidays are a modest positive."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.05,
+      "confidence": 0.25,
+      "event": "other",
+      "reason": "Musk pay valuation and Tesla-SpaceX merger speculation are notable but directionally ambiguous."
+    }
+  ]
+}

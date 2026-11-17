@@ -1,0 +1,114 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "WMT",
+  "stock2": "AAPL",
+  "action": "LS",
+  "variant": "no_news",
+  "reason": "Long WMT, short AAPL: scores 0.524 vs -1.000; eligible=10.",
+  "details": {
+    "NVDA": {
+      "score": -0.14016108974749253,
+      "momentum": -0.14016108974749253,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": null,
+      "eligible": true,
+      "event": null,
+      "reason": null
+    },
+    "GOOG": {
+      "score": -0.1739960441258126,
+      "momentum": -0.1739960441258126,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": null,
+      "eligible": true,
+      "event": null,
+      "reason": null
+    },
+    "META": {
+      "score": -0.2794427502424979,
+      "momentum": -0.2794427502424979,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": null,
+      "eligible": true,
+      "event": null,
+      "reason": null
+    },
+    "MSFT": {
+      "score": -0.5600138775650243,
+      "momentum": -0.5600138775650243,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": null,
+      "eligible": true,
+      "event": null,
+      "reason": null
+    },
+    "JPM": {
+      "score": 0.20815064792425453,
+      "momentum": 0.20815064792425453,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": null,
+      "eligible": true,
+      "event": null,
+      "reason": null
+    },
+    "AMZN": {
+      "score": -0.2504790363036302,
+      "momentum": -0.2504790363036302,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": null,
+      "eligible": true,
+      "event": null,
+      "reason": null
+    },
+    "AAPL": {
+      "score": -1.0,
+      "momentum": -1.0,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": null,
+      "eligible": true,
+      "event": null,
+      "reason": null
+    },
+    "AMD": {
+      "score": -0.3973476159766509,
+      "momentum": -0.3973476159766509,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": null,
+      "eligible": true,
+      "event": null,
+      "reason": null
+    },
+    "WMT": {
+      "score": 0.5239311155983195,
+      "momentum": 0.5239311155983195,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": null,
+      "eligible": true,
+      "event": null,
+      "reason": null
+    },
+    "TSLA": {
+      "score": -0.3760317736672847,
+      "momentum": -0.3760317736672847,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": null,
+      "eligible": true,
+      "event": null,
+      "reason": null
+    }
+  },
+  "score_gap": 1.5239311155983195,
+  "round": 4,
+  "round_id": "2026-11-02_12:30",
+  "policy": "momentum-routed (no_news), declared v2"
+}

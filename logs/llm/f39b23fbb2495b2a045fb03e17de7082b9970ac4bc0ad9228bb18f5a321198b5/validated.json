@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.1,
+      "confidence": 0.35,
+      "event": "product",
+      "reason": "Nvidia launched OpenShell for secure enterprise AI agents, a positive product signal offset by sector-wide AI spending weakness."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.0,
+      "confidence": 0.2,
+      "event": "regulation",
+      "reason": "Google is mentioned only for opposing a trading plan amid broad Big Tech spending concerns, with no clear directional impact."
+    },
+    {
+      "ticker": "META",
+      "sentiment": -0.55,
+      "confidence": 0.7,
+      "event": "regulation",
+      "reason": "Meta fell sharply on AI spending concerns and a large consumer-protection fine, despite some analyst optimism."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.0,
+      "confidence": 0.2,
+      "event": "regulation",
+      "reason": "Microsoft is noted for CEO stock ownership and opposition to a trading plan, with no clear near-term directional signal."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "Retrieved summary discusses Solana and Ethereum, not JPMorgan, so no company-specific evidence is available."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.0,
+      "confidence": 0.25,
+      "event": "other",
+      "reason": "Amazon is linked to AI-related job cuts and delivery-protection rallies, but the summary provides no clear directional implication."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.3,
+      "confidence": 0.5,
+      "event": "product",
+      "reason": "Apple's first foldable iPhone received rave reviews, a positive product signal tempered by investor wariness over Big Tech AI spending."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": -0.5,
+      "confidence": 0.65,
+      "event": "macro",
+      "reason": "AMD shares fell over 7% amid AI spending concerns and Lam Research's cautious capex outlook."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "Retrieved summary mentions Target and Big Tech spending, not Walmart, so no company-specific evidence is available."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": -0.5,
+      "confidence": 0.7,
+      "event": "earnings",
+      "reason": "Tesla's profit fell 43% amid AI cost concerns, though robotaxi and merger speculation provide offsetting narratives."
+    }
+  ]
+}

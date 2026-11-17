@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "JPM",
+  "stock2": "META",
+  "action": "LS",
+  "variant": "no_risk",
+  "reason": "Long JPM, short META: scores 0.342 vs -0.435; eligible=10.",
+  "details": {
+    "NVDA": {
+      "score": 0.13827834200629724,
+      "momentum": 0.14009447335432412,
+      "sentiment": 0.25,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Nvidia is described as leading a rebounding AI chip sector, but valuation and supply bottlenecks temper the positive signal."
+    },
+    "GOOG": {
+      "score": -0.272,
+      "momentum": -1.0,
+      "sentiment": 0.1,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "Alphabet is expanding AI acquisitions and partnerships, while ETF selling and earnings uncertainty offset the positive signal."
+    },
+    "META": {
+      "score": -0.43474999999999997,
+      "momentum": -1.0,
+      "sentiment": -0.35,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Meta faces upcoming earnings scrutiny as rising AI investment costs and sector skepticism weigh on sentiment."
+    },
+    "MSFT": {
+      "score": -0.20375,
+      "momentum": -1.0,
+      "sentiment": 0.25,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Microsoft got a Bernstein price-target hike on AI revenue, though a UK data-center exit highlights infrastructure challenges."
+    },
+    "JPM": {
+      "score": 0.34199999999999997,
+      "momentum": 1.0,
+      "sentiment": 0.15,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "JPMorgan reports mixed earnings while highlighting a strong economy, security-tech investment, and JPM Coin expansion."
+    },
+    "AMZN": {
+      "score": 0.0475628107946999,
+      "momentum": 0.06520936931566634,
+      "sentiment": 0.1,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Amazon is expanding nuclear-energy partnerships and Luna gaming, but AI spending and ETF sales keep sentiment mixed."
+    },
+    "AAPL": {
+      "score": -0.2690162370506067,
+      "momentum": -0.5758874568353556,
+      "sentiment": -0.25,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Apple has strong iPhone Duo preorders and new AI products, but analysts warn of demand weakness and a potential stock plunge."
+    },
+    "AMD": {
+      "score": -0.15300000000000002,
+      "momentum": -1.0,
+      "sentiment": 0.35,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "guidance",
+      "reason": "AMD shares rebounded on AI chip sector recovery and strong revenue guidance, though ETF selling and competition remain concerns."
+    },
+    "WMT": {
+      "score": 0.04571783721158228,
+      "momentum": 0.1057261240386076,
+      "sentiment": 0.1,
+      "confidence": 0.2,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "Walmart is described as remaining competitive against Amazon, but the small headline sample offers little company-specific near-term evidence."
+    },
+    "TSLA": {
+      "score": -0.3,
+      "momentum": -1.0,
+      "sentiment": 0.0,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Tesla faces Q3 earnings focus amid AI-sector pressure and SpaceX merger speculation, with product and equity-plan headlines adding mixed signals."
+    }
+  },
+  "score_gap": 0.7767499999999999,
+  "round": 13,
+  "round_id": "2026-10-19_09:30",
+  "request_sha256": "796f0e11b6ee20b990c923b0ff8a19ac199a8e5ed695f77f03a51fb1598929ad",
+  "input_file_hashes": {
+    "data/raw/2026-10-19_09-30/news.parquet": "f6e141943e5e1a762cc19e5a56c5dc246c7fbaaa26e9a3e50aa14380feb8b0d7",
+    "data/raw/2026-10-19_09-30/price.parquet": "70163d4adb22081fa60b5947477a8d733411a739dc929d4186000720c4b7f5df"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": -0.1,
+      "confidence": 0.3,
+      "event": "macro",
+      "reason": "Nvidia is cited as facing pressure from AI trade concerns, though chip stocks later rebounded."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.2,
+      "confidence": 0.25,
+      "event": "other",
+      "reason": "Alphabet's stock is described as viewed positively despite market price concerns, with no concrete corporate catalyst."
+    },
+    {
+      "ticker": "META",
+      "sentiment": -0.45,
+      "confidence": 0.55,
+      "event": "regulation",
+      "reason": "Meta faces a $25 billion New Mexico penalty and its first cash burn since IPO amid AI trade pressure."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.0,
+      "confidence": 0.05,
+      "event": "none",
+      "reason": "The summary only notes Microsoft's ETF weighting and provides no company-specific catalyst."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "JPMorgan appears only as an analyst commenting on a SpaceX-Tesla merger obstacle, not as a company catalyst."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.0,
+      "confidence": 0.05,
+      "event": "none",
+      "reason": "The summary only notes Amazon's heavy VUG ETF weighting and gives no company-specific catalyst."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.35,
+      "confidence": 0.4,
+      "event": "product",
+      "reason": "Apple launched a $1,999 iPhone Duo amid limited supplies and speculation of another growth phase."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": -0.25,
+      "confidence": 0.3,
+      "event": "macro",
+      "reason": "AMD is cited among chip stocks declining on AI trade pressure and supply-chain constraints."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.1,
+      "confidence": 0.15,
+      "event": "other",
+      "reason": "Walmart's Sam's Club named Affirm its exclusive pay-over-time provider, a modest service enhancement."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.15,
+      "confidence": 0.35,
+      "event": "earnings",
+      "reason": "Tesla's Q3 earnings beat and raised price targets are positive, though capex and AI jitters temper the signal."
+    }
+  ]
+}

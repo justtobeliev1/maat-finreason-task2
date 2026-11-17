@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "AMZN",
+  "stock2": "AMD",
+  "action": "LS",
+  "variant": "full",
+  "reason": "Long AMZN, short AMD: scores 0.148 vs -0.210; eligible=8.",
+  "details": {
+    "NVDA": {
+      "score": -0.1813530553313421,
+      "momentum": -0.04451018443780708,
+      "sentiment": -0.4,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Summary reports Nvidia shares declined amid skepticism over China chip purchases despite a German AI partnership."
+    },
+    "GOOG": {
+      "score": 0.09540727168135568,
+      "momentum": -0.3819757610621477,
+      "sentiment": 0.5,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Summary cites an expected Q3 earnings beat on cloud growth and AI chip advances, plus Waymo's Europe expansion."
+    },
+    "META": {
+      "score": 0.10607447310641654,
+      "momentum": -0.09558508964527812,
+      "sentiment": 0.35,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Summary notes Meta shares rose 25% in September on AI optimism, though near-term earnings and leadership changes temper the view."
+    },
+    "MSFT": {
+      "score": 0.07338236714316763,
+      "momentum": 0.011274557143892139,
+      "sentiment": 0.2,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Summary highlights AI integration and a Boeing partnership, alongside mixed sentiment and regulatory issues affecting rivals."
+    },
+    "JPM": {
+      "score": -0.11091437594739663,
+      "momentum": -0.1072145864913221,
+      "sentiment": -0.25,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Summary says JPMorgan stock fell despite a $230 billion security initiative and new branches targeting profitable customers."
+    },
+    "AMZN": {
+      "score": 0.14847517336181587,
+      "momentum": -0.13508275546061377,
+      "sentiment": 0.45,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Summary reports Amazon stock rose on analyst target increases and AWS's TorchNeuron launch for AI chip performance."
+    },
+    "AAPL": {
+      "score": -0.061635290093234874,
+      "momentum": -0.20545096697744958,
+      "sentiment": 0.0,
+      "confidence": 0.15,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "macro",
+      "reason": "Summary provides only broad tech-market and macro commentary, with no Apple-specific development."
+    },
+    "AMD": {
+      "score": -0.20986454771565508,
+      "momentum": -0.3845484923855169,
+      "sentiment": -0.3,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Summary flags a critical challenge for AMD amid surging AI server demand, while Nvidia is unaffected by China purchase rumors."
+    },
+    "WMT": {
+      "score": 0.12462036767364564,
+      "momentum": 0.18206789224548547,
+      "sentiment": 0.2,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Summary says Walmart is cutting membership fees with a new bundle aimed at adding value and improving retention."
+    },
+    "TSLA": {
+      "score": 0.07984457399695666,
+      "momentum": 0.2661485799898555,
+      "sentiment": 0.0,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "earnings",
+      "reason": "Summary focuses on Tesla's upcoming Q3 earnings as a critical assessment of its AI investments amid broad market factors."
+    }
+  },
+  "score_gap": 0.3583397210774709,
+  "round": 23,
+  "round_id": "2026-10-20_14:30",
+  "request_sha256": "451aa631df0ace1e829cecb99bab1b044ef8927d9d1bfefd17c3e61ad10dab9f",
+  "input_file_hashes": {
+    "data/raw/2026-10-20_14-30/news.parquet": "680f7fadbf62bff0cdd6024718116e7508810bc65853ceefa1397a205bad802b",
+    "data/raw/2026-10-20_14-30/price.parquet": "225e4021ac29091c311ab946c7d25ed1a61176e45d655315a4b9d0af13f40742"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

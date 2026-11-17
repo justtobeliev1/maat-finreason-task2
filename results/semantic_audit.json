@@ -1,0 +1,675 @@
+{
+  "status": "post_hoc_descriptive_audit_not_model_selection",
+  "annotation_count": 410,
+  "event_counts": {
+    "capital": 32,
+    "product": 99,
+    "earnings": 46,
+    "other": 110,
+    "regulation": 18,
+    "none": 65,
+    "macro": 38,
+    "guidance": 2
+  },
+  "sentiment_counts": {
+    "positive": 212,
+    "negative": 92,
+    "zero": 106
+  },
+  "capped_confidence_mean": 0.3541463414634146,
+  "partial_coverage_count": 410,
+  "news_source_overlap": {
+    "comparisons": 345,
+    "mean_fraction_current_seen_in_previous": 0.051712806577738614,
+    "comparisons_over_half_overlap": 3,
+    "note": "Repeated URLs across stated news windows indicate non-independent observed source sets; publication times are unavailable, so this audit cannot establish a leakage violation."
+  },
+  "cross_sectional_rank_diagnostics": {
+    "sentiment_spearman": {
+      "rounds": 37,
+      "mean": -0.08792842302825762,
+      "median": -0.0861640436855329,
+      "positive_round_fraction": 0.35135135135135137
+    },
+    "news_component_spearman": {
+      "rounds": 37,
+      "mean": -0.07768223208668235,
+      "median": -0.07294866524160776,
+      "positive_round_fraction": 0.3783783783783784
+    },
+    "momentum_spearman": {
+      "rounds": 36,
+      "mean": 0.09880209464008434,
+      "median": 0.12727272727272726,
+      "positive_round_fraction": 0.6111111111111112
+    },
+    "score_spearman": {
+      "rounds": 37,
+      "mean": 0.0497593483064387,
+      "median": 0.11515151515151514,
+      "positive_round_fraction": 0.5405405405405406
+    }
+  },
+  "per_round_rank_diagnostics": [
+    {
+      "round": 1,
+      "n": 10,
+      "sentiment_spearman": -0.43293487765656397,
+      "momentum_spearman": null,
+      "score_spearman": -0.406060606060606,
+      "news_component_spearman": -0.406060606060606
+    },
+    {
+      "round": 2,
+      "n": 10,
+      "sentiment_spearman": -0.6210590034081187,
+      "momentum_spearman": 0.7301163117764201,
+      "score_spearman": 0.6363636363636362,
+      "news_component_spearman": -0.6210590034081187
+    },
+    {
+      "round": 3,
+      "n": 10,
+      "sentiment_spearman": 0.4112580605763324,
+      "momentum_spearman": -0.04242424242424241,
+      "score_spearman": 0.19999999999999998,
+      "news_component_spearman": 0.4112580605763324
+    },
+    {
+      "round": 4,
+      "n": 10,
+      "sentiment_spearman": 0.38895558795273394,
+      "momentum_spearman": 0.16363636363636364,
+      "score_spearman": 0.4787878787878787,
+      "news_component_spearman": 0.38895558795273394
+    },
+    {
+      "round": 5,
+      "n": 10,
+      "sentiment_spearman": 0.07878787878787878,
+      "momentum_spearman": -0.24848484848484845,
+      "score_spearman": -0.09090909090909088,
+      "news_component_spearman": 0.11515151515151514
+    },
+    {
+      "round": 6,
+      "n": 10,
+      "sentiment_spearman": -0.27799851904915146,
+      "momentum_spearman": -0.2121212121212121,
+      "score_spearman": -0.3939393939393939,
+      "news_component_spearman": -0.27799851904915146
+    },
+    {
+      "round": 7,
+      "n": 10,
+      "sentiment_spearman": -0.3963488316574177,
+      "momentum_spearman": -0.5483440807684433,
+      "score_spearman": -0.6079055436800646,
+      "news_component_spearman": -0.3963488316574177
+    },
+    {
+      "round": 8,
+      "n": 10,
+      "sentiment_spearman": 0.4559291577600484,
+      "momentum_spearman": -0.29696969696969694,
+      "score_spearman": -0.09090909090909088,
+      "news_component_spearman": 0.4559291577600484
+    },
+    {
+      "round": 9,
+      "n": 10,
+      "sentiment_spearman": -0.6112159239257248,
+      "momentum_spearman": 0.3586642707712381,
+      "score_spearman": 0.23636363636363633,
+      "news_component_spearman": -0.3200378765462651
+    },
+    {
+      "round": 10,
+      "n": 10,
+      "sentiment_spearman": -0.018521694664415903,
+      "momentum_spearman": 0.1515151515151515,
+      "score_spearman": 0.2727272727272727,
+      "news_component_spearman": 0.042948018339789416
+    },
+    {
+      "round": 13,
+      "n": 10,
+      "sentiment_spearman": -0.024618298195866545,
+      "momentum_spearman": -0.3685096647860845,
+      "score_spearman": -0.22424242424242422,
+      "news_component_spearman": 0.0
+    },
+    {
+      "round": 14,
+      "n": 10,
+      "sentiment_spearman": 0.214076287663459,
+      "momentum_spearman": 0.42334475220649564,
+      "score_spearman": 0.3696969696969697,
+      "news_component_spearman": 0.2317116246612596
+    },
+    {
+      "round": 15,
+      "n": 10,
+      "sentiment_spearman": -0.36927447293799814,
+      "momentum_spearman": -0.3161108827136336,
+      "score_spearman": -0.4545454545454545,
+      "news_component_spearman": -0.35757575757575755
+    },
+    {
+      "round": 16,
+      "n": 10,
+      "sentiment_spearman": 0.3446561747421316,
+      "momentum_spearman": 0.2727272727272727,
+      "score_spearman": 0.11515151515151514,
+      "news_component_spearman": 0.26829767066040583
+    },
+    {
+      "round": 17,
+      "n": 10,
+      "sentiment_spearman": -0.3364055948997212,
+      "momentum_spearman": 0.33333333333333326,
+      "score_spearman": 0.23636363636363633,
+      "news_component_spearman": -0.2606060606060606
+    },
+    {
+      "round": 18,
+      "n": 10,
+      "sentiment_spearman": -0.05504818825631803,
+      "momentum_spearman": 0.19999999999999998,
+      "score_spearman": -0.07878787878787878,
+      "news_component_spearman": -0.07294866524160776
+    },
+    {
+      "round": 19,
+      "n": 10,
+      "sentiment_spearman": -0.37310438707059995,
+      "momentum_spearman": 0.5471149893120582,
+      "score_spearman": 0.4666666666666666,
+      "news_component_spearman": -0.44788647697208955
+    },
+    {
+      "round": 20,
+      "n": 10,
+      "sentiment_spearman": -0.006097674333191042,
+      "momentum_spearman": 0.3988030274409017,
+      "score_spearman": 0.29179466096643103,
+      "news_component_spearman": -0.006097674333191042
+    },
+    {
+      "round": 21,
+      "n": 10,
+      "sentiment_spearman": -0.1723280873710658,
+      "momentum_spearman": 0.7696969696969697,
+      "score_spearman": 0.4424242424242424,
+      "news_component_spearman": -0.1723280873710658
+    },
+    {
+      "round": 22,
+      "n": 10,
+      "sentiment_spearman": -0.18641668793370506,
+      "momentum_spearman": -0.5272727272727272,
+      "score_spearman": -0.406060606060606,
+      "news_component_spearman": -0.18641668793370506
+    },
+    {
+      "round": 23,
+      "n": 10,
+      "sentiment_spearman": -0.5609860386535758,
+      "momentum_spearman": 0.04242424242424241,
+      "score_spearman": -0.4424242424242424,
+      "news_component_spearman": -0.5609860386535758
+    },
+    {
+      "round": 24,
+      "n": 10,
+      "sentiment_spearman": -0.5838742081211422,
+      "momentum_spearman": 0.09090909090909088,
+      "score_spearman": -0.09090909090909088,
+      "news_component_spearman": -0.6271129383201788
+    },
+    {
+      "round": 25,
+      "n": 10,
+      "sentiment_spearman": 0.09090909090909088,
+      "momentum_spearman": -0.3314118617247829,
+      "score_spearman": -0.33434804902403553,
+      "news_component_spearman": 0.10334394242561099
+    },
+    {
+      "round": 26,
+      "n": 10,
+      "sentiment_spearman": -0.11919314206822482,
+      "momentum_spearman": 0.24386910579748175,
+      "score_spearman": 0.12766016417281356,
+      "news_component_spearman": -0.15007329587537338
+    },
+    {
+      "round": 27,
+      "n": 10,
+      "sentiment_spearman": 0.25077507983433767,
+      "momentum_spearman": 0.04242424242424241,
+      "score_spearman": 0.16363636363636364,
+      "news_component_spearman": 0.23780929899445064
+    },
+    {
+      "round": 28,
+      "n": 10,
+      "sentiment_spearman": -0.20732092732849544,
+      "momentum_spearman": 0.10303030303030303,
+      "score_spearman": -0.10303030303030303,
+      "news_component_spearman": -0.31098139099274313
+    },
+    {
+      "round": 29,
+      "n": 10,
+      "sentiment_spearman": -0.0861640436855329,
+      "momentum_spearman": -0.2606060606060606,
+      "score_spearman": -0.5030303030303029,
+      "news_component_spearman": -0.06748974310538336
+    },
+    {
+      "round": 30,
+      "n": 10,
+      "sentiment_spearman": 0.3892494720807615,
+      "momentum_spearman": 0.5272727272727272,
+      "score_spearman": 0.5151515151515151,
+      "news_component_spearman": 0.3892494720807615
+    },
+    {
+      "round": 31,
+      "n": 10,
+      "sentiment_spearman": -0.3414697626586983,
+      "momentum_spearman": 0.6076819803790378,
+      "score_spearman": 0.5515151515151515,
+      "news_component_spearman": -0.32218993815043423
+    },
+    {
+      "round": 32,
+      "n": 10,
+      "sentiment_spearman": -0.018406293574195463,
+      "momentum_spearman": -0.006465081838352358,
+      "score_spearman": 0.08510677611520905,
+      "news_component_spearman": -0.030677155956992445
+    },
+    {
+      "round": 33,
+      "n": 10,
+      "sentiment_spearman": 0.22771925831176554,
+      "momentum_spearman": 0.17575757575757575,
+      "score_spearman": 0.24848484848484845,
+      "news_component_spearman": 0.3963488316574177
+    },
+    {
+      "round": 34,
+      "n": 10,
+      "sentiment_spearman": -0.38533731779422625,
+      "momentum_spearman": -0.29696969696969694,
+      "score_spearman": -0.34545454545454546,
+      "news_component_spearman": -0.38298049251844074
+    },
+    {
+      "round": 35,
+      "n": 10,
+      "sentiment_spearman": 0.29842459526191706,
+      "momentum_spearman": 0.3619904402925108,
+      "score_spearman": 0.5151515151515151,
+      "news_component_spearman": 0.29842459526191706
+    },
+    {
+      "round": 36,
+      "n": 10,
+      "sentiment_spearman": -0.40385136798968213,
+      "momentum_spearman": -0.29696969696969694,
+      "score_spearman": -0.5393939393939393,
+      "news_component_spearman": -0.3374487155269168
+    },
+    {
+      "round": 37,
+      "n": 10,
+      "sentiment_spearman": -0.5046751130152641,
+      "momentum_spearman": -0.29696969696969694,
+      "score_spearman": -0.34545454545454546,
+      "news_component_spearman": -0.5714312110592608
+    },
+    {
+      "round": 38,
+      "n": 10,
+      "sentiment_spearman": 0.1661735128220992,
+      "momentum_spearman": 0.5227987675648555,
+      "score_spearman": 0.6363636363636362,
+      "news_component_spearman": 0.14155521462623263
+    },
+    {
+      "round": 39,
+      "n": 10,
+      "sentiment_spearman": 0.5223846475008079,
+      "momentum_spearman": 0.5393939393939393,
+      "score_spearman": 0.709090909090909,
+      "news_component_spearman": 0.531509589558614
+    }
+  ],
+  "qualitative_sample": {
+    "selection": "24 lowest SHA256(round_id|ticker), independent of return and model annotation",
+    "records": [
+      {
+        "round": 28,
+        "round_id": "2026-10-21_12:30",
+        "ticker": "TSLA",
+        "summary": "Elon Musk's ambitious plan to merge SpaceX and Tesla could create a multitrillion-dollar AI and Bitcoin powerhouse, with Tesla's robotaxi and terafab production key to growth.",
+        "news_count": 13,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": 0.5,
+        "confidence_capped": 0.45,
+        "event": "other",
+        "annotation_reason": "Summary cites a potential SpaceX-Tesla merger and robotaxi/terafab production as growth drivers.",
+        "hash": "00dd0db2a7b19a6ba2ca01df29a30113c4a67fd87b6aa649f7a9e8659607101c"
+      },
+      {
+        "round": 18,
+        "round_id": "2026-10-19_15:30",
+        "ticker": "TSLA",
+        "summary": "Tesla's stock benefits from AI-driven market rebounds as broader indexes like Nasdaq and S&P 500 rise, though Dow slips, while other high-yielding dividend stocks also gain attention.",
+        "news_count": 2,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": 0.05,
+        "confidence_capped": 0.2,
+        "event": "macro",
+        "annotation_reason": "Summary ties Tesla only to AI-driven market rebounds and broad index moves.",
+        "hash": "0123bd234a70e6e9156036c2fa466e0b138c55e4c2fb09687a25352eb2582bc1"
+      },
+      {
+        "round": 21,
+        "round_id": "2026-10-20_11:30",
+        "ticker": "AMZN",
+        "summary": "Amazon’s stock shows signs of rebound supported by expanded data center deals, increased holiday hiring plans, and upbeat Q3 trends, driving related tech stocks higher.",
+        "news_count": 6,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": 0.45,
+        "confidence_capped": 0.6,
+        "event": "earnings",
+        "annotation_reason": "Upbeat Q3 trends, expanded data-center deals, and holiday hiring support a rebound.",
+        "hash": "02124e7184f7ccbd48e01da115dc72d6d6446e31fea76e897e88024091187d5c"
+      },
+      {
+        "round": 27,
+        "round_id": "2026-10-21_11:30",
+        "ticker": "META",
+        "summary": "Meta's stock rises ahead of earnings amid a tech-driven market rally, while AI robotics firms like Circus expand their European operations and mature ecosystems. This summary reflects only retrieved headlines; complete news coverage is not established.",
+        "news_count": 4,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": 0.25,
+        "confidence_capped": 0.5,
+        "event": "earnings",
+        "annotation_reason": "The summary says Meta's stock rises ahead of earnings amid a tech-driven market rally.",
+        "hash": "023accee78ed446a10ac074d7e1d1a01647dbf102d8a87e1bc67169ba4e40eab"
+      },
+      {
+        "round": 30,
+        "round_id": "2026-10-21_15:30",
+        "ticker": "NVDA",
+        "summary": "Nvidia's expanding AI integrations and infrastructure investments alongside major compute contracts highlight its pivotal role amid rising market volatility and optimistic industry forecasts. This summary reflects only retrieved headlines; complete news coverage is not established.",
+        "news_count": 15,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": 0.45,
+        "confidence_capped": 0.6,
+        "event": "other",
+        "annotation_reason": "Summary cites expanding AI integrations, infrastructure investment, and major compute contracts as supportive company-specific developments.",
+        "hash": "0292ad893578838841af95666bb3092ee69f30e5ae5bb9c9374721bc63b458d5"
+      },
+      {
+        "round": 26,
+        "round_id": "2026-10-21_10:30",
+        "ticker": "JPM",
+        "summary": "No JPM news was retrieved for this window. Search coverage is incomplete; missing observations do not establish that no articles were published. No company-specific catalyst can be inferred from this sample.",
+        "news_count": 0,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": 0.0,
+        "confidence_capped": 0.0,
+        "event": "none",
+        "annotation_reason": "No JPM-specific news was retrieved, so no company catalyst can be inferred from this incomplete sample.",
+        "hash": "02d3f95b8fd12306c8a5587b8a139a24b9a64370106788d6b7a69d5e6b24c162"
+      },
+      {
+        "round": 39,
+        "round_id": "2026-10-23_11:30",
+        "ticker": "NVDA",
+        "summary": "Despite recent tech market volatility and short-seller gains, Nvidia's dominant AI chip presence, CUDA ecosystem strength, and bullish analyst sentiment support its long-term investment appeal.",
+        "news_count": 14,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": 0.35,
+        "confidence_capped": 0.55,
+        "event": "other",
+        "annotation_reason": "Summary cites Nvidia's AI chip dominance and bullish analyst sentiment despite tech volatility.",
+        "hash": "031f90fbd78f40a1d8240c33ed14766bfdafed38fb616f1320bed05052b26bd3"
+      },
+      {
+        "round": 17,
+        "round_id": "2026-10-19_14:30",
+        "ticker": "WMT",
+        "summary": "Walmart is pursuing a U.S. bond sale and considering a Canadian offering amid mixed consumer stock performance in afternoon trading. This summary reflects only retrieved headlines; complete news coverage is not established.",
+        "news_count": 2,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": 0.0,
+        "confidence_capped": 0.3,
+        "event": "capital",
+        "annotation_reason": "Summary mentions a U.S. bond sale and possible Canadian offering amid mixed consumer-stock performance, with no clear directional signal.",
+        "hash": "03fa16676fbababaa1eaf83bccf12435f23c60cb757fd1f406853575cd40a48d"
+      },
+      {
+        "round": 20,
+        "round_id": "2026-10-20_10:30",
+        "ticker": "TSLA",
+        "summary": "Tesla’s parent company SpaceX prepares for its earnings report amid a stock market rally led by Dow gains and tech indices turning positive with renewed dip buying. This summary reflects only retrieved headlines; complete news coverage is not established.",
+        "news_count": 2,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": 0.0,
+        "confidence_capped": 0.0,
+        "event": "none",
+        "annotation_reason": "The summary references SpaceX earnings and a broad market rally rather than Tesla-specific evidence.",
+        "hash": "040f8ed552a8a9a93187db53f78061424294325c868ceebe78606c6467341624"
+      },
+      {
+        "round": 14,
+        "round_id": "2026-10-19_10:30",
+        "ticker": "META",
+        "summary": "Meta's upcoming Q3 earnings attract attention amid AI growth competition with Alphabet, tech sector rebounds, and Meta's extensive testing of Broadcom's CPO technology.",
+        "news_count": 9,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": 0.1,
+        "confidence_capped": 0.3,
+        "event": "earnings",
+        "annotation_reason": "Meta is noted for Q3 earnings attention, AI competition, and Broadcom CPO testing without a reported result.",
+        "hash": "05b465badebb15f4329c062937543caf3ebd64e099bac1870052eb09689d47c9"
+      },
+      {
+        "round": 6,
+        "round_id": "2026-10-14_15:30",
+        "ticker": "AAPL",
+        "summary": "Apple shares rose on news of a new $299 HomeView device incorporating paid AI features and allegations involving an OpenAI employee sharing secret AI device files with Apple executives.",
+        "news_count": 4,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": 0.4,
+        "confidence_capped": 0.6,
+        "event": "product",
+        "annotation_reason": "Apple rose on a new $299 HomeView device with paid AI features, though the summary also notes a secret-files allegation.",
+        "hash": "0707b4e096fa1e6344b122547bbf9fb52f5913e0ebf52f647dfaec5bc2037347"
+      },
+      {
+        "round": 30,
+        "round_id": "2026-10-21_15:30",
+        "ticker": "AMZN",
+        "summary": "The AI boom has driven massive compute contracts exceeding $600 billion and significantly increased tech leaders' fortunes, including Elon Musk and Steve Ballmer. This summary reflects only retrieved headlines; complete news coverage is not established.",
+        "news_count": 3,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": 0.0,
+        "confidence_capped": 0.1,
+        "event": "macro",
+        "annotation_reason": "Summary is broad AI and tech-wealth news without an Amazon-specific catalyst.",
+        "hash": "07df9900084e335f70ce9896168988ea3677be47063c2a42f0f56bea4fcb1ca3"
+      },
+      {
+        "round": 37,
+        "round_id": "2026-10-23_09:30",
+        "ticker": "AMD",
+        "summary": "Amid a broad tech sell-off driven by supply chain concerns, AMD shares fell sharply despite high trading volatility and mixed ETF activity, while its AI and semiconductor challenges persist.",
+        "news_count": 18,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": -0.45,
+        "confidence_capped": 0.55,
+        "event": "other",
+        "annotation_reason": "Supply-chain concerns and persistent AI/semiconductor challenges drove a sharp share decline amid volatile trading.",
+        "hash": "0829afcd27825ed4e8633410bde6da942b4894ab528bbcb9c4399d3c68244936"
+      },
+      {
+        "round": 2,
+        "round_id": "2026-10-14_10:30",
+        "ticker": "TSLA",
+        "summary": "Berkshire Hathaway has launched its first pilot Megacharger site with 12 more planned, while CoreWeave shares fell amid rising bond yields and Elon Musk's cautious remark.",
+        "news_count": 2,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": 0.0,
+        "confidence_capped": 0.1,
+        "event": "none",
+        "annotation_reason": "Only an indirect Elon Musk cautious remark is cited; no clear Tesla-specific catalyst is provided.",
+        "hash": "08a7540e25f49bea5047f334f021e8cb76d7f43d47e58bd43dda675a4ee1a7ae"
+      },
+      {
+        "round": 12,
+        "round_id": "2026-10-15_15:30",
+        "ticker": "MSFT",
+        "summary": "Microsoft's stock rose following TD Cowen's target upgrade as its AI initiatives strengthen core business operations and expand through strategic partnerships in healthcare and navigation sectors.",
+        "news_count": 4,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": 0.4,
+        "confidence_capped": 0.5,
+        "event": "other",
+        "annotation_reason": "Target upgrade and AI partnership momentum are framed positively in the summary.",
+        "hash": "09a85fd8a70e3c18b26fb94cd8a798c675f485561ae90de7449b4520bd007ba3"
+      },
+      {
+        "round": 28,
+        "round_id": "2026-10-21_12:30",
+        "ticker": "AMZN",
+        "summary": "Amazon's stock could rise as AWS drives growth and 3M's deal supports data center expansion, while Alphabet faces AI investment challenges amid energy concerns for hyperscalers.",
+        "news_count": 6,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": 0.45,
+        "confidence_capped": 0.5,
+        "event": "other",
+        "annotation_reason": "Summary says AWS growth and a data-center-supporting deal could lift Amazon shares.",
+        "hash": "0a3bb182942e983db85ed1963a1e1ab5b49dea01a603b1c579b43c45836d9466"
+      },
+      {
+        "round": 24,
+        "round_id": "2026-10-20_15:30",
+        "ticker": "NVDA",
+        "summary": "Nvidia faces competition from Amazon targeting its AI edge while securing a significant AI deal with Germany, amid rising interest in various AI stocks across markets. This summary reflects only retrieved headlines; complete news coverage is not established.",
+        "news_count": 6,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": 0.1,
+        "confidence_capped": 0.35,
+        "event": "other",
+        "annotation_reason": "Nvidia secures a significant AI deal in Germany, though Amazon competition targeting its AI edge is a partial offset.",
+        "hash": "0c57571b63e43592df00928609da3e718b665fc756e8fa0f30997929a4ebe960"
+      },
+      {
+        "round": 38,
+        "round_id": "2026-10-23_10:30",
+        "ticker": "NVDA",
+        "summary": "Amid a broad tech sell-off and Apple overtaking Nvidia as the world's most valuable company, Nvidia is exploring former nuclear sites for AI data centers while facing competition from other AI chip stocks.",
+        "news_count": 15,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": -0.2,
+        "confidence_capped": 0.45,
+        "event": "other",
+        "annotation_reason": "Nvidia faces a broad tech sell-off and AI-chip competition, while its nuclear-site data-center exploration is strategic but not an immediate catalyst.",
+        "hash": "0d4d6d1e259dfbd03afecd61e6a7752f2e718027377bb70cfa72ec1a4aca0fc2"
+      },
+      {
+        "round": 10,
+        "round_id": "2026-10-15_12:30",
+        "ticker": "AMD",
+        "summary": "Rising bond yields and inflation fears are driving a tech sector sell-off led by Nvidia and memory chip makers, while investors worry about AI-related financial risks.",
+        "news_count": 4,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": -0.1,
+        "confidence_capped": 0.3,
+        "event": "macro",
+        "annotation_reason": "The summary describes a broad tech and semiconductor sell-off driven by yields and inflation, not an AMD-specific catalyst.",
+        "hash": "0da27880ee7a94b0df6e10225cb40be918b511c6bd283b91e248da505b9b578f"
+      },
+      {
+        "round": 35,
+        "round_id": "2026-10-22_14:30",
+        "ticker": "META",
+        "summary": "Meta's stock declined sharply amid broader tech sell-offs driven by rising AI spending concerns and a large consumer protection fine, despite analyst optimism about AI monetization potential.",
+        "news_count": 29,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": -0.55,
+        "confidence_capped": 0.6,
+        "event": "regulation",
+        "annotation_reason": "Meta fell sharply on AI spending concerns and a large consumer-protection fine, despite some analyst optimism.",
+        "hash": "0ef57bb3b882bc2b2c8c05559a4a40cdba3ea4895331ab12f0deb3d133498b58"
+      },
+      {
+        "round": 23,
+        "round_id": "2026-10-20_14:30",
+        "ticker": "WMT",
+        "summary": "Walmart is reducing its membership fees by introducing a new bundled offer, aiming to provide more value to subscribers and boost customer retention. This summary reflects only retrieved headlines; complete news coverage is not established.",
+        "news_count": 1,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": 0.2,
+        "confidence_capped": 0.5,
+        "event": "product",
+        "annotation_reason": "Summary says Walmart is cutting membership fees with a new bundle aimed at adding value and improving retention.",
+        "hash": "0fd1ac53fb78bb25dd1b591a5f72759a466f2cbd3ec7f5fb763753e83ab1561e"
+      },
+      {
+        "round": 21,
+        "round_id": "2026-10-20_11:30",
+        "ticker": "TSLA",
+        "summary": "Tesla assigned a $158 billion value to Elon Musk’s 2025 pay, while speculation about a Tesla-SpaceX merger grows amid mixed market gains and upcoming SpaceX earnings.",
+        "news_count": 4,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": 0.05,
+        "confidence_capped": 0.25,
+        "event": "other",
+        "annotation_reason": "Musk pay valuation and Tesla-SpaceX merger speculation are notable but directionally ambiguous.",
+        "hash": "101ecfd7cfc5536f10c43f232d52654021042bb941a9364356b215dfa6f4f626"
+      },
+      {
+        "round": 8,
+        "round_id": "2026-10-15_10:30",
+        "ticker": "AMZN",
+        "summary": "Amazon is exploring cost savings with custom AI chips while the stock market shifts due to AI concerns affecting major players, and some investors anticipate changes by 2030.",
+        "news_count": 4,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": 0.1,
+        "confidence_capped": 0.35,
+        "event": "product",
+        "annotation_reason": "Amazon is exploring custom AI chips for cost savings amid broader AI-related market concerns.",
+        "hash": "103c93919e1ecc043dc1717cd0a1c17a8d64a7da5a2eba5807f0eea07864885e"
+      },
+      {
+        "round": 29,
+        "round_id": "2026-10-21_14:30",
+        "ticker": "JPM",
+        "summary": "No JPM news was retrieved for this window. Search coverage is incomplete; missing observations do not establish that no articles were published. No company-specific catalyst can be inferred from this sample.",
+        "news_count": 0,
+        "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+        "sentiment": 0.0,
+        "confidence_capped": 0.0,
+        "event": "none",
+        "annotation_reason": "No JPM news was retrieved; coverage is incomplete, so no company-specific catalyst is available.",
+        "hash": "11c2967d8589ffafe76d0cf5d02a2009c861f45589f89b6103e50b02adaf6813"
+      }
+    ]
+  },
+  "limitations": [
+    "Per-stock returns share time and factor exposures; observations are not independent.",
+    "Rank correlation is descriptive, post hoc and not used for threshold/model selection.",
+    "LLM confidence is not a calibrated profit probability; do not interpret it as one.",
+    "The quantitative audit tests alignment with later returns, not factual truth of original summaries.",
+    "Qualitative annotation review is assistant-generated and is not independent human ground truth."
+  ]
+}

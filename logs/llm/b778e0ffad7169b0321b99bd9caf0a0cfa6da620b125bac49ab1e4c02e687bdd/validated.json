@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.2,
+      "confidence": 0.3,
+      "event": "product",
+      "reason": "Summary highlights Nvidia's key AI chip role and enterprise adoption, tempered by competitive pressure."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "Summary lacks a clear Google-specific catalyst, mentioning other AI and cybersecurity developments."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.3,
+      "confidence": 0.35,
+      "event": "product",
+      "reason": "Summary cites Meta's consumer-scale agentic AI execution as highlighting growing demand for personal AI agents."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "Summary concerns Othello's funding and AI sales coaching, not a Microsoft-specific catalyst."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No JPM news was retrieved, so no company-specific catalyst can be inferred."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": -0.2,
+      "confidence": 0.3,
+      "event": "other",
+      "reason": "Summary says Amazon plans to close grocery partner storefronts, a mildly negative company-specific development."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": -0.2,
+      "confidence": 0.3,
+      "event": "product",
+      "reason": "Summary notes Apple faces skepticism about agentic AI amid broader industry doubts."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No AMD news was retrieved, so no company-specific catalyst can be inferred."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No WMT news was retrieved, so no company-specific catalyst can be inferred."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No TSLA news was retrieved, so no company-specific catalyst can be inferred."
+    }
+  ]
+}

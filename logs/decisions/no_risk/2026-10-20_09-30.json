@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "WMT",
+  "stock2": "AAPL",
+  "action": "LS",
+  "variant": "no_risk",
+  "reason": "Long WMT, short AAPL: scores 0.370 vs -0.446; eligible=10.",
+  "details": {
+    "NVDA": {
+      "score": -0.06322161827103454,
+      "momentum": -0.9107387275701151,
+      "sentiment": 0.5,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "A $10 billion German AI partnership and startup investments point to company-specific expansion despite mixed chip-stock moves."
+    },
+    "GOOG": {
+      "score": -0.09513481604880976,
+      "momentum": -0.5504493868293658,
+      "sentiment": 0.2,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "AI leadership and cloud growth are positive, but GPU delays and London outages temper the near-term signal."
+    },
+    "META": {
+      "score": -0.22999999999999998,
+      "momentum": -1.0,
+      "sentiment": 0.2,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "A $42 billion AI and ad investment plus AI-agent focus may support revenue, though mixed performance and analyst caution limit conviction."
+    },
+    "MSFT": {
+      "score": 0.01689735811014073,
+      "momentum": -0.048675472966197564,
+      "sentiment": 0.1,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "AI capability expansion is offset by intense competition, physical limits, and analyst debate over market impact."
+    },
+    "JPM": {
+      "score": 0.08309539147135911,
+      "momentum": -0.014682028428802951,
+      "sentiment": 0.25,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "JPM Coin expansion on Ethereum and digital-asset initiatives are company-specific positives, while other items are broader."
+    },
+    "AMZN": {
+      "score": 0.32432595061920755,
+      "momentum": 0.24108650206402515,
+      "sentiment": 0.6,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "A bullish analyst outlook, AWS margin gains, and expanded Germany investment support a positive company-specific tone."
+    },
+    "AAPL": {
+      "score": -0.4462738608130474,
+      "momentum": -0.9975795360434914,
+      "sentiment": -0.35,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "regulation",
+      "reason": "Analyst downgrades, slowing iPhone shipment growth, and UK regulatory pressure outweigh strong preorder demand signals."
+    },
+    "AMD": {
+      "score": -0.146,
+      "momentum": -1.0,
+      "sentiment": 0.4,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "AMD led an AI-chip rebound with institutional buying and sector growth tied to semiconductor IP and AI infrastructure."
+    },
+    "WMT": {
+      "score": 0.37,
+      "momentum": 1.0,
+      "sentiment": 0.25,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Agentic AI shopping and subscription bundles may help Walmart outperform, though the evidence base is thin with only five items."
+    },
+    "TSLA": {
+      "score": 0.19441093454113687,
+      "momentum": 0.5547031151371229,
+      "sentiment": 0.1,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Upcoming earnings carry mixed analyst sentiment, with robotaxi and Optimus optimism offset by merger speculation."
+    }
+  },
+  "score_gap": 0.8162738608130473,
+  "round": 19,
+  "round_id": "2026-10-20_09:30",
+  "request_sha256": "65dcd3831936979a386638d9b46e6f68449ff9f6378228062cd02dff34ba8dbf",
+  "input_file_hashes": {
+    "data/raw/2026-10-20_09-30/news.parquet": "d0fea3ba1337c790dab96658f8a1188fc67aca773f050cb8d7741117d80e4542",
+    "data/raw/2026-10-20_09-30/price.parquet": "fc6c14b795c872d19a627b660bfc06b2390cecd7bc4c61147d9464f4f8351a42"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

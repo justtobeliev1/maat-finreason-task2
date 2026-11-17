@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "MSFT",
+  "stock2": "TSLA",
+  "action": "LS",
+  "variant": "no_news",
+  "reason": "Long MSFT, short TSLA: scores 0.351 vs -0.897; eligible=10.",
+  "details": {
+    "NVDA": {
+      "score": -0.20792470699806387,
+      "momentum": -0.20792470699806387,
+      "sentiment": -0.15,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "AI financing concerns and chip sell-offs pressure the stock despite CEO optimism and energy-efficient AI data-center product progress."
+    },
+    "GOOG": {
+      "score": -0.6019176371573343,
+      "momentum": -0.6019176371573343,
+      "sentiment": 0.2,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Google Play integration into XPeng AI cockpits is a modest positive product and partnership signal."
+    },
+    "META": {
+      "score": -0.0857645403591456,
+      "momentum": -0.0857645403591456,
+      "sentiment": -0.1,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "regulation",
+      "reason": "Congressional scrutiny of AI data-center tax credits weighs against Citi's higher price target and Muse ROI focus."
+    },
+    "MSFT": {
+      "score": 0.35134898895357036,
+      "momentum": 0.35134898895357036,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "No MSFT news was retrieved, so no company-specific catalyst can be inferred from this incomplete sample."
+    },
+    "JPM": {
+      "score": -0.08003548041788378,
+      "momentum": -0.08003548041788378,
+      "sentiment": 0.0,
+      "confidence": 0.2,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "Reported consideration of a fresh debt sale to support Qualtrics is a capital move based only on market chatter."
+    },
+    "AMZN": {
+      "score": -0.3469922276171822,
+      "momentum": -0.3469922276171822,
+      "sentiment": 0.25,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Amazon expanded its smart-home and wearable product lineup, a modest positive product signal."
+    },
+    "AAPL": {
+      "score": -0.06395384322764874,
+      "momentum": -0.06395384322764874,
+      "sentiment": 0.3,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "The new iPhone Duo preorder announcement is a positive product-launch signal, though based on one retrieved headline."
+    },
+    "AMD": {
+      "score": 0.03346916431281599,
+      "momentum": 0.03346916431281599,
+      "sentiment": -0.1,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "The summary describes a broad tech and semiconductor sell-off driven by yields and inflation, not an AMD-specific catalyst."
+    },
+    "WMT": {
+      "score": -0.32692015225661564,
+      "momentum": -0.32692015225661564,
+      "sentiment": 0.2,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Free GLP-1 drug benefits and noted pricing tailwinds provide a modest positive company-specific signal."
+    },
+    "TSLA": {
+      "score": -0.8969418224452075,
+      "momentum": -0.8969418224452075,
+      "sentiment": 0.0,
+      "confidence": 0.25,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Valuation-growth debate and unconfirmed SpaceX merger speculation offer no clear directional catalyst."
+    }
+  },
+  "score_gap": 1.2482908113987778,
+  "round": 10,
+  "round_id": "2026-10-15_12:30",
+  "request_sha256": "90ab1c072c897adb1b968e1ec3704c88396a7ece1f2e71089c682e11d8a93372",
+  "input_file_hashes": {
+    "data/raw/2026-10-15_12-30/news.parquet": "f5d05f47e9665ce9e927d8b31982170b6a75ae3ce9ba83882d1f67c703a5b870",
+    "data/raw/2026-10-15_12-30/price.parquet": "555509638288d5acaf3b7aa9e26a357da61e03726c46a2571708b03753f9f533"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

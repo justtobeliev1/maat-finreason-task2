@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.45,
+      "confidence": 0.6,
+      "event": "product",
+      "reason": "NVIDIA's AI collaborations and major tech orders point to growth, though the summary notes mixed market signals."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.0,
+      "confidence": 0.25,
+      "event": "other",
+      "reason": "Alphabet's valuation debate includes Waymo potential, but the summary offers no clear directional catalyst."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.5,
+      "confidence": 0.55,
+      "event": "earnings",
+      "reason": "Meta approaches earnings with expectations of significant upside amid AI-related investor optimism."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.35,
+      "confidence": 0.5,
+      "event": "product",
+      "reason": "Microsoft's AI-driven patient-support partnerships and broader enterprise collaborations suggest positive industry integration."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No JPM-specific news was retrieved, so no company catalyst can be inferred from this incomplete sample."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": -0.1,
+      "confidence": 0.25,
+      "event": "other",
+      "reason": "Amazon faces questions about funding its robotaxi ambitions, with valuation and earnings anticipation in focus."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No AAPL-specific news was retrieved, so no company catalyst can be inferred from this incomplete sample."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": -0.1,
+      "confidence": 0.3,
+      "event": "earnings",
+      "reason": "AMD's valuation is under scrutiny ahead of earnings, though broad tech strength is also noted."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "The lone retrieved item concerns a Coterie parenting ad and contains no Walmart-specific financial or retail development."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.55,
+      "confidence": 0.55,
+      "event": "other",
+      "reason": "Musk-confirmed merger talks and optimistic revenue-target commentary support a positive near-term read for Tesla."
+    }
+  ]
+}

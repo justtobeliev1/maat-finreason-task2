@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "NVDA",
+  "stock2": "AAPL",
+  "action": "LS",
+  "variant": "full",
+  "reason": "Long NVDA, short AAPL: scores 0.573 vs -0.110; eligible=9.",
+  "details": {
+    "NVDA": {
+      "score": 0.573,
+      "momentum": 1.0,
+      "sentiment": 0.65,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Partial sample cites expanding AI infrastructure and security partnerships plus $3B agreements, supporting a positive company-specific bias."
+    },
+    "GOOG": {
+      "score": -0.0730145200772455,
+      "momentum": -0.5058817335908183,
+      "sentiment": 0.25,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Partial sample shows Google Cloud AI partnership expansion but mixed Alphabet investor sentiment."
+    },
+    "META": {
+      "score": 0.314,
+      "momentum": 1.0,
+      "sentiment": 0.05,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Partial sample notes Muse AI development alongside spending scrutiny as Q3 earnings approach."
+    },
+    "MSFT": {
+      "score": -0.009374579419900914,
+      "momentum": -0.7312485980663364,
+      "sentiment": 0.5,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Partial sample highlights strong analyst support for AI cloud computing and strategic partnerships."
+    },
+    "JPM": {
+      "score": 0.10159207890231567,
+      "momentum": 0.42030692967438554,
+      "sentiment": -0.1,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Partial sample has positive small-business lending but notes ETF holders reducing JPM exposure amid rate pressures."
+    },
+    "AMZN": {
+      "score": 0.2441416944078042,
+      "momentum": 0.23630564802601395,
+      "sentiment": 0.45,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "Partial sample cites a \u20ac16B Germany investment and AI hardware stockpiling, implying expansionary capital spending."
+    },
+    "AAPL": {
+      "score": -0.10986557729548531,
+      "momentum": -0.016218590984951042,
+      "sentiment": -0.3,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Partial sample points to downgrades and valuation concerns, only partly offset by foldable iPhone anticipation."
+    },
+    "AMD": {
+      "score": 0.314,
+      "momentum": 1.0,
+      "sentiment": 0.1,
+      "confidence": 0.2,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "other",
+      "reason": "Partial sample offers only an indirect reference to an unnamed NVIDIA challenger, limiting AMD-specific conviction."
+    },
+    "WMT": {
+      "score": -0.09906330324350923,
+      "momentum": -0.8435443441450308,
+      "sentiment": 0.4,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Partial sample shows expansion in business services, advertising, and exclusive products with investor interest."
+    },
+    "TSLA": {
+      "score": 0.2125,
+      "momentum": 1.0,
+      "sentiment": -0.25,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Partial sample cites an expected down quarter, partly offset by SpaceX merger exploration and AI optimism."
+    }
+  },
+  "score_gap": 0.6828655772954852,
+  "round": 25,
+  "round_id": "2026-10-21_09:30",
+  "request_sha256": "3ebe3a6838cb8d097e82977632f765a3692ec10d7abf02c97b5b197547da05fb",
+  "input_file_hashes": {
+    "data/raw/2026-10-21_09-30/news.parquet": "d8e517a967e8181318c78bd74b2345fa5119992110461fcb8818168da1ade593",
+    "data/raw/2026-10-21_09-30/price.parquet": "756d03fcd3abc109cb5ef47c378b65160807d2176f68b5ea6250e371480d97f4"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": -0.25,
+      "confidence": 0.55,
+      "event": "other",
+      "reason": "Nvidia is pressured by a chip stock sell-off and shrinking AI enthusiasm, partly offset by Adobe and Volvo collaborations."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.35,
+      "confidence": 0.55,
+      "event": "other",
+      "reason": "Alphabet's outlook is depicted as strong on multiyear AI content deals and semiconductor investment benefits, despite AI-driven job fears."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.45,
+      "confidence": 0.65,
+      "event": "product",
+      "reason": "Meta released a new open-weight AI model and partnered with Apple to run it on Macs."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.55,
+      "confidence": 0.7,
+      "event": "product",
+      "reason": "Microsoft unveiled a large AI model with efficiency gains that the summary says boosts Azure and M365 growth expectations."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": -0.3,
+      "confidence": 0.55,
+      "event": "macro",
+      "reason": "JPMorgan is described as facing a capital markets slowdown after a strong 2026 start, a sector-level negative."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.0,
+      "confidence": 0.2,
+      "event": "other",
+      "reason": "The summary mainly cites broad tech-sector declines and vague competitive dynamics involving Amazon, giving no clear company-specific direction."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.5,
+      "confidence": 0.7,
+      "event": "product",
+      "reason": "Apple is supported by a $5 trillion market-cap milestone, iPhone preorder momentum, and a Meta AI collaboration."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": -0.15,
+      "confidence": 0.5,
+      "event": "product",
+      "reason": "AMD is hit by chip-sector declines and AI concerns, though its AI infrastructure cooling expansion offers a potential catalyst."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.45,
+      "confidence": 0.65,
+      "event": "other",
+      "reason": "Walmart rose after a Deutsche Bank upgrade and announced new employee benefits including free prescriptions and paid NICU leave."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "event": "other",
+      "reason": "The sole retrieved item concerns a crypto platform's Tesla-share offering without ownership rights, not a clear Tesla company event."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "request": {
+    "team_name": "FinProbeBench",
+    "stock1": "NVDA",
+    "stock2": "AAPL",
+    "action": "LS",
+    "round_id": "2026-11-02_10:30"
+  },
+  "response": {
+    "accepted": true,
+    "receipt_id": "c8f79c48906ddb0cf1280cbd37fc0ec88a229a99790297e0e97e185e9e81fcc4",
+    "round_id": "2026-11-02_10:30",
+    "accepted_at": "2026-11-02T15:32:19.805Z"
+  }
+}

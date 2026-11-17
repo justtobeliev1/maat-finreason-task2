@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "META",
+  "stock2": "GOOG",
+  "action": "LS",
+  "variant": "no_risk",
+  "reason": "Long META, short GOOG: scores 0.268 vs -0.285; eligible=10.",
+  "details": {
+    "NVDA": {
+      "score": 0.02087964244677517,
+      "momentum": -0.07040119184408278,
+      "sentiment": 0.15,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Summary cites AI leadership and earnings contribution but also flags power-constraint challenges."
+    },
+    "GOOG": {
+      "score": -0.28480625731781894,
+      "momentum": -0.10935419105939648,
+      "sentiment": -0.6,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "regulation",
+      "reason": "Summary cites sharp value loss, regulatory scrutiny over cloud outages, and AI capacity trade-offs."
+    },
+    "META": {
+      "score": 0.26816842267780067,
+      "momentum": 0.31056140892600226,
+      "sentiment": 0.5,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Summary highlights Zuckerberg's bold AI move amid upbeat earnings and tech-stock strength."
+    },
+    "MSFT": {
+      "score": 0.04630252510755188,
+      "momentum": 0.09600841702517293,
+      "sentiment": 0.1,
+      "confidence": 0.25,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Summary only notes Microsoft remained stable amid sector volatility, with no specific catalyst."
+    },
+    "JPM": {
+      "score": -0.007373501439975116,
+      "momentum": 0.16208832853341626,
+      "sentiment": -0.2,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Summary says JPMorgan will surrender its Turkish brokerage license, signaling a market withdrawal."
+    },
+    "AMZN": {
+      "score": 0.17251419403234117,
+      "momentum": 0.05004731344113722,
+      "sentiment": 0.45,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Summary says AWS growth and a data-center-supporting deal could lift Amazon shares."
+    },
+    "AAPL": {
+      "score": -0.1486258024294886,
+      "momentum": -0.3554193414316287,
+      "sentiment": -0.15,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Summary notes Apple near highs but with a slightly challenging earnings outlook and limited upside."
+    },
+    "AMD": {
+      "score": 0.18655823324137177,
+      "momentum": 0.6218607774712392,
+      "sentiment": 0.0,
+      "confidence": 0.15,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Summary only notes intense AMD-Nvidia competition and an unspecified decisive performance metric."
+    },
+    "WMT": {
+      "score": 0.01779351723824929,
+      "momentum": 0.059311724127497634,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "Summary only references Walmart as a market-value comparison, not company-specific news."
+    },
+    "TSLA": {
+      "score": 0.1493571395093736,
+      "momentum": -0.027142868302088008,
+      "sentiment": 0.5,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Summary cites a potential SpaceX-Tesla merger and robotaxi/terafab production as growth drivers."
+    }
+  },
+  "score_gap": 0.5529746799956197,
+  "round": 28,
+  "round_id": "2026-10-21_12:30",
+  "request_sha256": "758acb7a765f5f19d03c28a6d2145765059b93e5dcc02036f67a7635442fdb53",
+  "input_file_hashes": {
+    "data/raw/2026-10-21_12-30/news.parquet": "00ffb3cd31623de5480ceecea0f76e1b1f5548902bd0a57e8a21bad636354b32",
+    "data/raw/2026-10-21_12-30/price.parquet": "174cc0a6ca5a122681051cc556d0dbe1f8df5e15d3fa4c9c57f11c47a8e6094d"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "MSFT",
+  "stock2": "WMT",
+  "action": "LS",
+  "variant": "no_risk",
+  "reason": "Long MSFT, short WMT: scores 0.394 vs -0.216; eligible=9.",
+  "details": {
+    "NVDA": {
+      "score": 0.18517417485900417,
+      "momentum": 0.29641391619668056,
+      "sentiment": 0.25,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Nvidia launched new AI models and collaborations amid robust AI chip demand, though sector volatility tempers the near-term read."
+    },
+    "GOOG": {
+      "score": 0.0007794893192976937,
+      "momentum": -0.28906836893567434,
+      "sentiment": 0.25,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Alphabet is poised for efficiency gains despite search disruptions, with evolving AI investments and ad spending as context."
+    },
+    "META": {
+      "score": 0.2080687083855451,
+      "momentum": 0.4835623612851503,
+      "sentiment": 0.2,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "Meta is investing heavily in AI with expected substantial returns, set against broader market pullbacks."
+    },
+    "MSFT": {
+      "score": 0.39370182220927685,
+      "momentum": 0.5423394073642562,
+      "sentiment": 0.55,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Multiple price target increases and expectations for above-average Azure performance ahead of earnings point positive."
+    },
+    "JPM": {
+      "score": 0.010325527226227038,
+      "momentum": 0.03441842408742346,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "No JPM news was retrieved, so company-specific evidence is unavailable."
+    },
+    "AMZN": {
+      "score": 0.13486685562817735,
+      "momentum": 0.44955618542725784,
+      "sentiment": 0.0,
+      "confidence": 0.15,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "The retrieved items discuss AI-sector concerns and market-structure changes without a direct Amazon-specific catalyst."
+    },
+    "AAPL": {
+      "score": 0.0061511727759792495,
+      "momentum": -0.25949609074673585,
+      "sentiment": 0.3,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Apple shares are described as remaining strong despite a broader AI stock decline, though no discrete company catalyst is given."
+    },
+    "AMD": {
+      "score": 0.26849999999999996,
+      "momentum": 1.0,
+      "sentiment": -0.15,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "AI-related stocks are described as plunging, but the summary provides no AMD-specific catalyst."
+    },
+    "WMT": {
+      "score": -0.21599999999999997,
+      "momentum": -1.0,
+      "sentiment": 0.3,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "NRF forecasts accelerating holiday sales and resilient shoppers, a modest positive for Walmart's consumer backdrop."
+    },
+    "TSLA": {
+      "score": 0.3,
+      "momentum": 1.0,
+      "sentiment": 0.0,
+      "confidence": 0.15,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "The retrieved items cover TSMC and market-structure news without a direct Tesla-specific catalyst."
+    }
+  },
+  "score_gap": 0.6097018222092768,
+  "round": 9,
+  "round_id": "2026-10-15_11:30",
+  "request_sha256": "4529b04494f35edfc4b4658cf1d3ff4184e8860384cc727799e096b9d034cbd5",
+  "input_file_hashes": {
+    "data/raw/2026-10-15_11-30/news.parquet": "802c8d22540f92693549ee53411f8ea4b92293b9bb99c8cedcfca203fedcfdee",
+    "data/raw/2026-10-15_11-30/price.parquet": "eaf40501354b1e040c29bbb97e7fa596e0c1582d778a907d36d3b9065f979a1d"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

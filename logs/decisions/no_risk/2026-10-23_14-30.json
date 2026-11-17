@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "MSFT",
+  "stock2": "NVDA",
+  "action": "LS",
+  "variant": "no_risk",
+  "reason": "Long MSFT, short NVDA: scores 0.146 vs -0.123; eligible=10.",
+  "details": {
+    "NVDA": {
+      "score": -0.12284570955419713,
+      "momentum": 0.1038476348193429,
+      "sentiment": -0.4,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Summary cites analyst concerns over AI data center capacity shortfalls and factory downtime despite peer profits."
+    },
+    "GOOG": {
+      "score": 0.12565071629646013,
+      "momentum": -0.21116427901179957,
+      "sentiment": 0.45,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Summary highlights 82% cloud revenue growth driven by AI and TPU investments ahead of earnings."
+    },
+    "META": {
+      "score": 0.05809861705230521,
+      "momentum": 0.275328723507684,
+      "sentiment": -0.1,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "Non-voting share issuance to fund AI expansion is mixed amid cost and cyclical concerns."
+    },
+    "MSFT": {
+      "score": 0.14591219856532428,
+      "momentum": 0.037207328551081,
+      "sentiment": 0.35,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Summary notes strong Azure growth and cash flow discipline but also cloud-margin scrutiny."
+    },
+    "JPM": {
+      "score": 0.051104466317997144,
+      "momentum": 0.17034822105999048,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "Summary contains no JPM-specific news, only XRP tokenization and American Express items."
+    },
+    "AMZN": {
+      "score": -0.09865738570044469,
+      "momentum": -0.32885795233481563,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "Summary contains no AMZN-specific news, discussing Nvidia, Walmart, and Meta instead."
+    },
+    "AAPL": {
+      "score": -0.013048227230803983,
+      "momentum": -0.1484940907693466,
+      "sentiment": 0.15,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "New foldable iPhone launches near $1,999, but the summary also notes volatile trading and mixed signals."
+    },
+    "AMD": {
+      "score": -0.052896688678296805,
+      "momentum": -0.07132229559432268,
+      "sentiment": -0.15,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Summary mentions a sharp tech sell-off and competitive AI-component positioning, mostly macro-driven for AMD."
+    },
+    "WMT": {
+      "score": -0.041240046926798904,
+      "momentum": -0.4174668230893297,
+      "sentiment": 0.3,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Walmart is introducing AI shopping tools aimed at increasing customer transactions."
+    },
+    "TSLA": {
+      "score": -0.07431238911997354,
+      "momentum": 0.45229203626675485,
+      "sentiment": -0.5,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Tesla stock declined after the Cybertruck market exit in Australia and New Zealand amid sector volatility."
+    }
+  },
+  "score_gap": 0.2687579081195214,
+  "round": 41,
+  "round_id": "2026-10-23_14:30",
+  "request_sha256": "261c29321694fd5f0d2cfa92d7813fa31bb63d9dd510fd3c91e893e941ca5560",
+  "input_file_hashes": {
+    "data/raw/2026-10-23_14-30/news.parquet": "7a63860ad848ea111e2e64178571c2f2bc77b71c2d668850edd6021976f65003",
+    "data/raw/2026-10-23_14-30/price.parquet": "b31a3aed87bda293ff41ad2f29c1842de60fe98e001771374ef8918959194fe1"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

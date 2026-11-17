@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "WMT",
+  "stock2": "AAPL",
+  "action": "LS",
+  "variant": "no_risk",
+  "reason": "Long WMT, short AAPL: scores 0.306 vs -0.315; eligible=10.",
+  "details": {
+    "NVDA": {
+      "score": -0.13960213105794475,
+      "momentum": -0.3836737701931492,
+      "sentiment": -0.1,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "Chip-sector selling pressure tied to inflation and AI spending fears is a mild negative, though no NVDA-specific event is cited."
+    },
+    "GOOG": {
+      "score": -0.04827581418834781,
+      "momentum": -0.930919380627826,
+      "sentiment": 0.55,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "Berkshire\u2019s $37.4B stake and Gemini benchmark lead are positive, tempered by the noted premium to intrinsic value."
+    },
+    "META": {
+      "score": 0.24933301697324642,
+      "momentum": 0.1311100565774881,
+      "sentiment": 0.5,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Analyst bullishness on new AI models and Cathie Wood\u2019s purchase support a positive company-specific read."
+    },
+    "MSFT": {
+      "score": -0.06377846824275758,
+      "momentum": -0.3700948941425253,
+      "sentiment": 0.15,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Maia 300\u2019s energy-efficiency target is a product positive, but the cited stock decline and limited scope temper confidence."
+    },
+    "JPM": {
+      "score": -0.056956554561657845,
+      "momentum": -0.2598551818721928,
+      "sentiment": 0.1,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Hiring a senior M&A banker is a small positive for advisory capabilities, with limited near-term impact."
+    },
+    "AMZN": {
+      "score": -0.1376384188696027,
+      "momentum": -0.41212806289867565,
+      "sentiment": -0.05,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "A new $550 tablet is a product positive, but a $309.5M customer lawsuit and cost/valuation concerns offset it."
+    },
+    "AAPL": {
+      "score": -0.31470369435675366,
+      "momentum": -0.5998456478558456,
+      "sentiment": -0.35,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "regulation",
+      "reason": "Apple contesting a $5.7B legal verdict is a clear company-specific negative."
+    },
+    "AMD": {
+      "score": 0.23298771738915414,
+      "momentum": 0.7299590579638471,
+      "sentiment": 0.05,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Chip-sector weakness weighs, but the cited 1.9 GW AI demand reservation is a modest positive company-specific offset."
+    },
+    "WMT": {
+      "score": 0.3062430261487552,
+      "momentum": 0.6533100871625175,
+      "sentiment": 0.35,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "Inflation-driven defensive rotation lifted shares, with warehouse expansion and digital growth cited as possible further drivers."
+    },
+    "TSLA": {
+      "score": 7.585633280977888e-05,
+      "momentum": -0.13974714555730072,
+      "sentiment": 0.2,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "The rescheduled Roadster event renews product anticipation, though only one headline is available."
+    }
+  },
+  "score_gap": 0.6209467205055088,
+  "round": 5,
+  "round_id": "2026-10-14_14:30",
+  "request_sha256": "8bd930a64c2f5324d005354bb3ddb588d37761fdab85e2be98bc2ac005699fe3",
+  "input_file_hashes": {
+    "data/raw/2026-10-14_14-30/news.parquet": "f3241a9d56550faaef2a353f660e797f105230a7ebddf8cfa46c222aead487b1",
+    "data/raw/2026-10-14_14-30/price.parquet": "6c02f27c657fc0e23880cea78591fa2e5aadbdd0b828507d91e1896bbb003b3e"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": -0.3,
+      "confidence": 0.5,
+      "event": "macro",
+      "reason": "Investor concerns over AI financing and inflation are weighing on Nvidia despite robust demand."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": -0.2,
+      "confidence": 0.4,
+      "event": "other",
+      "reason": "Analysts question Alphabet’s ability to manage rising expenses."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.2,
+      "confidence": 0.45,
+      "event": "product",
+      "reason": "Muse agent traction and AI compute potential are positives, though the AI tax credit raises investor considerations."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.15,
+      "confidence": 0.4,
+      "event": "product",
+      "reason": "Expanding AI-driven security bundles support the outlook, while green-card policy concerns remain a drag."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No JPM news was retrieved; coverage is incomplete and no company-specific catalyst can be inferred."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.1,
+      "confidence": 0.35,
+      "event": "product",
+      "reason": "Amazon is exploring custom AI chips for cost savings amid broader AI-related market concerns."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.2,
+      "confidence": 0.45,
+      "event": "product",
+      "reason": "Planned new AI features in China are a positive, though profitability debate and AI market concerns temper the view."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": 0.45,
+      "confidence": 0.6,
+      "event": "other",
+      "reason": "Robust AI chip demand supports a positive company-specific view despite sector-wide sell-offs and financing concerns."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.4,
+      "confidence": 0.55,
+      "event": "other",
+      "reason": "A Deutsche Bank upgrade and higher price target support Walmart’s near-term tone."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.05,
+      "confidence": 0.3,
+      "event": "product",
+      "reason": "The planned Roadster unveiling is a potential positive, but merger speculation and stock declines make the signal mixed."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "NVDA",
+  "stock2": "TSLA",
+  "action": "F",
+  "variant": "no_news",
+  "reason": "Score gap 0.000 below frozen threshold 0.35.",
+  "details": {
+    "NVDA": {
+      "score": 0.0,
+      "momentum": 0.0,
+      "sentiment": 0.35,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "Buyback expansion and UK AI safety commitment support its AI infrastructure role, though cautious market conditions temper the signal."
+    },
+    "GOOG": {
+      "score": 0.0,
+      "momentum": 0.0,
+      "sentiment": 0.45,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Gemini 4 Argon, European cloud initiatives, and the Bloom fuel-cell project are positive expansions, with stable analyst ratings."
+    },
+    "META": {
+      "score": 0.0,
+      "momentum": 0.0,
+      "sentiment": 0.25,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "AI advancements and ad-strategy adaptation are positive, but competition and macro volatility limit the company-specific lift."
+    },
+    "MSFT": {
+      "score": 0.0,
+      "momentum": 0.0,
+      "sentiment": 0.55,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "Robust AI adoption, Azure cost-cutting, and data-center investment support the outlook despite tech-concentration and inflation concerns."
+    },
+    "JPM": {
+      "score": 0.0,
+      "momentum": 0.0,
+      "sentiment": 0.1,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Q3 profit miss and margin pressure are offset by consumer and investment strength plus a raised net interest income outlook."
+    },
+    "AMZN": {
+      "score": 0.0,
+      "momentum": 0.0,
+      "sentiment": 0.25,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Upward analyst target adjustment and AI investment interest offset inflation and ad-strategy shifts."
+    },
+    "AAPL": {
+      "score": 0.0,
+      "momentum": 0.0,
+      "sentiment": 0.4,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Smart-home HomeView hub and gadget push plus Siri subscription potential support the outlook amid market-cap fluctuations."
+    },
+    "AMD": {
+      "score": 0.0,
+      "momentum": 0.0,
+      "sentiment": 0.1,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "Credit support for Project Matador draws attention, but chip-sector pressure and cooling demand temper the implication."
+    },
+    "WMT": {
+      "score": 0.0,
+      "momentum": 0.0,
+      "sentiment": -0.1,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "regulation",
+      "reason": "Valuation skepticism and FDA marketplace concerns offset employee-benefit and store updates."
+    },
+    "TSLA": {
+      "score": 0.0,
+      "momentum": 0.0,
+      "sentiment": 0.05,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Robotaxi fleet expansion, Megacharger openings, and Roadster preparation offset spending and automotive-margin concerns."
+    }
+  },
+  "score_gap": 0.0,
+  "round": 1,
+  "round_id": "2026-10-14_09:30",
+  "request_sha256": "38b432ada32b7133d8172007e0ec3f9227e0f6e0fdb41e2036793aecfbc74d4e",
+  "input_file_hashes": {
+    "data/raw/2026-10-14_09-30/news.parquet": "5b746a55607b549854c476c21b139daf34469b581b0de7ab13cacaeb0e2057e7",
+    "data/raw/2026-10-14_09-30/price.parquet": "08b33d1e0f5241965874e19ae81dbfacdf17bab06a80f26d997a0ce8a65fad69"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

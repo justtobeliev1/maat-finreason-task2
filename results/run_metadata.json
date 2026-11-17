@@ -1,0 +1,13 @@
+{
+  "server_host": "lab-server",
+  "started_utc": "2026-11-01T08:42:51.110833+00:00",
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "prompt_sha256": "f433b84af3159298aaaf0be37bde84e955314ab303fae90d9cc23e31635a07b7",
+  "python": "3.9.0 (default, Nov 15 2020, 14:28:56) \n[GCC 7.3.0]",
+  "variants": [
+    "full",
+    "no_news",
+    "no_risk"
+  ],
+  "parameter_search": false
+}

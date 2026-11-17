@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "AMZN",
+  "stock2": "WMT",
+  "action": "F",
+  "variant": "full",
+  "reason": "Score gap 0.305 below frozen threshold 0.35.",
+  "details": {
+    "NVDA": {
+      "score": 0.20746454623950866,
+      "momentum": 0.37071515413169553,
+      "sentiment": 0.25,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Nvidia is portrayed as leading AI-chip innovation, offset by rivals seeking market share."
+    },
+    "GOOG": {
+      "score": 0.1707889327368926,
+      "momentum": 0.4059631091229754,
+      "sentiment": 0.2,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "Google's Anthropic investment is described as remaining valuable, though the summary is mixed with unrelated commentary."
+    },
+    "META": {
+      "score": 0.15091366245496912,
+      "momentum": 0.3805455415165637,
+      "sentiment": 0.15,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Meta's Q2 earnings are said to highlight its competitive social-networking position."
+    },
+    "MSFT": {
+      "score": -0.039986824541690724,
+      "momentum": 0.05337725152769757,
+      "sentiment": -0.2,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "Microsoft reportedly withdrew from an AI data-center deal."
+    },
+    "JPM": {
+      "score": -0.10093689305188944,
+      "momentum": -0.3539563101729648,
+      "sentiment": 0.05,
+      "confidence": 0.15,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "other",
+      "reason": "Only research-leaderboard recognition is cited, with no clear near-term financial implication."
+    },
+    "AMZN": {
+      "score": 0.2307043103355872,
+      "momentum": 0.582347701118624,
+      "sentiment": 0.2,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Amazon is cited for AI-chip usability improvements that could affect Nvidia."
+    },
+    "AAPL": {
+      "score": -0.04890325399955375,
+      "momentum": -0.16301084666517918,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "Summary contains no Apple-specific news, only general dividend and ETF commentary."
+    },
+    "AMD": {
+      "score": 0.10435686144623711,
+      "momentum": 0.6978562048207904,
+      "sentiment": -0.3,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "AMD is described as facing competitive pressure from Nvidia and TSMC on research spending and cash flow."
+    },
+    "WMT": {
+      "score": -0.07427878062619908,
+      "momentum": -0.2475959354206636,
+      "sentiment": 0.0,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "Walmart plans at least $6B in bond sales with no stated use of proceeds."
+    },
+    "TSLA": {
+      "score": 0.1251655712192753,
+      "momentum": 0.3938852373975843,
+      "sentiment": 0.05,
+      "confidence": 0.2,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "macro",
+      "reason": "Summary ties Tesla only to AI-driven market rebounds and broad index moves."
+    }
+  },
+  "score_gap": 0.3049830909617863,
+  "round": 18,
+  "round_id": "2026-10-19_15:30",
+  "request_sha256": "e2ce88342f145f12684310892c74ab109e830aab041d76b4599a6e53a6af86bc",
+  "input_file_hashes": {
+    "data/raw/2026-10-19_15-30/news.parquet": "0d1da4b0943e5586914db985a2643ba436de0f6b2012bd127b7ef99f8c975c4a",
+    "data/raw/2026-10-19_15-30/price.parquet": "e3a1e3e14b2f783746e375f03fe61232dc4362ffad81be928e8c396676b9bf05"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

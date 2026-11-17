@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": -0.2,
+      "confidence": 0.35,
+      "event": "macro",
+      "reason": "Chip-sector pressure and AI-bubble skepticism give a mildly negative near-term read-through for NVDA."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "event": "none",
+      "reason": "Summary references Google alumni and broad AI/data-center concerns, not a clear GOOG-specific catalyst."
+    },
+    {
+      "ticker": "META",
+      "sentiment": -0.25,
+      "confidence": 0.55,
+      "event": "capital",
+      "reason": "Rising AI spending and credit-risk concerns weighed on Meta shares despite Threads growth and a BofA target raise."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.1,
+      "confidence": 0.2,
+      "event": "other",
+      "reason": "Summary cites mixed AI-growth views and possible near-term MSFT breakout potential without a clear company event."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "event": "none",
+      "reason": "Summary mentions major-bank dividends and balance-sheet differences without a JPM-specific catalyst."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.1,
+      "confidence": 0.3,
+      "event": "other",
+      "reason": "Amazon's expanded 3M partnership is a modest positive, offset by broad AI-trade and competition concerns."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": -0.25,
+      "confidence": 0.45,
+      "event": "product",
+      "reason": "A valuation analysis flags about 25% overvaluation, partly offset by planned new device launches."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": -0.35,
+      "confidence": 0.6,
+      "event": "macro",
+      "reason": "AMD is named in a chip selloff with supply concerns, though Susquehanna remains bullish."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.35,
+      "confidence": 0.5,
+      "event": "other",
+      "reason": "Oppenheimer sees Walmart's combined membership improving loyalty and engagement across services and products."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": -0.15,
+      "confidence": 0.55,
+      "event": "earnings",
+      "reason": "Q3 revenue missed and margins were pressured by AI investments, partly offset by positive robotaxi and self-driving outlook."
+    }
+  ]
+}

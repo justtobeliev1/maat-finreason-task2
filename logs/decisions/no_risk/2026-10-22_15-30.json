@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "TSLA",
+  "stock2": "META",
+  "action": "LS",
+  "variant": "no_risk",
+  "reason": "Long TSLA, short META: scores 0.101 vs -0.159; eligible=9.",
+  "details": {
+    "NVDA": {
+      "score": 0.06606268779474508,
+      "momentum": 0.10354229264915027,
+      "sentiment": 0.1,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Short-term share decline and supply-chain bottlenecks offset persistent bullish analyst sentiment."
+    },
+    "GOOG": {
+      "score": -0.12107266222245332,
+      "momentum": -0.17024220740817775,
+      "sentiment": -0.2,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "A share slip on Vera Rubin Cloud scale concerns is partly offset by broader AI-driven market optimism."
+    },
+    "META": {
+      "score": -0.15866398386178487,
+      "momentum": -0.0388799462059497,
+      "sentiment": -0.35,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "Investor concerns over higher AI spending, cash-flow strain, and non-voting stock financing weigh on near-term sentiment."
+    },
+    "MSFT": {
+      "score": -0.09063022085667782,
+      "momentum": -0.3021007361889261,
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "Only a broad S&P 500 forecast was retrieved, with no Microsoft-specific near-term catalyst evident."
+    },
+    "JPM": {
+      "score": -0.01468082589616837,
+      "momentum": -0.048936086320561234,
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "The only item is a JPMorgan Bitcoin portfolio projection, with little direct near-term implication for JPM."
+    },
+    "AMZN": {
+      "score": -0.09401702185646374,
+      "momentum": -0.2200567395215458,
+      "sentiment": -0.1,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "A share decline amid market pressures contrasts with a new Trainium adoption test signaling a product push."
+    },
+    "AAPL": {
+      "score": 0.07810356959877683,
+      "momentum": 0.2136785653292561,
+      "sentiment": 0.1,
+      "confidence": 0.2,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Positive portfolio-comparison attention is mild, and the Skydance item is unrelated to Apple."
+    },
+    "AMD": {
+      "score": -0.13685452565889977,
+      "momentum": -0.10618175219633263,
+      "sentiment": -0.3,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "AMD declined with other chip stocks after Lam Research warned of supply-chain constraints affecting equipment availability."
+    },
+    "WMT": {
+      "score": 0.02490812105838236,
+      "momentum": 0.08302707019460787,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "No Walmart news was retrieved; coverage is incomplete and no company-specific catalyst can be inferred."
+    },
+    "TSLA": {
+      "score": 0.1008239406002662,
+      "momentum": 0.242746468667554,
+      "sentiment": 0.1,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Cybercab and Optimus innovation is positive, but mixed sentiment and tech sell-offs keep the near-term signal ambiguous."
+    }
+  },
+  "score_gap": 0.25948792446205105,
+  "round": 36,
+  "round_id": "2026-10-22_15:30",
+  "request_sha256": "37c133887237757a70f853c3446c8a0444104c4038956f9bb309e406b15d0562",
+  "input_file_hashes": {
+    "data/raw/2026-10-22_15-30/news.parquet": "af5891de54fca687cb80d3d2765e81f7f46f064638019dd1a7c72d78a77635ba",
+    "data/raw/2026-10-22_15-30/price.parquet": "225694d72b39937bbcd5d6202ca578251052553b6a94efabc4139e40d04c3a56"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

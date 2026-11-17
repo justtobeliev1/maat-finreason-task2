@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "AAPL",
+  "stock2": "TSLA",
+  "action": "LS",
+  "variant": "no_news",
+  "reason": "Long AAPL, short TSLA: scores 1.000 vs -1.000; eligible=10.",
+  "details": {
+    "NVDA": {
+      "score": -1.0,
+      "momentum": -1.0,
+      "sentiment": 0.1,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "AI chip demand signaled by TSMC's record profit is offset by a semiconductor sell-off and AI-safety commentary."
+    },
+    "GOOG": {
+      "score": -1.0,
+      "momentum": -1.0,
+      "sentiment": 0.35,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "Heavy AI and cloud investment plus new products support a mildly positive view despite competition."
+    },
+    "META": {
+      "score": -1.0,
+      "momentum": -1.0,
+      "sentiment": 0.3,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "A claimed unique AI advantage is positive, though heavy Big Tech AI spending and share sales add uncertainty."
+    },
+    "MSFT": {
+      "score": -0.14685488546883896,
+      "momentum": -0.14685488546883896,
+      "sentiment": 0.4,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "A new AI chip and strong quarterly performance are positive, though AI regulatory scrutiny and a record-close drought temper the signal."
+    },
+    "JPM": {
+      "score": 0.7092198581560183,
+      "momentum": 0.7092198581560183,
+      "sentiment": -0.1,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Mixed earnings and regulatory scrutiny weigh on sentiment despite the bank leading major financings."
+    },
+    "AMZN": {
+      "score": -1.0,
+      "momentum": -1.0,
+      "sentiment": 0.2,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Its AI and cloud position and increased tech spending support a mild positive, tempered by competition and regulatory scrutiny."
+    },
+    "AAPL": {
+      "score": 1.0,
+      "momentum": 1.0,
+      "sentiment": 0.55,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Strong iPhone sales, AI feature launches in China, and market-share gains support a positive company-specific view."
+    },
+    "AMD": {
+      "score": -1.0,
+      "momentum": -1.0,
+      "sentiment": -0.3,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "AMD is caught in a sector-wide AI sell-off and inflation fears despite strong AI-chip demand signaled by TSMC."
+    },
+    "WMT": {
+      "score": 1.0,
+      "momentum": 1.0,
+      "sentiment": 0.4,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "A Deutsche Bank upgrade citing favorable pricing and affordable apparel supports a positive near-term view."
+    },
+    "TSLA": {
+      "score": -1.0,
+      "momentum": -1.0,
+      "sentiment": 0.3,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "The new Roadster unveiling and AI-driven orders are positive, while competition and regulatory probes temper the view."
+    }
+  },
+  "score_gap": 2.0,
+  "round": 7,
+  "round_id": "2026-10-15_09:30",
+  "request_sha256": "e16f4306945ece3d63af558455a4783f41fd145cde7313dc329463914c9c3164",
+  "input_file_hashes": {
+    "data/raw/2026-10-15_09-30/news.parquet": "6a855ba163955978b5d8d74b644fc7e7f3e374e2a71fea86f74c8659069c199c",
+    "data/raw/2026-10-15_09-30/price.parquet": "d74ad4f5e9a878354fd1ddd306d263b8afc814f1f70e69aa252b2afe8f0f5e4d"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

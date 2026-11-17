@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "TSLA",
+  "stock2": "NVDA",
+  "action": "LS",
+  "variant": "full",
+  "reason": "Long TSLA, short NVDA: scores 0.422 vs 0.059; eligible=6.",
+  "details": {
+    "NVDA": {
+      "score": 0.05865888187690166,
+      "momentum": -0.25363706041032774,
+      "sentiment": 0.35,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Summary cites Nvidia's AI chip dominance and bullish analyst sentiment despite tech volatility."
+    },
+    "GOOG": {
+      "score": 0.05136010818801662,
+      "momentum": 0.17120036062672206,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "Summary contains no Google-specific evidence, only broad market and peer earnings context."
+    },
+    "META": {
+      "score": 0.17864319049231323,
+      "momentum": 0.30381063497437744,
+      "sentiment": 0.25,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Summary highlights Meta's AI monetization appeal amid a tech sell-off and cautious earnings season."
+    },
+    "MSFT": {
+      "score": 0.20231276982594176,
+      "momentum": 0.5110425660864726,
+      "sentiment": 0.2,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Summary says Microsoft's upcoming earnings will focus on Azure growth and Copilot monetization."
+    },
+    "JPM": {
+      "score": 0.2178802813649905,
+      "momentum": 0.7262676045499683,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "Summary only references JPM analysts' view on ASML and Chinese semiconductor firms, not JPM itself."
+    },
+    "AMZN": {
+      "score": 0.12387880406258711,
+      "momentum": 0.41292934687529037,
+      "sentiment": 0.0,
+      "confidence": 0.2,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "earnings",
+      "reason": "Summary only notes Amazon is among hyperscalers preparing to report earnings, without directional detail."
+    },
+    "AAPL": {
+      "score": 0.15605750798679907,
+      "momentum": 0.2576916932893303,
+      "sentiment": 0.25,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Summary notes Apple reclaimed Wall Street's top spot, highlighting strong market presence."
+    },
+    "AMD": {
+      "score": 0.23453543178258238,
+      "momentum": 0.2684514392752746,
+      "sentiment": 0.4,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Summary highlights AMD as a strong AI chip investment with growth potential despite tech sell-offs."
+    },
+    "WMT": {
+      "score": 0.041236483072866204,
+      "momentum": 0.13745494357622068,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "No Walmart news was retrieved, so company-specific evidence is unavailable."
+    },
+    "TSLA": {
+      "score": 0.4225,
+      "momentum": 1.0,
+      "sentiment": 0.35,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Summary cites a significant surge in European sales and strong regional demand while Q3 earnings remain in focus."
+    }
+  },
+  "score_gap": 0.36384111812309833,
+  "round": 39,
+  "round_id": "2026-10-23_11:30",
+  "request_sha256": "16840a0f82dab26c076f3dc96f40e7e85e92c05b9beadd08f1e7965cdd870936",
+  "input_file_hashes": {
+    "data/raw/2026-10-23_11-30/news.parquet": "74331928ca914840ff8ad8e394d46630b4bd65d5ac83a7753d05561facb694b4",
+    "data/raw/2026-10-23_11-30/price.parquet": "e47c8897df453dd1f72544b2fe4b4cdea06fc619a9bb92960d6de7e7772b44da"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

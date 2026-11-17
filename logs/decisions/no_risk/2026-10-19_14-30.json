@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "AAPL",
+  "stock2": "AMD",
+  "action": "LS",
+  "variant": "no_risk",
+  "reason": "Long AAPL, short AMD: scores 0.269 vs -0.251; eligible=10.",
+  "details": {
+    "NVDA": {
+      "score": -0.06384095095073311,
+      "momentum": -0.5336365031691104,
+      "sentiment": 0.25,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Summary cites undervaluation and strong earnings/AI progress but also competitor pressure."
+    },
+    "GOOG": {
+      "score": -0.08716541210977787,
+      "momentum": -0.3488847070325929,
+      "sentiment": 0.1,
+      "confidence": 0.25,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "Mentioned mainly as a Mag 7 market contributor amid mixed AI-chip competition, with limited company-specific detail."
+    },
+    "META": {
+      "score": 0.09369044959877079,
+      "momentum": 0.020634831995902658,
+      "sentiment": 0.25,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Summary highlights Meta's second-place AI leadership and partnerships, offset by cautious earnings impact."
+    },
+    "MSFT": {
+      "score": 0.1583458519245956,
+      "momentum": 0.10781950641531868,
+      "sentiment": 0.3,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Azure and M365 demand support fiscal Q1 momentum, though its AI chips are seen as lagging rivals."
+    },
+    "JPM": {
+      "score": -0.09166544063137078,
+      "momentum": -0.5155514687712359,
+      "sentiment": 0.2,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Summary cites sustainability goals, JPM Coin blockchain integration, and a fraud-prevention initiative."
+    },
+    "AMZN": {
+      "score": 0.0958574338156436,
+      "momentum": -0.4504752206145213,
+      "sentiment": 0.55,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Summary points to a positive AWS growth forecast and a strategic AI-chip push against Nvidia's CUDA moat."
+    },
+    "AAPL": {
+      "score": 0.2688571340792329,
+      "momentum": 0.40619044693077644,
+      "sentiment": 0.35,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "A new touchscreen MacBook Pro event, strong preorders, and AI integration are offset by mixed China demand."
+    },
+    "AMD": {
+      "score": -0.251,
+      "momentum": -1.0,
+      "sentiment": 0.2,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "Described mainly as part of an AI-chip sector rebound and broader Nasdaq gains, with limited AMD-specific detail."
+    },
+    "WMT": {
+      "score": 0.1734756619671951,
+      "momentum": 0.578252206557317,
+      "sentiment": 0.0,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "Summary mentions a U.S. bond sale and possible Canadian offering amid mixed consumer-stock performance, with no clear directional signal."
+    },
+    "TSLA": {
+      "score": -0.071435008574984,
+      "momentum": -0.33145002858328,
+      "sentiment": 0.1,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Optimism around Florida support for the flying Roadster is offset by expectations of a down quarter and merger complexity."
+    }
+  },
+  "score_gap": 0.5198571340792328,
+  "round": 17,
+  "round_id": "2026-10-19_14:30",
+  "request_sha256": "51058e8dcacb88d9e9d6d1f44412f5db27e9b2bf3eec078bd4ec6e0a02333851",
+  "input_file_hashes": {
+    "data/raw/2026-10-19_14-30/news.parquet": "64785953161c70bf683b0282ad59600a911add9fddbc742b3514441c2e0e25e1",
+    "data/raw/2026-10-19_14-30/price.parquet": "029424bf25ea947e1a7a5ed3828840c73299bdfb32446616332a2116649a52a7"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

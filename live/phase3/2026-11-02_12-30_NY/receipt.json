@@ -1,0 +1,15 @@
+{
+  "request": {
+    "team_name": "FinProbeBench",
+    "stock1": "WMT",
+    "stock2": "AAPL",
+    "action": "LS",
+    "round_id": "2026-11-02_12:30"
+  },
+  "response": {
+    "accepted": true,
+    "receipt_id": "d211f212ffa78138531f94be77e8def301e1148ba32e4b905368b14b5262e072",
+    "round_id": "2026-11-02_12:30",
+    "accepted_at": "2026-11-02T17:31:35.176Z"
+  }
+}

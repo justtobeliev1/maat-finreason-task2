@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": -0.4,
+      "confidence": 0.55,
+      "event": "other",
+      "reason": "Summary cites analyst concerns over AI data center capacity shortfalls and factory downtime despite peer profits."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.45,
+      "confidence": 0.6,
+      "event": "earnings",
+      "reason": "Summary highlights 82% cloud revenue growth driven by AI and TPU investments ahead of earnings."
+    },
+    {
+      "ticker": "META",
+      "sentiment": -0.1,
+      "confidence": 0.35,
+      "event": "capital",
+      "reason": "Non-voting share issuance to fund AI expansion is mixed amid cost and cyclical concerns."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.35,
+      "confidence": 0.55,
+      "event": "earnings",
+      "reason": "Summary notes strong Azure growth and cash flow discipline but also cloud-margin scrutiny."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "Summary contains no JPM-specific news, only XRP tokenization and American Express items."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "Summary contains no AMZN-specific news, discussing Nvidia, Walmart, and Meta instead."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.15,
+      "confidence": 0.3,
+      "event": "product",
+      "reason": "New foldable iPhone launches near $1,999, but the summary also notes volatile trading and mixed signals."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": -0.15,
+      "confidence": 0.3,
+      "event": "other",
+      "reason": "Summary mentions a sharp tech sell-off and competitive AI-component positioning, mostly macro-driven for AMD."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.3,
+      "confidence": 0.4,
+      "event": "product",
+      "reason": "Walmart is introducing AI shopping tools aimed at increasing customer transactions."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": -0.5,
+      "confidence": 0.6,
+      "event": "product",
+      "reason": "Tesla stock declined after the Cybertruck market exit in Australia and New Zealand amid sector volatility."
+    }
+  ]
+}

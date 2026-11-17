@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.0,
+      "confidence": 0.2,
+      "event": "other",
+      "reason": "Summary mixes positive AI demand with unused Nvidia chips and valuation debate, giving no clear company-specific direction."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.15,
+      "confidence": 0.35,
+      "event": "regulation",
+      "reason": "Summary cites undervaluation and tech gains but also regulatory scrutiny of AI school initiatives."
+    },
+    {
+      "ticker": "META",
+      "sentiment": -0.25,
+      "confidence": 0.5,
+      "event": "regulation",
+      "reason": "A reported $25 billion privacy penalty is a material negative, though the summary also notes a stock rally."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": -0.1,
+      "confidence": 0.25,
+      "event": "other",
+      "reason": "Summary only notes critical investor scrutiny ahead of an unspecified October 28 announcement."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No JPM news was retrieved; coverage is incomplete, so no company-specific catalyst is available."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": -0.1,
+      "confidence": 0.3,
+      "event": "regulation",
+      "reason": "Summary cites unused AI chips and ongoing FTC settlement refunds, partly offset by AI investment and holiday hiring."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No AAPL news was retrieved; coverage is incomplete, so no company-specific catalyst is available."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": 0.45,
+      "confidence": 0.55,
+      "event": "earnings",
+      "reason": "Summary says AMD shares rose after a price-target increase ahead of earnings, with sector sentiment also lifted."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.2,
+      "confidence": 0.35,
+      "event": "product",
+      "reason": "Walmart launched a new membership deal promising nearly $100 in savings, a modest positive company-specific item."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.5,
+      "confidence": 0.6,
+      "event": "earnings",
+      "reason": "Summary reports Tesla’s strong earnings helped lift U.S. tech stocks and major indexes."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "AMD",
+  "stock2": "TSLA",
+  "action": "LS",
+  "variant": "full",
+  "reason": "Long AMD, short TSLA: scores 0.239 vs -0.278; eligible=6.",
+  "details": {
+    "NVDA": {
+      "score": 0.21575103333554474,
+      "momentum": 0.9291701111184825,
+      "sentiment": -0.2,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Nvidia faces a broad tech sell-off and AI-chip competition, while its nuclear-site data-center exploration is strategic but not an immediate catalyst."
+    },
+    "GOOG": {
+      "score": 0.1773980051699353,
+      "momentum": 0.5913266838997844,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "No Alphabet-specific information is present; the retrieved item concerns Apple and Nvidia market leadership."
+    },
+    "META": {
+      "score": 0.1332252515505074,
+      "momentum": 0.8932508385016913,
+      "sentiment": -0.35,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "regulation",
+      "reason": "Meta is pressured by a tech sell-off and hedge-fund shorting, with California wealth-tax concerns and a non-voting share plan adding governance overhang."
+    },
+    "MSFT": {
+      "score": 0.28017097432139215,
+      "momentum": 0.8639032477379738,
+      "sentiment": 0.1,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "capital",
+      "reason": "Microsoft is pursuing AI-driven revenue while carrying ongoing capital expenditures, with competitive and market-leadership noise limiting clarity."
+    },
+    "JPM": {
+      "score": -0.3,
+      "momentum": -1.0,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "No JPM-specific news was retrieved; incomplete coverage means no company catalyst can be inferred."
+    },
+    "AMZN": {
+      "score": -0.039105754609561894,
+      "momentum": -0.1303525153652063,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "No Amazon-specific information appears; the retrieved headlines concern Apple, Nvidia and a chip stock."
+    },
+    "AAPL": {
+      "score": 0.03432200150424419,
+      "momentum": -0.515593328319186,
+      "sentiment": 0.45,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Apple reclaimed top market valuation as its new iPhone duo launched with strong demand and limited supply."
+    },
+    "AMD": {
+      "score": 0.23875,
+      "momentum": 1.0,
+      "sentiment": -0.25,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "AMD fell in a sharp tech sell-off, with steady Treasury yields offering little offset; the item is largely macro-driven."
+    },
+    "WMT": {
+      "score": -0.04799999999999999,
+      "momentum": -1.0,
+      "sentiment": 0.6,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Walmart reported its strongest sales month since 1999, lifting market value close to $1 trillion."
+    },
+    "TSLA": {
+      "score": -0.27792819317556455,
+      "momentum": -0.7222606439185486,
+      "sentiment": -0.25,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "Tesla declined within a broader tech sell-off, with the retrieved item offering only macro-market context."
+    }
+  },
+  "score_gap": 0.5166781931755645,
+  "round": 38,
+  "round_id": "2026-10-23_10:30",
+  "request_sha256": "befab587da4a66923ecb3ed1a43a7841f68adbf68699274cfb1382f5d5324518",
+  "input_file_hashes": {
+    "data/raw/2026-10-23_10-30/news.parquet": "bf2d52224f6a5ad6a029010f5a0818a2c6d26808288eb55e86aa88bebf6ddda7",
+    "data/raw/2026-10-23_10-30/price.parquet": "65a07de212444f217580ff79f857966eae9b2c76b106cb01c78aa943f92cb5d6"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

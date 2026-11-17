@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.25,
+      "confidence": 0.55,
+      "event": "earnings",
+      "reason": "Summary cites undervaluation and strong earnings/AI progress but also competitor pressure."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.1,
+      "confidence": 0.25,
+      "event": "macro",
+      "reason": "Mentioned mainly as a Mag 7 market contributor amid mixed AI-chip competition, with limited company-specific detail."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.25,
+      "confidence": 0.5,
+      "event": "product",
+      "reason": "Summary highlights Meta's second-place AI leadership and partnerships, offset by cautious earnings impact."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.3,
+      "confidence": 0.6,
+      "event": "earnings",
+      "reason": "Azure and M365 demand support fiscal Q1 momentum, though its AI chips are seen as lagging rivals."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.2,
+      "confidence": 0.45,
+      "event": "product",
+      "reason": "Summary cites sustainability goals, JPM Coin blockchain integration, and a fraud-prevention initiative."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.55,
+      "confidence": 0.7,
+      "event": "product",
+      "reason": "Summary points to a positive AWS growth forecast and a strategic AI-chip push against Nvidia's CUDA moat."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.35,
+      "confidence": 0.6,
+      "event": "product",
+      "reason": "A new touchscreen MacBook Pro event, strong preorders, and AI integration are offset by mixed China demand."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": 0.2,
+      "confidence": 0.35,
+      "event": "macro",
+      "reason": "Described mainly as part of an AI-chip sector rebound and broader Nasdaq gains, with limited AMD-specific detail."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.0,
+      "confidence": 0.3,
+      "event": "capital",
+      "reason": "Summary mentions a U.S. bond sale and possible Canadian offering amid mixed consumer-stock performance, with no clear directional signal."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.1,
+      "confidence": 0.4,
+      "event": "product",
+      "reason": "Optimism around Florida support for the flying Roadster is offset by expectations of a down quarter and merger complexity."
+    }
+  ]
+}

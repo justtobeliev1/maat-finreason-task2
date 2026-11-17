@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.65,
+      "confidence": 0.65,
+      "event": "other",
+      "reason": "Partial sample cites expanding AI infrastructure and security partnerships plus $3B agreements, supporting a positive company-specific bias."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.25,
+      "confidence": 0.45,
+      "event": "other",
+      "reason": "Partial sample shows Google Cloud AI partnership expansion but mixed Alphabet investor sentiment."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.05,
+      "confidence": 0.4,
+      "event": "earnings",
+      "reason": "Partial sample notes Muse AI development alongside spending scrutiny as Q3 earnings approach."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.5,
+      "confidence": 0.6,
+      "event": "other",
+      "reason": "Partial sample highlights strong analyst support for AI cloud computing and strategic partnerships."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": -0.1,
+      "confidence": 0.35,
+      "event": "other",
+      "reason": "Partial sample has positive small-business lending but notes ETF holders reducing JPM exposure amid rate pressures."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.45,
+      "confidence": 0.55,
+      "event": "capital",
+      "reason": "Partial sample cites a €16B Germany investment and AI hardware stockpiling, implying expansionary capital spending."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": -0.3,
+      "confidence": 0.5,
+      "event": "other",
+      "reason": "Partial sample points to downgrades and valuation concerns, only partly offset by foldable iPhone anticipation."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": 0.1,
+      "confidence": 0.2,
+      "event": "other",
+      "reason": "Partial sample offers only an indirect reference to an unnamed NVIDIA challenger, limiting AMD-specific conviction."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.4,
+      "confidence": 0.55,
+      "event": "other",
+      "reason": "Partial sample shows expansion in business services, advertising, and exclusive products with investor interest."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": -0.25,
+      "confidence": 0.5,
+      "event": "earnings",
+      "reason": "Partial sample cites an expected down quarter, partly offset by SpaceX merger exploration and AI optimism."
+    }
+  ]
+}

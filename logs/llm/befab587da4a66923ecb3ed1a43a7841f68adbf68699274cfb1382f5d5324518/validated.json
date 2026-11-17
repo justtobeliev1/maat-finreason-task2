@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": -0.2,
+      "confidence": 0.45,
+      "event": "other",
+      "reason": "Nvidia faces a broad tech sell-off and AI-chip competition, while its nuclear-site data-center exploration is strategic but not an immediate catalyst."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No Alphabet-specific information is present; the retrieved item concerns Apple and Nvidia market leadership."
+    },
+    {
+      "ticker": "META",
+      "sentiment": -0.35,
+      "confidence": 0.55,
+      "event": "regulation",
+      "reason": "Meta is pressured by a tech sell-off and hedge-fund shorting, with California wealth-tax concerns and a non-voting share plan adding governance overhang."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.1,
+      "confidence": 0.3,
+      "event": "capital",
+      "reason": "Microsoft is pursuing AI-driven revenue while carrying ongoing capital expenditures, with competitive and market-leadership noise limiting clarity."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No JPM-specific news was retrieved; incomplete coverage means no company catalyst can be inferred."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No Amazon-specific information appears; the retrieved headlines concern Apple, Nvidia and a chip stock."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.45,
+      "confidence": 0.6,
+      "event": "product",
+      "reason": "Apple reclaimed top market valuation as its new iPhone duo launched with strong demand and limited supply."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": -0.25,
+      "confidence": 0.35,
+      "event": "macro",
+      "reason": "AMD fell in a sharp tech sell-off, with steady Treasury yields offering little offset; the item is largely macro-driven."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.6,
+      "confidence": 0.65,
+      "event": "other",
+      "reason": "Walmart reported its strongest sales month since 1999, lifting market value close to $1 trillion."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": -0.25,
+      "confidence": 0.35,
+      "event": "macro",
+      "reason": "Tesla declined within a broader tech sell-off, with the retrieved item offering only macro-market context."
+    }
+  ]
+}

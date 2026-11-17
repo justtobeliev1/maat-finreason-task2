@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.15,
+      "confidence": 0.4,
+      "event": "other",
+      "reason": "Summary cites AI leadership and earnings contribution but also flags power-constraint challenges."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": -0.6,
+      "confidence": 0.65,
+      "event": "regulation",
+      "reason": "Summary cites sharp value loss, regulatory scrutiny over cloud outages, and AI capacity trade-offs."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.5,
+      "confidence": 0.5,
+      "event": "other",
+      "reason": "Summary highlights Zuckerberg's bold AI move amid upbeat earnings and tech-stock strength."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.1,
+      "confidence": 0.25,
+      "event": "other",
+      "reason": "Summary only notes Microsoft remained stable amid sector volatility, with no specific catalyst."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": -0.2,
+      "confidence": 0.4,
+      "event": "other",
+      "reason": "Summary says JPMorgan will surrender its Turkish brokerage license, signaling a market withdrawal."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.45,
+      "confidence": 0.5,
+      "event": "other",
+      "reason": "Summary says AWS growth and a data-center-supporting deal could lift Amazon shares."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": -0.15,
+      "confidence": 0.4,
+      "event": "earnings",
+      "reason": "Summary notes Apple near highs but with a slightly challenging earnings outlook and limited upside."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": 0.0,
+      "confidence": 0.15,
+      "event": "other",
+      "reason": "Summary only notes intense AMD-Nvidia competition and an unspecified decisive performance metric."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "Summary only references Walmart as a market-value comparison, not company-specific news."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.5,
+      "confidence": 0.45,
+      "event": "other",
+      "reason": "Summary cites a potential SpaceX-Tesla merger and robotaxi/terafab production as growth drivers."
+    }
+  ]
+}

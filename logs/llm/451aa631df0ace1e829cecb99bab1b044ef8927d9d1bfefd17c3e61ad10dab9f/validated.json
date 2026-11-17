@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": -0.4,
+      "confidence": 0.6,
+      "event": "other",
+      "reason": "Summary reports Nvidia shares declined amid skepticism over China chip purchases despite a German AI partnership."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.5,
+      "confidence": 0.7,
+      "event": "earnings",
+      "reason": "Summary cites an expected Q3 earnings beat on cloud growth and AI chip advances, plus Waymo's Europe expansion."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.35,
+      "confidence": 0.55,
+      "event": "other",
+      "reason": "Summary notes Meta shares rose 25% in September on AI optimism, though near-term earnings and leadership changes temper the view."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.2,
+      "confidence": 0.5,
+      "event": "product",
+      "reason": "Summary highlights AI integration and a Boeing partnership, alongside mixed sentiment and regulatory issues affecting rivals."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": -0.25,
+      "confidence": 0.45,
+      "event": "other",
+      "reason": "Summary says JPMorgan stock fell despite a $230 billion security initiative and new branches targeting profitable customers."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.45,
+      "confidence": 0.65,
+      "event": "product",
+      "reason": "Summary reports Amazon stock rose on analyst target increases and AWS's TorchNeuron launch for AI chip performance."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.0,
+      "confidence": 0.15,
+      "event": "macro",
+      "reason": "Summary provides only broad tech-market and macro commentary, with no Apple-specific development."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": -0.3,
+      "confidence": 0.45,
+      "event": "other",
+      "reason": "Summary flags a critical challenge for AMD amid surging AI server demand, while Nvidia is unaffected by China purchase rumors."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.2,
+      "confidence": 0.5,
+      "event": "product",
+      "reason": "Summary says Walmart is cutting membership fees with a new bundle aimed at adding value and improving retention."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.0,
+      "confidence": 0.3,
+      "event": "earnings",
+      "reason": "Summary focuses on Tesla's upcoming Q3 earnings as a critical assessment of its AI investments amid broad market factors."
+    }
+  ]
+}

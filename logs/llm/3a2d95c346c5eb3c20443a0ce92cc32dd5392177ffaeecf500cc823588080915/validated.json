@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.15,
+      "confidence": 0.45,
+      "event": "product",
+      "reason": "Nvidia is pushing into Intel and AMD CPU markets, a competitive expansion offset by chip-sector selloff concerns."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.35,
+      "confidence": 0.55,
+      "event": "product",
+      "reason": "Alphabet is expanding autonomous ride-hailing, listings partnerships, and YouTube subscription revenue opportunities."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.1,
+      "confidence": 0.3,
+      "event": "product",
+      "reason": "Meta is exploring WhatsApp expansion beyond advertising, though the summary is vague and includes broader AI IPO weakness."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.35,
+      "confidence": 0.55,
+      "event": "product",
+      "reason": "Microsoft is expanding data centers, partnering with Boeing on AI aircraft, and integrating AI tools into legal workflows."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "The supplied summary discusses Tronox and Bank of America, not JPMorgan-specific evidence."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.2,
+      "confidence": 0.45,
+      "event": "product",
+      "reason": "Amazon plans large holiday hiring and an AWS collaboration with Omnicom's Credera amid cloud competition."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": -0.35,
+      "confidence": 0.55,
+      "event": "other",
+      "reason": "Analysts became cautious and downgraded Apple despite a new stock high, with chip-sector selling weighing on the AI trade."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": -0.4,
+      "confidence": 0.55,
+      "event": "product",
+      "reason": "Nvidia's CPU market push intensifies competition with AMD amid declining chip stocks and AI investment concerns."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": -0.25,
+      "confidence": 0.35,
+      "event": "other",
+      "reason": "Walmart faces scrutiny over supplier funding for inventory growth and questions about its business practices."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "The summary references SpaceX earnings and a broad market rally rather than Tesla-specific evidence."
+    }
+  ]
+}

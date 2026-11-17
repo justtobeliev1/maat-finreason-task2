@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "NVDA",
+  "stock2": "GOOG",
+  "action": "F",
+  "variant": "full",
+  "reason": "Score gap 0.296 below frozen threshold 0.35.",
+  "details": {
+    "NVDA": {
+      "score": 0.369749577253737,
+      "momentum": 0.65499859084579,
+      "sentiment": 0.45,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "The summary cites strong AI partnerships, sustainable margins, and growth despite market doubts and AI bubble debate."
+    },
+    "GOOG": {
+      "score": 0.07420498305345267,
+      "momentum": 0.5098499435115089,
+      "sentiment": -0.25,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "The summary says Alphabet's cloud arm is sacrificing revenue amid AI-race investments, a mixed-to-negative near-term signal."
+    },
+    "META": {
+      "score": 0.22097752009363889,
+      "momentum": 0.4449250669787963,
+      "sentiment": 0.25,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "The summary says Meta's stock rises ahead of earnings amid a tech-driven market rally."
+    },
+    "MSFT": {
+      "score": 0.19579275904125157,
+      "momentum": 0.3376425301375052,
+      "sentiment": 0.3,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "The summary says analysts view Microsoft's value as underestimated despite AI-sector concerns."
+    },
+    "JPM": {
+      "score": 0.007194977954800841,
+      "momentum": 0.023983259849336136,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "The retrieved summary discusses Bank of America, not JPMorgan, so no JPM-specific evidence is available."
+    },
+    "AMZN": {
+      "score": 0.3033575988584783,
+      "momentum": 0.8011919961949276,
+      "sentiment": 0.2,
+      "confidence": 0.45,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "The summary says Amazon is investing heavily in custom AI silicon amid cloud competition and capital commitments."
+    },
+    "AAPL": {
+      "score": 0.3245,
+      "momentum": 1.0,
+      "sentiment": 0.1,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "The summary says Apple is expanding its US supplier network ahead of a deadline with potential holiday-season and liability effects."
+    },
+    "AMD": {
+      "score": 0.2089971327505965,
+      "momentum": 0.11915710916865496,
+      "sentiment": 0.45,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "The summary cites profitable data-center momentum, rising analyst targets, and modest chip-earnings upside."
+    },
+    "WMT": {
+      "score": 0.19959027469530044,
+      "momentum": 0.6653009156510015,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "The retrieved summary discusses SpaceX, not Walmart, so no WMT-specific evidence is available."
+    },
+    "TSLA": {
+      "score": 0.2145758487643034,
+      "momentum": 0.48191949588101135,
+      "sentiment": 0.25,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "The summary says Musk is considering a Tesla-SpaceX merger while noting SpaceX revenue growth and Bitcoin-holding effects."
+    }
+  },
+  "score_gap": 0.29554459420028434,
+  "round": 27,
+  "round_id": "2026-10-21_11:30",
+  "request_sha256": "dee740035e1b3fd4a9f51583d7566e74fb06bb479790d35e4d5c51739318d209",
+  "input_file_hashes": {
+    "data/raw/2026-10-21_11-30/news.parquet": "2907038f6542b0828024657a57ef6f05dc1ca9c648e193024bf0d3b1f4b8bf44",
+    "data/raw/2026-10-21_11-30/price.parquet": "07f8961bd48f0edf51381b35efa23f07956f76a8bf5588f244856fc18693276c"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

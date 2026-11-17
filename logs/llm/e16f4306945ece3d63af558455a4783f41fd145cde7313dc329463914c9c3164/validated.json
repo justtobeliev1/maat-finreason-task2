@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.1,
+      "confidence": 0.3,
+      "event": "other",
+      "reason": "AI chip demand signaled by TSMC's record profit is offset by a semiconductor sell-off and AI-safety commentary."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.35,
+      "confidence": 0.45,
+      "event": "capital",
+      "reason": "Heavy AI and cloud investment plus new products support a mildly positive view despite competition."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.3,
+      "confidence": 0.4,
+      "event": "other",
+      "reason": "A claimed unique AI advantage is positive, though heavy Big Tech AI spending and share sales add uncertainty."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.4,
+      "confidence": 0.5,
+      "event": "product",
+      "reason": "A new AI chip and strong quarterly performance are positive, though AI regulatory scrutiny and a record-close drought temper the signal."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": -0.1,
+      "confidence": 0.35,
+      "event": "earnings",
+      "reason": "Mixed earnings and regulatory scrutiny weigh on sentiment despite the bank leading major financings."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.2,
+      "confidence": 0.35,
+      "event": "other",
+      "reason": "Its AI and cloud position and increased tech spending support a mild positive, tempered by competition and regulatory scrutiny."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.55,
+      "confidence": 0.6,
+      "event": "product",
+      "reason": "Strong iPhone sales, AI feature launches in China, and market-share gains support a positive company-specific view."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": -0.3,
+      "confidence": 0.45,
+      "event": "macro",
+      "reason": "AMD is caught in a sector-wide AI sell-off and inflation fears despite strong AI-chip demand signaled by TSMC."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.4,
+      "confidence": 0.5,
+      "event": "other",
+      "reason": "A Deutsche Bank upgrade citing favorable pricing and affordable apparel supports a positive near-term view."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.3,
+      "confidence": 0.4,
+      "event": "product",
+      "reason": "The new Roadster unveiling and AI-driven orders are positive, while competition and regulatory probes temper the view."
+    }
+  ]
+}

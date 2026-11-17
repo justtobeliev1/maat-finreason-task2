@@ -1,0 +1,7 @@
+{
+  "price_url": "https://huggingface.co/datasets/CarolynJiang/Market-Neutral-Hedging-live-trading/resolve/main/data/2026-11-02_10-30_NY/price.parquet",
+  "price_sha256": "695fd4a2bfc941cc0370bbf495b436f2bc745738797283a0547bce54fe466631",
+  "news_url": "https://huggingface.co/datasets/CarolynJiang/Market-Neutral-Hedging-live-trading/resolve/main/data/2026-11-02_10-30_NY/news.parquet",
+  "news_sha256": "715a69655d2e15ed3ef17e95ee0019e13a7aea82515574ffc85b6e3eec5a742c",
+  "fetched_utc": "2026-11-02T15:31:37.420493+00:00"
+}

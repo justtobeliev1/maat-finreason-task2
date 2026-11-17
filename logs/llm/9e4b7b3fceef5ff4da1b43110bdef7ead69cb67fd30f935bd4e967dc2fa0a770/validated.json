@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.2,
+      "confidence": 0.35,
+      "event": "macro",
+      "reason": "NVIDIA was cited in a semiconductor rally tied to rebounding AI trade, though the item is sector-wide and includes bubble warnings."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.1,
+      "confidence": 0.35,
+      "event": "product",
+      "reason": "Google reported Gemini federal-agency work with Accenture but also a next AI-chip delay amid cloud/AI valuation questions."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.1,
+      "confidence": 0.3,
+      "event": "earnings",
+      "reason": "Meta is noted for Q3 earnings attention, AI competition, and Broadcom CPO testing without a reported result."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": -0.25,
+      "confidence": 0.45,
+      "event": "capital",
+      "reason": "Microsoft faces stock uncertainty after withdrawing from a UK Nscale data-center project amid cloud/AI valuation debate."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.15,
+      "event": "other",
+      "reason": "The only item concerns JPMorgan analysts' bullish Ethereum projection, not a direct JPMorgan business development."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.45,
+      "confidence": 0.55,
+      "event": "product",
+      "reason": "Amazon rose on an analyst target upgrade and AI-growth optimism tied to its open-source TorchNeuron release."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.2,
+      "confidence": 0.35,
+      "event": "other",
+      "reason": "Apple's stock surge to a $5 trillion valuation is offset by analyst questions over whether its multiple exceeds growth potential."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": 0.3,
+      "confidence": 0.45,
+      "event": "macro",
+      "reason": "AMD was included in a semiconductor rally driven by renewed AI data-center investor interest and JPMorgan upgrades, though the item is sector-wide."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.35,
+      "confidence": 0.5,
+      "event": "product",
+      "reason": "Walmart expanded premium wellness offerings across more than 2,300 stores and added parcel carriers for seller-fulfilled shipping."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.0,
+      "confidence": 0.2,
+      "event": "earnings",
+      "reason": "Tesla is mentioned only as a Q3 earnings focus amid broader tech/AI optimism, with no company-specific result reported."
+    }
+  ]
+}

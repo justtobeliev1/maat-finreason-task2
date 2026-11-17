@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "JPM",
+  "stock2": "AMD",
+  "action": "LS",
+  "variant": "no_news",
+  "reason": "Long JPM, short AMD: scores 0.364 vs -1.000; eligible=10.",
+  "details": {
+    "NVDA": {
+      "score": -0.6368915433146438,
+      "momentum": -0.6368915433146438,
+      "sentiment": 0.45,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "NVIDIA's AI chip-design collaborations and stronger memory pricing point to positive AI-driven demand."
+    },
+    "GOOG": {
+      "score": -0.8713753181820771,
+      "momentum": -0.8713753181820771,
+      "sentiment": -0.1,
+      "confidence": 0.25,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "An analyst favoring a lesser-known cloud giant over Alphabet is a mildly negative comparative signal, though coverage is partial."
+    },
+    "META": {
+      "score": -0.8846670881636931,
+      "momentum": -0.8846670881636931,
+      "sentiment": 0.35,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "WhatsApp guest calling and AI initiatives easing spending concerns are positive product and strategy signals."
+    },
+    "MSFT": {
+      "score": -0.2659204399638404,
+      "momentum": -0.2659204399638404,
+      "sentiment": -0.1,
+      "confidence": 0.25,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "An analyst favoring another cloud company over Microsoft is a mildly negative comparative signal, with no direct operating update."
+    },
+    "JPM": {
+      "score": 0.36422392164314754,
+      "momentum": 0.36422392164314754,
+      "sentiment": 0.0,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "regulation",
+      "reason": "A strong bank deal pipeline is offset by a watchdog report on major US banks denying services, leaving the JPM-specific impact unclear."
+    },
+    "AMZN": {
+      "score": -0.5484955538608949,
+      "momentum": -0.5484955538608949,
+      "sentiment": 0.0,
+      "confidence": 0.15,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "The summary does not explicitly mention Amazon or a clear company-specific catalyst."
+    },
+    "AAPL": {
+      "score": -0.24137934076559064,
+      "momentum": -0.24137934076559064,
+      "sentiment": 0.4,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Apple regaining the $5 trillion market-cap milestone is a positive company-specific headline, though coverage is partial."
+    },
+    "AMD": {
+      "score": -1.0,
+      "momentum": -1.0,
+      "sentiment": 0.05,
+      "confidence": 0.2,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "Only broad data-center and recession commentary is supplied, with no direct AMD-specific catalyst."
+    },
+    "WMT": {
+      "score": 0.06973660233908774,
+      "momentum": 0.06973660233908774,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "No WMT news was retrieved, so no company-specific catalyst can be inferred from this sample."
+    },
+    "TSLA": {
+      "score": -0.6073676228580571,
+      "momentum": -0.6073676228580571,
+      "sentiment": 0.45,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Tesla's record 745 MW battery contribution to California's grid highlights growth in its energy-storage business."
+    }
+  },
+  "score_gap": 1.3642239216431475,
+  "round": 4,
+  "round_id": "2026-10-14_12:30",
+  "request_sha256": "a82539a6f932f197fdc10a333f7259fe4e6a2a6870edaa180de381d8756c1377",
+  "input_file_hashes": {
+    "data/raw/2026-10-14_12-30/news.parquet": "4b2ea3834ab6a1a5109b862d28d1435e7ddf99790b01bff3971b00e5d7d5017f",
+    "data/raw/2026-10-14_12-30/price.parquet": "782e731cc332143176b721bf0dc7ca633bcd61b2293427d07d9444427da3f274"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

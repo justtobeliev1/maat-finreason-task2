@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": -0.25,
+      "confidence": 0.3,
+      "event": "macro",
+      "reason": "Nvidia is cited in broad pressure on AI chip stocks and tech-fund rotation, not a company-specific event."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.45,
+      "confidence": 0.55,
+      "event": "product",
+      "reason": "Google is expanding cloud services with OpenAI model integration and a nuclear energy deal with Constellation Energy."
+    },
+    {
+      "ticker": "META",
+      "sentiment": -0.2,
+      "confidence": 0.55,
+      "event": "earnings",
+      "reason": "Meta beat Q3 earnings but shares fell amid broader market declines and increased AI-spending concerns."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.1,
+      "confidence": 0.15,
+      "event": "other",
+      "reason": "Microsoft is only mentioned as a potential beneficiary of an AI TRiSM market growth forecast, with no direct company news."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "event": "other",
+      "reason": "JPMorgan is only mentioned in a peer comparison for financial-stock appeal in 2026, with no near-term company-specific development."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.1,
+      "confidence": 0.15,
+      "event": "other",
+      "reason": "Amazon is cited only for vague investment potential amid media-innovation and consumer-cost themes."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.55,
+      "confidence": 0.65,
+      "event": "product",
+      "reason": "Apple's iPhone Duo shows strong pre-order demand, with backorders reported until 2027."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": -0.15,
+      "confidence": 0.3,
+      "event": "other",
+      "reason": "AMD shares declined amid AI-sector pressure, partly offset by an analyst view that the stock may be undervalued on cash flow."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.1,
+      "confidence": 0.2,
+      "event": "product",
+      "reason": "Walmart introduced a $120 annual joint membership bundle amid holiday shopper budget pressure."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": -0.2,
+      "confidence": 0.55,
+      "event": "earnings",
+      "reason": "Tesla's Q3 profit fell 43% on higher operating costs, partly offset by a JPMorgan price-target raise and Optimus/AI initiatives."
+    }
+  ]
+}

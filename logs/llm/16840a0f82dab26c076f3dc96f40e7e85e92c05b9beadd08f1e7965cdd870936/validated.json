@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.35,
+      "confidence": 0.55,
+      "event": "other",
+      "reason": "Summary cites Nvidia's AI chip dominance and bullish analyst sentiment despite tech volatility."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "Summary contains no Google-specific evidence, only broad market and peer earnings context."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.25,
+      "confidence": 0.5,
+      "event": "other",
+      "reason": "Summary highlights Meta's AI monetization appeal amid a tech sell-off and cautious earnings season."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.2,
+      "confidence": 0.35,
+      "event": "earnings",
+      "reason": "Summary says Microsoft's upcoming earnings will focus on Azure growth and Copilot monetization."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "Summary only references JPM analysts' view on ASML and Chinese semiconductor firms, not JPM itself."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.0,
+      "confidence": 0.2,
+      "event": "earnings",
+      "reason": "Summary only notes Amazon is among hyperscalers preparing to report earnings, without directional detail."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.25,
+      "confidence": 0.45,
+      "event": "other",
+      "reason": "Summary notes Apple reclaimed Wall Street's top spot, highlighting strong market presence."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": 0.4,
+      "confidence": 0.55,
+      "event": "other",
+      "reason": "Summary highlights AMD as a strong AI chip investment with growth potential despite tech sell-offs."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No Walmart news was retrieved, so company-specific evidence is unavailable."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.35,
+      "confidence": 0.5,
+      "event": "earnings",
+      "reason": "Summary cites a significant surge in European sales and strong regional demand while Q3 earnings remain in focus."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.35,
+      "confidence": 0.4,
+      "event": "product",
+      "reason": "CEO confidence and Samsung's unusual move for Nvidia chips suggest positive AI-demand signals."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.45,
+      "confidence": 0.45,
+      "event": "product",
+      "reason": "Quantum and cloud alliance progress plus Waymo/cloud interest support a moderately positive near-term view."
+    },
+    {
+      "ticker": "META",
+      "sentiment": -0.35,
+      "confidence": 0.5,
+      "event": "earnings",
+      "reason": "Shares are declining ahead of earnings amid concerns about daily active user growth despite a price-target increase."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.1,
+      "confidence": 0.2,
+      "event": "other",
+      "reason": "Only a modest share gain is noted, with no Microsoft-specific catalyst in the summary."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.2,
+      "confidence": 0.3,
+      "event": "capital",
+      "reason": "A $5 billion defense-startup investment signals strategic expansion, though this is a single-headline sample."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.65,
+      "confidence": 0.65,
+      "event": "other",
+      "reason": "Morgan Stanley's bullish AWS-margin and retail outlook plus a nuclear project collaboration drove a surge."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.45,
+      "confidence": 0.45,
+      "event": "product",
+      "reason": "The new iPhone duo sold out quickly, a positive product-demand signal."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": 0.2,
+      "confidence": 0.25,
+      "event": "macro",
+      "reason": "AMD is a focal point in the rebounding AI trade, but the summary offers only broad market sentiment."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No WMT news was retrieved; coverage is incomplete and no company-specific catalyst can be inferred."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.2,
+      "confidence": 0.3,
+      "event": "other",
+      "reason": "Musk's SpaceX-Tesla merger speculation and new Roadster developments are notable but speculative."
+    }
+  ]
+}

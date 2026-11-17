@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "META",
+  "stock2": "AMZN",
+  "action": "LS",
+  "variant": "no_news",
+  "reason": "Long META, short AMZN: scores 1.000 vs -1.000; eligible=10.",
+  "details": {
+    "NVDA": {
+      "score": -1.0,
+      "momentum": -1.0,
+      "sentiment": 0.45,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "NVIDIA's AI collaborations and major tech orders point to growth, though the summary notes mixed market signals."
+    },
+    "GOOG": {
+      "score": -1.0,
+      "momentum": -1.0,
+      "sentiment": 0.0,
+      "confidence": 0.25,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Alphabet's valuation debate includes Waymo potential, but the summary offers no clear directional catalyst."
+    },
+    "META": {
+      "score": 1.0,
+      "momentum": 1.0,
+      "sentiment": 0.5,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Meta approaches earnings with expectations of significant upside amid AI-related investor optimism."
+    },
+    "MSFT": {
+      "score": 0.501727738134683,
+      "momentum": 0.501727738134683,
+      "sentiment": 0.35,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Microsoft's AI-driven patient-support partnerships and broader enterprise collaborations suggest positive industry integration."
+    },
+    "JPM": {
+      "score": -1.0,
+      "momentum": -1.0,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "No JPM-specific news was retrieved, so no company catalyst can be inferred from this incomplete sample."
+    },
+    "AMZN": {
+      "score": -1.0,
+      "momentum": -1.0,
+      "sentiment": -0.1,
+      "confidence": 0.25,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Amazon faces questions about funding its robotaxi ambitions, with valuation and earnings anticipation in focus."
+    },
+    "AAPL": {
+      "score": 0.35229650846071436,
+      "momentum": 0.35229650846071436,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "No AAPL-specific news was retrieved, so no company catalyst can be inferred from this incomplete sample."
+    },
+    "AMD": {
+      "score": -0.9072489342834889,
+      "momentum": -0.9072489342834889,
+      "sentiment": -0.1,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "AMD's valuation is under scrutiny ahead of earnings, though broad tech strength is also noted."
+    },
+    "WMT": {
+      "score": 0.2393970429964254,
+      "momentum": 0.2393970429964254,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "The lone retrieved item concerns a Coterie parenting ad and contains no Walmart-specific financial or retail development."
+    },
+    "TSLA": {
+      "score": -0.17220892413902789,
+      "momentum": -0.17220892413902789,
+      "sentiment": 0.55,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Musk-confirmed merger talks and optimistic revenue-target commentary support a positive near-term read for Tesla."
+    }
+  },
+  "score_gap": 2.0,
+  "round": 26,
+  "round_id": "2026-10-21_10:30",
+  "request_sha256": "70d72c51fff9cd31fd55923547fa0e401b61ca9832e758b7b991306ea37e9096",
+  "input_file_hashes": {
+    "data/raw/2026-10-21_10-30/news.parquet": "2aad0a6687df16ed9c061f2db438fcba8ac5c8327f4e39e18da0deda7262ffcf",
+    "data/raw/2026-10-21_10-30/price.parquet": "465c3113b88683059394fdc748211444122956d5420130d7e0a605e3ab1b97f4"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

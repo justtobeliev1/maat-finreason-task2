@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.0,
+      "confidence": 0.15,
+      "event": "macro",
+      "reason": "Nvidia is mentioned only in a chip-sector recovery with caution about further shakeouts, not on company-specific news."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "event": "macro",
+      "reason": "The summary is broad AI-spending and Fed-rate commentary with no Alphabet-specific catalyst."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.55,
+      "confidence": 0.6,
+      "event": "product",
+      "reason": "Meta's Muse AI agent is reported at 10.9 million downloads amid strong market attention, a positive product signal."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.3,
+      "confidence": 0.45,
+      "event": "product",
+      "reason": "Microsoft is cited for strong performance and quantum-computing positioning, though broad AI-spending and Fed-rate context is also present."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "event": "macro",
+      "reason": "The item is JPMorgan analyst market commentary about an easing equity headwind, not a JPM company-specific catalyst."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": -0.1,
+      "confidence": 0.3,
+      "event": "product",
+      "reason": "Amazon faces new quantum-pricing competition while project expansion is noted, alongside broad AI-spending and Fed concerns."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.0,
+      "confidence": 0.45,
+      "event": "earnings",
+      "reason": "UBS expects Apple's fiscal Q4 results to be in line with consensus, a neutral company-specific earnings signal."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": 0.0,
+      "confidence": 0.15,
+      "event": "macro",
+      "reason": "AMD is mentioned only in a chip-sector rally with caution about further shakeouts, with no AMD-specific catalyst."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No Walmart-specific news was retrieved, so no company catalyst can be inferred from this incomplete sample."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.0,
+      "confidence": 0.4,
+      "event": "earnings",
+      "reason": "Tesla's Q3 earnings are flagged for delivery outlook and cash flow, but the summary gives no clear directional surprise."
+    }
+  ]
+}

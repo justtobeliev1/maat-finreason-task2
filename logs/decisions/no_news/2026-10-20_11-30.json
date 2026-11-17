@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "MSFT",
+  "stock2": "AMD",
+  "action": "LS",
+  "variant": "no_news",
+  "reason": "Long MSFT, short AMD: scores -0.108 vs -1.000; eligible=10.",
+  "details": {
+    "NVDA": {
+      "score": -0.5709939256665186,
+      "momentum": -0.5709939256665186,
+      "sentiment": 0.5,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "Major Chinese chip orders and potential multibillion-dollar Anthropic deals support a positive company-specific view."
+    },
+    "GOOG": {
+      "score": -0.692982162152378,
+      "momentum": -0.692982162152378,
+      "sentiment": 0.4,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Strong cloud growth and TPU sales may boost Q3 performance, though tokenized-share restrictions add some offset."
+    },
+    "META": {
+      "score": -0.28548206678061794,
+      "momentum": -0.28548206678061794,
+      "sentiment": 0.0,
+      "confidence": 0.15,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "The summary is broad AI-chip and market commentary with no clear Meta-specific catalyst."
+    },
+    "MSFT": {
+      "score": -0.10757698539003435,
+      "momentum": -0.10757698539003435,
+      "sentiment": 0.15,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Intune app-packaging automation is a modest product positive amid broader tech and tokenized-share moves."
+    },
+    "JPM": {
+      "score": -0.8256628430302948,
+      "momentum": -0.8256628430302948,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "none",
+      "reason": "No JPM news was retrieved, and incomplete coverage provides no company-specific evidence."
+    },
+    "AMZN": {
+      "score": -0.28217764341663676,
+      "momentum": -0.28217764341663676,
+      "sentiment": 0.45,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Upbeat Q3 trends, expanded data-center deals, and holiday hiring support a rebound."
+    },
+    "AAPL": {
+      "score": -0.5027920252319351,
+      "momentum": -0.5027920252319351,
+      "sentiment": 0.0,
+      "confidence": 0.2,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Outlook is debated with mixed investor fortunes and only vague commentary on new leadership."
+    },
+    "AMD": {
+      "score": -1.0,
+      "momentum": -1.0,
+      "sentiment": 0.45,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Easing AI concerns and analyst views of a larger AI-chip opportunity support gains."
+    },
+    "WMT": {
+      "score": -0.24386219306474777,
+      "momentum": -0.24386219306474777,
+      "sentiment": 0.3,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "New membership bundles and a Sam\u2019s Club discount ahead of holidays are a modest positive."
+    },
+    "TSLA": {
+      "score": -0.1270980934960364,
+      "momentum": -0.1270980934960364,
+      "sentiment": 0.05,
+      "confidence": 0.25,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Musk pay valuation and Tesla-SpaceX merger speculation are notable but directionally ambiguous."
+    }
+  },
+  "score_gap": 0.8924230146099656,
+  "round": 21,
+  "round_id": "2026-10-20_11:30",
+  "request_sha256": "9ed4c8f8180b57164d413630d75ecd135ee23a79c92912e2fd2dcbc2360386d4",
+  "input_file_hashes": {
+    "data/raw/2026-10-20_11-30/news.parquet": "2fdbb1b1a16cbf461198d167a61f241d45a01977606c0c7b5544018a4673930d",
+    "data/raw/2026-10-20_11-30/price.parquet": "ac2d04ab7b9659549910d156daa34e23891c66ed69c4de28ba58c013fc85e90f"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

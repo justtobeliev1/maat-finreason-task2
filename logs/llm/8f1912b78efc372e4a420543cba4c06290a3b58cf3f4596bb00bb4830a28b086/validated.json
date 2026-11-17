@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.45,
+      "confidence": 0.6,
+      "event": "other",
+      "reason": "Summary cites expanding AI integrations, infrastructure investment, and major compute contracts as supportive company-specific developments."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": 0.0,
+      "confidence": 0.15,
+      "event": "macro",
+      "reason": "Summary discusses broad AI demand and market gains without a direct Alphabet-specific catalyst."
+    },
+    {
+      "ticker": "META",
+      "sentiment": -0.3,
+      "confidence": 0.6,
+      "event": "regulation",
+      "reason": "A $25 billion privacy penalty is a company-specific regulatory negative, though the summary also notes Meta shares rising in a tech rally."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "event": "macro",
+      "reason": "No direct Microsoft-specific catalyst is described; the summary only mentions broad AI demand and Ballmer's net worth."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "event": "other",
+      "reason": "JPM is only noted as hosting an investor conference, with no material company-specific financial catalyst described."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "event": "macro",
+      "reason": "Summary is broad AI and tech-wealth news without an Amazon-specific catalyst."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.0,
+      "confidence": 0.05,
+      "event": "none",
+      "reason": "No Apple-specific news is present; the summary covers Ballmer's net worth and XRP commentary."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No AMD news was retrieved; coverage is incomplete and no company-specific catalyst can be inferred."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No WMT news was retrieved; coverage is incomplete and no company-specific catalyst can be inferred."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.0,
+      "confidence": 0.2,
+      "event": "earnings",
+      "reason": "Tesla earnings are noted as closely watched, but the summary provides no directional result or guidance."
+    }
+  ]
+}

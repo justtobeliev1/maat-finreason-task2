@@ -1,0 +1,120 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "WMT",
+  "stock2": "AMD",
+  "action": "LS",
+  "variant": "no_news",
+  "reason": "Long WMT, short AMD: scores 0.832 vs -1.000; eligible=10.",
+  "details": {
+    "NVDA": {
+      "score": -0.7322331710657104,
+      "momentum": -0.7322331710657104,
+      "sentiment": -0.25,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "Nvidia is cited in broad pressure on AI chip stocks and tech-fund rotation, not a company-specific event."
+    },
+    "GOOG": {
+      "score": -0.0046424611384932035,
+      "momentum": -0.0046424611384932035,
+      "sentiment": 0.45,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Google is expanding cloud services with OpenAI model integration and a nuclear energy deal with Constellation Energy."
+    },
+    "META": {
+      "score": 0.6425994537043511,
+      "momentum": 0.6425994537043511,
+      "sentiment": -0.2,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Meta beat Q3 earnings but shares fell amid broader market declines and increased AI-spending concerns."
+    },
+    "MSFT": {
+      "score": 0.3238949974195382,
+      "momentum": 0.3238949974195382,
+      "sentiment": 0.1,
+      "confidence": 0.15,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Microsoft is only mentioned as a potential beneficiary of an AI TRiSM market growth forecast, with no direct company news."
+    },
+    "JPM": {
+      "score": -0.352810609246601,
+      "momentum": -0.352810609246601,
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "JPMorgan is only mentioned in a peer comparison for financial-stock appeal in 2026, with no near-term company-specific development."
+    },
+    "AMZN": {
+      "score": 0.0317593620457135,
+      "momentum": 0.0317593620457135,
+      "sentiment": 0.1,
+      "confidence": 0.15,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Amazon is cited only for vague investment potential amid media-innovation and consumer-cost themes."
+    },
+    "AAPL": {
+      "score": 0.5054303109721436,
+      "momentum": 0.5054303109721436,
+      "sentiment": 0.55,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Apple's iPhone Duo shows strong pre-order demand, with backorders reported until 2027."
+    },
+    "AMD": {
+      "score": -1.0,
+      "momentum": -1.0,
+      "sentiment": -0.15,
+      "confidence": 0.3,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "AMD shares declined amid AI-sector pressure, partly offset by an analyst view that the stock may be undervalued on cash flow."
+    },
+    "WMT": {
+      "score": 0.8322107190556816,
+      "momentum": 0.8322107190556816,
+      "sentiment": 0.1,
+      "confidence": 0.2,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Walmart introduced a $120 annual joint membership bundle amid holiday shopper budget pressure."
+    },
+    "TSLA": {
+      "score": -0.94301687500562,
+      "momentum": -0.94301687500562,
+      "sentiment": -0.2,
+      "confidence": 0.55,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Tesla's Q3 profit fell 43% on higher operating costs, partly offset by a JPMorgan price-target raise and Optimus/AI initiatives."
+    }
+  },
+  "score_gap": 1.8322107190556816,
+  "round": 33,
+  "round_id": "2026-10-22_11:30",
+  "request_sha256": "2806c5d6fe0b9301a02d3665b672e57e2735033f850fba8997728f9a0698f523",
+  "input_file_hashes": {
+    "data/raw/2026-10-22_11-30/news.parquet": "06d695df7a0a024f74809aa40cc806f5d31a43c793091e627043e83fd41cf0ed",
+    "data/raw/2026-10-22_11-30/price.parquet": "c2d3c44dc12ec739dcc381ca05bb83405cdcae6c4250b8f080fd75a1c1fad36d"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

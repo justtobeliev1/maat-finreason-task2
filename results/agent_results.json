@@ -1,0 +1,139 @@
+{
+  "common_rounds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "common_count": 37,
+  "scope": "Compound only common observable intervals; not an estimate of complete 41-round CR.",
+  "annotation_failures": [],
+  "methods": [
+    {
+      "method": "FinProbeBench full",
+      "public_common_intervals": {
+        "cr": 0.002968090607713636,
+        "max_drawdown": 0.01981108949914645,
+        "win_rate_all_settled": 0.2702702702702703,
+        "win_rate_active": 0.5555555555555556,
+        "settled_count": 37,
+        "active_settled_count": 18,
+        "unscorable_count": 0,
+        "sharpe_unannualized_ddof1": 0.020488673764449482,
+        "scope": "all_rounds"
+      },
+      "all_scorable_including_flat_without_prices": {
+        "cr": 0.002968090607713636,
+        "max_drawdown": 0.01981108949914645,
+        "win_rate_all_settled": 0.25,
+        "win_rate_active": 0.5555555555555556,
+        "settled_count": 40,
+        "active_settled_count": 18,
+        "unscorable_count": 1,
+        "sharpe_unannualized_ddof1": 0.019725572049460932,
+        "scope": "observed_intervals_only_gaps_excluded"
+      },
+      "unscorable_rounds": [
+        11
+      ],
+      "flat_all_41": 22
+    },
+    {
+      "method": "FinProbeBench no_news",
+      "public_common_intervals": {
+        "cr": 0.04964479480618156,
+        "max_drawdown": 0.03605746234113483,
+        "win_rate_all_settled": 0.5945945945945946,
+        "win_rate_active": 0.6111111111111112,
+        "settled_count": 37,
+        "active_settled_count": 36,
+        "unscorable_count": 0,
+        "sharpe_unannualized_ddof1": 0.15290650640705347,
+        "scope": "all_rounds"
+      },
+      "all_scorable_including_flat_without_prices": {
+        "cr": 0.04964479480618156,
+        "max_drawdown": 0.03605746234113483,
+        "win_rate_all_settled": 0.5945945945945946,
+        "win_rate_active": 0.6111111111111112,
+        "settled_count": 37,
+        "active_settled_count": 36,
+        "unscorable_count": 4,
+        "sharpe_unannualized_ddof1": 0.15290650640705347,
+        "scope": "observed_intervals_only_gaps_excluded"
+      },
+      "unscorable_rounds": [
+        11,
+        12,
+        40,
+        41
+      ],
+      "flat_all_41": 1
+    },
+    {
+      "method": "FinProbeBench no_risk",
+      "public_common_intervals": {
+        "cr": 0.0031852160163565735,
+        "max_drawdown": 0.04170057116886272,
+        "win_rate_all_settled": 0.5675675675675675,
+        "win_rate_active": 0.5675675675675675,
+        "settled_count": 37,
+        "active_settled_count": 37,
+        "unscorable_count": 0,
+        "sharpe_unannualized_ddof1": 0.01770076558723544,
+        "scope": "all_rounds"
+      },
+      "all_scorable_including_flat_without_prices": {
+        "cr": 0.0031852160163565735,
+        "max_drawdown": 0.04170057116886272,
+        "win_rate_all_settled": 0.5675675675675675,
+        "win_rate_active": 0.5675675675675675,
+        "settled_count": 37,
+        "active_settled_count": 37,
+        "unscorable_count": 4,
+        "sharpe_unannualized_ddof1": 0.01770076558723544,
+        "scope": "observed_intervals_only_gaps_excluded"
+      },
+      "unscorable_rounds": [
+        11,
+        12,
+        40,
+        41
+      ],
+      "flat_all_41": 0
+    }
+  ]
+}

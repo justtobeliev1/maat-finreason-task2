@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "ticker": "NVDA",
+      "sentiment": 0.45,
+      "confidence": 0.55,
+      "event": "product",
+      "reason": "NVIDIA's AI chip-design collaborations and stronger memory pricing point to positive AI-driven demand."
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment": -0.1,
+      "confidence": 0.25,
+      "event": "other",
+      "reason": "An analyst favoring a lesser-known cloud giant over Alphabet is a mildly negative comparative signal, though coverage is partial."
+    },
+    {
+      "ticker": "META",
+      "sentiment": 0.35,
+      "confidence": 0.5,
+      "event": "product",
+      "reason": "WhatsApp guest calling and AI initiatives easing spending concerns are positive product and strategy signals."
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment": -0.1,
+      "confidence": 0.25,
+      "event": "other",
+      "reason": "An analyst favoring another cloud company over Microsoft is a mildly negative comparative signal, with no direct operating update."
+    },
+    {
+      "ticker": "JPM",
+      "sentiment": 0.0,
+      "confidence": 0.3,
+      "event": "regulation",
+      "reason": "A strong bank deal pipeline is offset by a watchdog report on major US banks denying services, leaving the JPM-specific impact unclear."
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment": 0.0,
+      "confidence": 0.15,
+      "event": "none",
+      "reason": "The summary does not explicitly mention Amazon or a clear company-specific catalyst."
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment": 0.4,
+      "confidence": 0.6,
+      "event": "other",
+      "reason": "Apple regaining the $5 trillion market-cap milestone is a positive company-specific headline, though coverage is partial."
+    },
+    {
+      "ticker": "AMD",
+      "sentiment": 0.05,
+      "confidence": 0.2,
+      "event": "macro",
+      "reason": "Only broad data-center and recession commentary is supplied, with no direct AMD-specific catalyst."
+    },
+    {
+      "ticker": "WMT",
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "event": "none",
+      "reason": "No WMT news was retrieved, so no company-specific catalyst can be inferred from this sample."
+    },
+    {
+      "ticker": "TSLA",
+      "sentiment": 0.45,
+      "confidence": 0.55,
+      "event": "product",
+      "reason": "Tesla's record 745 MW battery contribution to California's grid highlights growth in its energy-storage business."
+    }
+  ]
+}

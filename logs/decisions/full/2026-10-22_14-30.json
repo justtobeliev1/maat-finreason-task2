@@ -1,0 +1,119 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "NVDA",
+  "stock2": "GOOG",
+  "action": "F",
+  "variant": "full",
+  "reason": "Insufficient eligible evidence.",
+  "details": {
+    "NVDA": {
+      "score": -0.1558534725034106,
+      "momentum": -0.6011782416780354,
+      "sentiment": 0.1,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Nvidia launched OpenShell for secure enterprise AI agents, a positive product signal offset by sector-wide AI spending weakness."
+    },
+    "GOOG": {
+      "score": -0.2877096596578066,
+      "momentum": -0.9590321988593553,
+      "sentiment": 0.0,
+      "confidence": 0.2,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "regulation",
+      "reason": "Google is mentioned only for opposing a trading plan amid broad Big Tech spending concerns, with no clear directional impact."
+    },
+    "META": {
+      "score": -0.5309999999999999,
+      "momentum": -1.0,
+      "sentiment": -0.55,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "regulation",
+      "reason": "Meta fell sharply on AI spending concerns and a large consumer-protection fine, despite some analyst optimism."
+    },
+    "MSFT": {
+      "score": -0.19603014692609388,
+      "momentum": -0.6534338230869796,
+      "sentiment": 0.0,
+      "confidence": 0.2,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "regulation",
+      "reason": "Microsoft is noted for CEO stock ownership and opposition to a trading plan, with no clear near-term directional signal."
+    },
+    "JPM": {
+      "score": 0.008856457617345548,
+      "momentum": 0.029521525391151826,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "Retrieved summary discusses Solana and Ethereum, not JPMorgan, so no company-specific evidence is available."
+    },
+    "AMZN": {
+      "score": -0.3,
+      "momentum": -1.0,
+      "sentiment": 0.0,
+      "confidence": 0.25,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "other",
+      "reason": "Amazon is linked to AI-related job cuts and delivery-protection rallies, but the summary provides no clear directional implication."
+    },
+    "AAPL": {
+      "score": 0.10976463950028982,
+      "momentum": 0.01588213166763275,
+      "sentiment": 0.3,
+      "confidence": 0.5,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "product",
+      "reason": "Apple's first foldable iPhone received rave reviews, a positive product signal tempered by investor wariness over Big Tech AI spending."
+    },
+    "AMD": {
+      "score": -0.51,
+      "momentum": -1.0,
+      "sentiment": -0.5,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "macro",
+      "reason": "AMD shares fell over 7% amid AI spending concerns and Lam Research's cautious capex outlook."
+    },
+    "WMT": {
+      "score": 0.08116469050793551,
+      "momentum": 0.27054896835978504,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "Retrieved summary mentions Target and Big Tech spending, not Walmart, so no company-specific evidence is available."
+    },
+    "TSLA": {
+      "score": -0.481448549547425,
+      "momentum": -0.9048284984914168,
+      "sentiment": -0.5,
+      "confidence": 0.6,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "earnings",
+      "reason": "Tesla's profit fell 43% amid AI cost concerns, though robotaxi and merger speculation provide offsetting narratives."
+    }
+  },
+  "round": 35,
+  "round_id": "2026-10-22_14:30",
+  "request_sha256": "f39b23fbb2495b2a045fb03e17de7082b9970ac4bc0ad9228bb18f5a321198b5",
+  "input_file_hashes": {
+    "data/raw/2026-10-22_14-30/news.parquet": "1b0a04520a0091ef722809c544d4d6ea6aa56c34481491625d88bfa4f4cc83a2",
+    "data/raw/2026-10-22_14-30/price.parquet": "f197c6f84a72f0fe32be8b42196208445f12c3700d6a93370e2806bc730d15e8"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

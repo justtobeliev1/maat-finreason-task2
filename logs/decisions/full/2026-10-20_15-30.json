@@ -1,0 +1,119 @@
+{
+  "team_name": "FinProbeBench",
+  "stock1": "NVDA",
+  "stock2": "GOOG",
+  "action": "F",
+  "variant": "full",
+  "reason": "Insufficient eligible evidence.",
+  "details": {
+    "NVDA": {
+      "score": -0.06400364835152447,
+      "momentum": -0.2950121611717482,
+      "sentiment": 0.1,
+      "confidence": 0.35,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Nvidia secures a significant AI deal in Germany, though Amazon competition targeting its AI edge is a partial offset."
+    },
+    "GOOG": {
+      "score": -0.09591465359922158,
+      "momentum": -0.40721551199740524,
+      "sentiment": 0.15,
+      "confidence": 0.25,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "other",
+      "reason": "Alphabet is described as undervalued, but the summary centers on broad tech competition rather than a specific catalyst."
+    },
+    "META": {
+      "score": -0.04565560019202608,
+      "momentum": -0.15218533397342027,
+      "sentiment": 0.0,
+      "confidence": 0.2,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "earnings",
+      "reason": "Meta's Q3 earnings is drawing investor attention, but the summary provides no directional result."
+    },
+    "MSFT": {
+      "score": -0.07675626088838274,
+      "momentum": -0.30252086962794245,
+      "sentiment": 0.1,
+      "confidence": 0.2,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "other",
+      "reason": "Microsoft-backed OpenAI acquired Orchestra Bio to expand healthcare AI capabilities, an indirect positive for Microsoft."
+    },
+    "JPM": {
+      "score": 0.0035782618545265876,
+      "momentum": 0.011927539515088625,
+      "sentiment": 0.0,
+      "confidence": 0.1,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "other",
+      "reason": "The summary notes a bank-agent payment access shift but does not name JPMorgan or quantify a company-specific impact."
+    },
+    "AMZN": {
+      "score": 0.06028502492696479,
+      "momentum": -0.03238325024345068,
+      "sentiment": 0.25,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "other",
+      "reason": "Amazon plans 300,000 seasonal U.S. hires and is advancing AI technology to challenge Nvidia."
+    },
+    "AAPL": {
+      "score": -0.12173389566229437,
+      "momentum": -0.21911298554098124,
+      "sentiment": -0.2,
+      "confidence": 0.4,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": true,
+      "event": "capital",
+      "reason": "Apple is investing $100 million in U.S. titanium and suppliers, but analysts warn of slowing demand and margin pressure."
+    },
+    "AMD": {
+      "score": -0.1314146157570062,
+      "momentum": -0.43804871919002064,
+      "sentiment": 0.0,
+      "confidence": 0.2,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "macro",
+      "reason": "The summary only links AMD to memory-cycle and sector volatility, with no clear company-specific direction."
+    },
+    "WMT": {
+      "score": -0.08875325807486845,
+      "momentum": -0.2958441935828948,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "No WMT news was retrieved, so no company-specific catalyst can be inferred from this incomplete sample."
+    },
+    "TSLA": {
+      "score": 0.01280678182158157,
+      "momentum": 0.04268927273860523,
+      "sentiment": 0.0,
+      "confidence": 0.0,
+      "coverage_status": "partial_search_api_sample_not_complete_200_item_page",
+      "eligible": false,
+      "event": "none",
+      "reason": "The summary discusses SpaceX rather than Tesla, so no direct Tesla-specific catalyst is provided."
+    }
+  },
+  "round": 24,
+  "round_id": "2026-10-20_15:30",
+  "request_sha256": "6381a880e3d3e4bb7785cac0f73ae3ec0ea12fd476266283d054df9453bc3b63",
+  "input_file_hashes": {
+    "data/raw/2026-10-20_15-30/news.parquet": "24389239f15608173afd49258d427bada5a4545703f9e840ddc9cbd5ef5e0f39",
+    "data/raw/2026-10-20_15-30/price.parquet": "9eec9cdfe6e5d8b1de94ad700162603b24c7abd8fcb568e644e8bcc7a87e031f"
+  },
+  "config_sha256": "b61376fa3b21baa3832015f0000d32184eadb882872b5a545c2754f5444791cd",
+  "annotation_error": null
+}

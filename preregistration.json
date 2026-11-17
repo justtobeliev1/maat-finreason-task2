@@ -1,0 +1,18 @@
+{
+  "team": "FinProbeBench",
+  "frozen_before_agent_returns": true,
+  "model": "deepseek-v4.1-flash-1017",
+  "temperature": 0,
+  "max_tokens": 5000,
+  "news_weight": 0.7,
+  "momentum_weight": 0.3,
+  "momentum_scale": 0.01,
+  "partial_coverage_confidence_cap": 0.6,
+  "minimum_confidence": 0.35,
+  "minimum_eligible": 6,
+  "minimum_score_gap": 0.35,
+  "variants": ["full", "no_news", "no_risk"],
+  "parameter_search": false,
+  "evaluation": "official schedule entry_at and exit_at, paired common observable rounds; complete 41-round replay requires four missing terminal snapshots",
+  "notes": "Retrospective single-pass analysis, not a preregistered historical live strategy. Baseline aggregate returns were observed before design. All numerical settings chosen before evaluating this agent. Never revise settings to improve these 41 rounds. Model knowledge contamination cannot be excluded."
+}
