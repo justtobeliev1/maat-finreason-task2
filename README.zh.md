@@ -55,7 +55,7 @@
 下载，并整理为回放所需的目录：
 
 ```bash
-pip install huggingface_hub pandas pyarrow numpy
+pip install huggingface_hub pandas pyarrow numpy matplotlib
 huggingface-cli download CarolynJiang/Market-Neutral-Hedging-live-trading \
     --repo-type dataset --local-dir data/hf
 python src/prepare_data.py          # data/raw/<YYYY-MM-DD_HH-MM>/{price,news}.parquet
@@ -78,7 +78,7 @@ python -m unittest discover -s tests
 python live/test_decide.py          # 随附的 decide() 复现全部 41 个动量路由决策
 ```
 
-`camera_ready_stats.py` 会先复现论文中的回放数字，并列出任何不一致。需要 Python 3.10 及以上，以及 `numpy`、`pandas`、`pyarrow`。
+`camera_ready_stats.py` 会先复现论文中的回放数字，并列出任何不一致。需要 Python 3.10 及以上，以及 `numpy`、`pandas`、`pyarrow`（`src/report.py` 另需 `matplotlib`）。
 
 ## 冻结文件的完整性
 

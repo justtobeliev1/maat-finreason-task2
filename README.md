@@ -60,7 +60,7 @@ The organizers' price and news files are **not** included. Download them from th
 and arrange them for the replay:
 
 ```bash
-pip install huggingface_hub pandas pyarrow numpy
+pip install huggingface_hub pandas pyarrow numpy matplotlib
 huggingface-cli download CarolynJiang/Market-Neutral-Hedging-live-trading \
     --repo-type dataset --local-dir data/hf
 python src/prepare_data.py          # data/raw/<YYYY-MM-DD_HH-MM>/{price,news}.parquet
@@ -91,7 +91,7 @@ python live/test_decide.py          # vendored decide() reproduces all 41 moment
 ```
 
 `camera_ready_stats.py` first reproduces the published replay numbers and lists any mismatch.
-Python 3.10 or later with `numpy`, `pandas` and `pyarrow`.
+Python 3.10 or later with `numpy`, `pandas` and `pyarrow` (`matplotlib` for `src/report.py`).
 
 ## Integrity of the frozen files
 
