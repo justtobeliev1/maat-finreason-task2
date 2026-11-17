@@ -4,7 +4,7 @@
 
 本仓库是 **FinProbeBench** 队伍在 [FinReason Cup 2026](https://the-finai.github.io/IEEE-bigdata-cup/) Task 2（市场中性对冲）中所用系统 **Maat** 的代码、配置与存档记录，
 对应的 Working Notes 论文为
-*Maat at FinReason Cup 2026 Task 2: An Evidence-Gated News–Price Agent for Market-Neutral Hedging*。
+*Maat: An Evidence-Gated News–Price Agent for Market-Neutral Hedging*。
 
 任务要求在每一轮对十只大盘股中的两只建立等金额多空头寸，或保持空仓。语言模型分析师把每次发布的新闻摘要转为经过校验的逐股证据（情绪、置信度、事件类型、理由）；
 确定性分支计算价格动量；覆盖感知的合格性、广度与分差门控决定是否交易；一个在实盘前声明并计算哈希的部署策略选择评分规则。
@@ -97,7 +97,7 @@ cat preregistration.sha256
 
 ```bibtex
 @inproceedings{finprobebench2026maat,
-  title     = {Maat at {FinReason Cup 2026} Task 2: An Evidence-Gated News--Price Agent for Market-Neutral Hedging},
+  title     = {Maat: An Evidence-Gated News--Price Agent for Market-Neutral Hedging},
   author    = {Cao, Run and Kuang, Ziyan and Xie, Qianqian},
   booktitle = {2026 IEEE International Conference on Big Data (BigData), FinReason Cup Working Notes},
   year      = {2026}

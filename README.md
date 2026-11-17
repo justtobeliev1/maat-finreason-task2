@@ -5,7 +5,7 @@ English | [中文](README.zh.md)
 Code, configuration and archived records for **Maat**, the system of team **FinProbeBench** for
 [FinReason Cup 2026](https://the-finai.github.io/IEEE-bigdata-cup/) Task 2 (Market-Neutral Hedging).
 It accompanies the Working Notes paper
-*Maat at FinReason Cup 2026 Task 2: An Evidence-Gated News–Price Agent for Market-Neutral Hedging*.
+*Maat: An Evidence-Gated News–Price Agent for Market-Neutral Hedging*.
 
 In every round the task asks for an equal-dollar long–short position in two of ten large-cap stocks,
 or no position. A language-model analyst turns each release's news summaries into validated
@@ -116,7 +116,7 @@ the archive outside the repository.
 
 ```bibtex
 @inproceedings{finprobebench2026maat,
-  title     = {Maat at {FinReason Cup 2026} Task 2: An Evidence-Gated News--Price Agent for Market-Neutral Hedging},
+  title     = {Maat: An Evidence-Gated News--Price Agent for Market-Neutral Hedging},
   author    = {Cao, Run and Kuang, Ziyan and Xie, Qianqian},
   booktitle = {2026 IEEE International Conference on Big Data (BigData), FinReason Cup Working Notes},
   year      = {2026}
